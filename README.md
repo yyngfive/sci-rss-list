@@ -26,3 +26,7 @@
 
 - Angew: https://onlinelibrary.wiley.com/feed/15213773/most-recent
 - 其他: 打开期刊主页，点击右上角RSS图标即可
+
+## Elsevier
+
+- 打开期刊主页，点击`Articles & Issues`，点击`RSS`
