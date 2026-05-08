@@ -30,3 +30,7 @@
 ## Elsevier
 
 - 打开期刊主页，点击`Articles & Issues`，点击`RSS`
+
+## Biorxiv
+
+- 汇总页面: https://www.biorxiv.org/alertsrss
