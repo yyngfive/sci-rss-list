@@ -31,6 +31,10 @@
 
 - 打开期刊主页，点击`Articles & Issues`，点击`RSS`
 
+## PNAS
+
+- 汇总页面：https://www.pnas.org/about/rss
+
 ## Biorxiv
 
 - 汇总页面: https://www.biorxiv.org/alertsrss
