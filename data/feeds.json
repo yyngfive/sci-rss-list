@@ -1289,27 +1289,14 @@
   {
     "publisher": "BMJ",
     "journal": "The BMJ",
-    "url": "https://www.bmj.com/rss/current.xml",
+    "url": "http://feeds.bmj.com/bmj/recent",
     "subjects": [
       "medicine"
     ],
-    "source": "https://www.bmj.com/",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "Official BMJ feed returned a protected response during live validation."
-  },
-  {
-    "publisher": "Cambridge Core",
-    "journal": "Journal of Fluid Mechanics",
-    "url": "https://www.cambridge.org/core/rss/product/id/7C6970A165E05FF812E16C2BCF51F02D",
-    "subjects": [
-      "physics",
-      "engineering"
-    ],
-    "source": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics",
-    "method": "manual",
+    "source": "https://www.bmj.com/rss/recent.xml",
+    "method": "publisher_index",
     "status": "source_documented",
-    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+    "notes": "Official BMJ RSS endpoint redirects to FeedBurner."
   },
   {
     "publisher": "bioRxiv/medRxiv",
@@ -1678,28 +1665,28 @@
   {
     "publisher": "Cambridge Core",
     "journal": "Epidemiology and Psychiatric Sciences",
-    "url": "https://www.cambridge.org/core/rss/product/id/CDFBC8AB9F96AC14CB38613F891D8F97",
+    "url": "https://www.cambridge.org/core/rss/product/id/632A08D3365E9EB35B0A7D5ED4D805B6",
     "subjects": [
       "epidemiology",
       "psychiatry"
     ],
     "source": "https://www.cambridge.org/core/journals/epidemiology-and-psychiatric-sciences",
-    "method": "manual",
+    "method": "publisher_index",
     "status": "source_documented",
-    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+    "notes": "RSS identifier is exposed in the official Cambridge Core page alternate link."
   },
   {
     "publisher": "Cambridge Core",
-    "journal": "Genetics Research",
-    "url": "https://www.cambridge.org/core/rss/product/id/1A08D3491E8754487EA02F99E68237DB",
+    "journal": "Journal of Fluid Mechanics",
+    "url": "https://www.cambridge.org/core/rss/product/id/1F51D2E8C79ED50145FE97D5D8FA7DE9",
     "subjects": [
-      "genetics",
-      "biology"
+      "physics",
+      "engineering"
     ],
-    "source": "https://www.cambridge.org/core/journals/genetics-research",
-    "method": "manual",
+    "source": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics",
+    "method": "publisher_index",
     "status": "source_documented",
-    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+    "notes": "RSS identifier is exposed in the official Cambridge Core page alternate link."
   },
   {
     "publisher": "Nature",
@@ -1860,12 +1847,12 @@
   {
     "publisher": "ACS",
     "journal": "ACS Applied Optical Materials",
-    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aaomcv",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aaoma6",
     "subjects": [
       "optics",
       "materials"
     ],
-    "source": "https://pubs.acs.org/journal/aaomcv",
+    "source": "https://pubs.acs.org/journal/aaoma6",
     "method": "publisher_index",
     "status": "protected",
     "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
@@ -2455,15 +2442,15 @@
   {
     "publisher": "Science/AAAS",
     "journal": "Science Signaling",
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=scisignal",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=signaling",
     "subjects": [
       "cell biology",
       "biology"
     ],
-    "source": "https://www.science.org/journal/scisignal",
+    "source": "https://www.science.org/journal/signaling",
     "method": "publisher_index",
-    "status": "protected",
-    "notes": "Official Science/AAAS feed returned a protected response during live validation."
+    "status": "verified",
+    "notes": ""
   },
   {
     "publisher": "Science/AAAS",
@@ -2617,7 +2604,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/15213773",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2630,7 +2617,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/21983844",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2643,7 +2630,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/15214095",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2655,7 +2642,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/15213765",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2668,7 +2655,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/14610248",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2681,7 +2668,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/14602075",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2694,7 +2681,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/13652486",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2707,7 +2694,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/13652664",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -3205,12 +3192,12 @@
   {
     "publisher": "ACS",
     "journal": "Inorganic Chemistry",
-    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=inoraj",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=inocaj",
     "subjects": [
       "inorganic chemistry",
       "chemistry"
     ],
-    "source": "https://pubs.acs.org/journal/inoraj",
+    "source": "https://pubs.acs.org/journal/inocaj",
     "method": "publisher_index",
     "status": "protected",
     "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."

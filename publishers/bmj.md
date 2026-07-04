@@ -10,5 +10,5 @@
 | Heart | cardiology, medicine | verified | url_pattern | [RSS](https://heart.bmj.com/rss/current.xml) | [source](https://heart.bmj.com/) |  |
 | Journal of Medical Genetics | genetics, medicine | verified | url_pattern | [RSS](https://jmg.bmj.com/rss/current.xml) | [source](https://jmg.bmj.com/) |  |
 | Journal of Neurology, Neurosurgery & Psychiatry | neurology, medicine | verified | url_pattern | [RSS](https://jnnp.bmj.com/rss/current.xml) | [source](https://jnnp.bmj.com/) |  |
-| The BMJ | medicine | protected | url_pattern | [RSS](https://www.bmj.com/rss/current.xml) | [source](https://www.bmj.com/) | Official BMJ feed returned a protected response during live validation. |
+| The BMJ | medicine | source_documented | publisher_index | [RSS](http://feeds.bmj.com/bmj/recent) | [source](https://www.bmj.com/rss/recent.xml) | Official BMJ RSS endpoint redirects to FeedBurner. |
 | Thorax | respiratory medicine, medicine | verified | url_pattern | [RSS](https://thorax.bmj.com/rss/current.xml) | [source](https://thorax.bmj.com/) |  |
