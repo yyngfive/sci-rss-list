@@ -109,6 +109,7 @@ type verifierApp struct {
 
 	responseHandler *webResourceResponseReceivedHandler
 	contentHandlers []*responseContentHandler
+	scriptHandlers  []*scriptResultHandler
 
 	mu                sync.Mutex
 	actions           []func()
@@ -491,6 +492,9 @@ func (a *verifierApp) captureVisibleXML(feedURL string) {
 		return root.innerText || "";
 	})()`)
 	handler := newScriptResultHandler(a, feedURL)
+	a.mu.Lock()
+	a.scriptHandlers = append(a.scriptHandlers, handler)
+	a.mu.Unlock()
 	hr, _, _ := ((*iCoreWebView2_2)(unsafe.Pointer(webview))).vtbl.ExecuteScript.Call(
 		webview,
 		uintptr(unsafe.Pointer(script)),
@@ -536,10 +540,32 @@ func (a *verifierApp) onScriptResult(feedURL, raw string) {
 		a.log.Printf("visible xml probe decode failed feed=%s error=%s", feedURL, err)
 		return
 	}
-	if !looksLikeXML("", text) {
+	feedXML, ok := visibleFeedXML(text)
+	if !ok {
+		a.log.Printf("visible xml probe found no feed XML feed=%s bytes=%d", feedURL, len(text))
 		return
 	}
-	a.onResponseBody(feedURL, "text/xml", text)
+	a.log.Printf("visible xml probe captured feed=%s bytes=%d", feedURL, len(feedXML))
+	a.onResponseBody(feedURL, "text/xml", feedXML)
+}
+
+func visibleFeedXML(text string) (string, bool) {
+	trimmed := strings.TrimLeft(text, "\ufeff \t\r\n")
+	if looksLikeXML("", trimmed) {
+		return trimmed, true
+	}
+	lower := strings.ToLower(trimmed)
+	best := -1
+	for _, marker := range []string{"<?xml", "<rss", "<feed", "<rdf:rdf", "<rdf"} {
+		if i := strings.Index(lower, marker); i >= 0 && (best == -1 || i < best) {
+			best = i
+		}
+	}
+	if best == -1 {
+		return "", false
+	}
+	candidate := strings.TrimLeft(trimmed[best:], "\ufeff \t\r\n")
+	return candidate, looksLikeXML("", candidate)
 }
 
 func (a *verifierApp) skipCurrentFeed(feedURL, reason string) {

@@ -44,3 +44,16 @@ func TestSameFeedURL(t *testing.T) {
 		})
 	}
 }
+
+func TestVisibleFeedXML(t *testing.T) {
+	got, ok := visibleFeedXML("This XML file does not appear to have any style information.\n<rss><channel/></rss>")
+	if !ok {
+		t.Fatal("visible XML viewer text was not recognized")
+	}
+	if got != "<rss><channel/></rss>" {
+		t.Fatalf("visibleFeedXML = %q", got)
+	}
+	if _, ok := visibleFeedXML("not a feed page"); ok {
+		t.Fatal("plain text should not be recognized as feed XML")
+	}
+}
