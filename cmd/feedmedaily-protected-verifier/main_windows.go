@@ -3,6 +3,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/url"
@@ -47,6 +48,7 @@ const (
 	swpNoMove     = 0x0002
 	swpNoSize     = 0x0001
 	swpShowWindow = 0x0040
+	feedWait      = 45 * time.Second
 )
 
 var (
@@ -301,6 +303,7 @@ func (a *verifierApp) navigateNextFeed() {
 	a.setStatus(fmt.Sprintf("Opening protected feed %d/%d. If Cloudflare appears, complete the check and keep this window open.", len(a.capturedFeeds)+1, len(a.opts.FeedURLs)))
 	a.log.Printf("navigate feed=%s", a.currentFeedURL)
 	a.chromium.Navigate(a.currentFeedURL)
+	a.skipIfStillWaiting(a.currentFeedURL, feedWait)
 }
 
 func (a *verifierApp) registerResponseHandler() error {
@@ -341,6 +344,7 @@ func (a *verifierApp) onNavigationCompleted(args uintptr) {
 		} else {
 			a.setStatus("Checking whether this protected feed now resolves to XML.")
 		}
+		a.captureVisibleXML(a.currentFeedURL)
 		return
 	}
 	a.log.Printf("navigation failed feed=%s", a.currentFeedURL)
@@ -415,6 +419,20 @@ func (a *verifierApp) retryNavigation(feedURL string) {
 	})
 }
 
+func (a *verifierApp) skipIfStillWaiting(feedURL string, delay time.Duration) {
+	time.AfterFunc(delay, func() {
+		a.enqueue(func() {
+			a.mu.Lock()
+			_, captured := a.capturedFeeds[feedURL]
+			waiting := !a.completionPosted && !captured && a.currentFeedURL == feedURL
+			a.mu.Unlock()
+			if waiting {
+				a.skipCurrentFeed(feedURL, fmt.Sprintf("no feed XML captured after %s", delay))
+			}
+		})
+	})
+}
+
 func (a *verifierApp) onResponseReceived(args uintptr) {
 	a.mu.Lock()
 	if a.completionPosted || a.currentFeedURL == "" {
@@ -455,6 +473,34 @@ func (a *verifierApp) onResponseReceived(args uintptr) {
 	}
 }
 
+func (a *verifierApp) captureVisibleXML(feedURL string) {
+	if strings.TrimSpace(feedURL) == "" {
+		return
+	}
+	webview := chromiumWebView(a.chromium)
+	if webview == 0 {
+		return
+	}
+	script, _ := windows.UTF16PtrFromString(`(() => {
+		const root = document.documentElement;
+		if (!root) return "";
+		const name = (root.localName || root.nodeName || "").toLowerCase();
+		if (name === "rss" || name === "feed" || name === "rdf") {
+			return new XMLSerializer().serializeToString(root);
+		}
+		return root.innerText || "";
+	})()`)
+	handler := newScriptResultHandler(a, feedURL)
+	hr, _, _ := ((*iCoreWebView2_2)(unsafe.Pointer(webview))).vtbl.ExecuteScript.Call(
+		webview,
+		uintptr(unsafe.Pointer(script)),
+		uintptr(unsafe.Pointer(handler)),
+	)
+	if windows.Handle(hr) != windows.S_OK {
+		a.log.Printf("visible xml probe unavailable feed=%s error=0x%x", feedURL, hr)
+	}
+}
+
 func (a *verifierApp) onResponseBody(feedURL, contentType, body string) {
 	a.log.Printf("response feed=%s content_type=%s bytes=%d", feedURL, contentType, len(body))
 	if looksLikeXML(contentType, body) {
@@ -482,6 +528,18 @@ func (a *verifierApp) onResponseBody(feedURL, contentType, body string) {
 	a.enqueue(func() {
 		a.skipCurrentFeed(feedURL, fmt.Sprintf("non-XML response content_type=%s", contentType))
 	})
+}
+
+func (a *verifierApp) onScriptResult(feedURL, raw string) {
+	var text string
+	if err := json.Unmarshal([]byte(raw), &text); err != nil {
+		a.log.Printf("visible xml probe decode failed feed=%s error=%s", feedURL, err)
+		return
+	}
+	if !looksLikeXML("", text) {
+		return
+	}
+	a.onResponseBody(feedURL, "text/xml", text)
 }
 
 func (a *verifierApp) skipCurrentFeed(feedURL, reason string) {
@@ -709,6 +767,60 @@ type iCoreWebView2_2Vtbl struct {
 	RemoveWindowCloseRequested             edge.ComProc
 	AddWebResourceResponseReceived         edge.ComProc
 	RemoveWebResourceResponseReceived      edge.ComProc
+}
+
+type scriptResultHandler struct {
+	vtbl    *scriptResultHandlerVtbl
+	ref     atomic.Uint32
+	app     *verifierApp
+	feedURL string
+}
+
+type scriptResultHandlerVtbl struct {
+	QueryInterface edge.ComProc
+	AddRef         edge.ComProc
+	Release        edge.ComProc
+	Invoke         edge.ComProc
+}
+
+var scriptResultHandlerVTable = scriptResultHandlerVtbl{
+	QueryInterface: edge.NewComProc(scriptResultHandlerQueryInterface),
+	AddRef:         edge.NewComProc(scriptResultHandlerAddRef),
+	Release:        edge.NewComProc(scriptResultHandlerRelease),
+	Invoke:         edge.NewComProc(scriptResultHandlerInvoke),
+}
+
+func newScriptResultHandler(app *verifierApp, feedURL string) *scriptResultHandler {
+	handler := &scriptResultHandler{vtbl: &scriptResultHandlerVTable, app: app, feedURL: feedURL}
+	handler.ref.Store(1)
+	return handler
+}
+
+func scriptResultHandlerQueryInterface(this, _ uintptr, object uintptr) uintptr {
+	if object != 0 {
+		*(*uintptr)(unsafe.Pointer(object)) = this
+		(*scriptResultHandler)(unsafe.Pointer(this)).ref.Add(1)
+	}
+	return 0
+}
+
+func scriptResultHandlerAddRef(this uintptr) uintptr {
+	return uintptr((*scriptResultHandler)(unsafe.Pointer(this)).ref.Add(1))
+}
+
+func scriptResultHandlerRelease(this uintptr) uintptr {
+	return uintptr((*scriptResultHandler)(unsafe.Pointer(this)).ref.Add(^uint32(0)))
+}
+
+func scriptResultHandlerInvoke(this, errorCode uintptr, resultObjectAsJSON uintptr) uintptr {
+	handler := (*scriptResultHandler)(unsafe.Pointer(this))
+	if int32(errorCode) < 0 || resultObjectAsJSON == 0 {
+		handler.app.log.Printf("visible xml probe failed feed=%s error=0x%x", handler.feedURL, errorCode)
+		return 0
+	}
+	raw := windows.UTF16PtrToString((*uint16)(unsafe.Pointer(resultObjectAsJSON)))
+	handler.app.enqueue(func() { handler.app.onScriptResult(handler.feedURL, raw) })
+	return 0
 }
 
 type iCoreWebView2_2 struct {

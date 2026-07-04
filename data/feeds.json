@@ -1295,7 +1295,7 @@
     ],
     "source": "https://www.bmj.com/rss/recent.xml",
     "method": "publisher_index",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official BMJ RSS endpoint redirects to FeedBurner."
   },
   {
@@ -1854,7 +1854,7 @@
     ],
     "source": "https://pubs.acs.org/journal/aaoma6",
     "method": "publisher_index",
-    "status": "protected",
+    "status": "verified",
     "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
   },
   {
@@ -3199,7 +3199,7 @@
     ],
     "source": "https://pubs.acs.org/journal/inocaj",
     "method": "publisher_index",
-    "status": "protected",
+    "status": "verified",
     "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
   },
   {

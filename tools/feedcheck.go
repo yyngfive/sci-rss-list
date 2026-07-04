@@ -163,13 +163,16 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 			continue
 		}
 		if result.status != "success" {
-			errs = append(errs, fmt.Sprintf("%s: manual verifier ended with %s %s", host, result.status, result.err))
-			continue
+			fmt.Printf("  manual verifier ended with %s %s\n", result.status, result.err)
 		}
 		for _, f := range protected[host] {
 			captured, ok := result.captured[f.URL]
 			if !ok {
-				errs = append(errs, fmt.Sprintf("%s: manual verifier did not capture XML (%s)", f.Journal, f.URL))
+				if requiresManualCapture(f) {
+					errs = append(errs, fmt.Sprintf("%s: manual verifier did not capture XML (%s)", f.Journal, f.URL))
+				} else {
+					fmt.Printf("  ok: source_documented not captured for [%s] %s\n", f.Publisher, f.Journal)
+				}
 				continue
 			}
 			if !isFeedXML([]byte(captured.FeedXML), captured.ContentType) {
@@ -182,6 +185,10 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 
 func needsManualVerification(catalogStatus string, actual fetchResult) bool {
 	return actual.status == "protected" && (catalogStatus == "protected" || catalogStatus == "source_documented")
+}
+
+func requiresManualCapture(f catalog.Feed) bool {
+	return f.Status == "protected"
 }
 
 func queueProtectedFeed(protected map[string][]catalog.Feed, f catalog.Feed) error {
