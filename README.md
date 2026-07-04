@@ -54,6 +54,23 @@ Allowed `status` values are:
 - `protected`: generic HTTP clients receive a challenge/block page and WebView2 verification has not yet captured XML.
 - `source_documented`: official source documents the feed, but live validation did not confirm XML.
 
+## Manual RSS Lookup
+
+Use these publisher patterns only after checking the official journal or RSS page. Then add the feed to `data/feeds.json` and run the validator.
+
+| Publisher | Manual source or pattern |
+| --- | --- |
+| Nature | Open the journal page and use its RSS link. Most Nature-hosted journals also follow `https://www.nature.com/{journal-code}.rss`, for example `https://www.nature.com/nmeth.rss`. |
+| Science/AAAS | Use the official RSS page: `https://www.science.org/content/page/email-alerts-and-rss-feeds`. A journal feed usually follows `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc={journal-code}`. |
+| Cell Press | Open the journal page. Most feeds follow `https://www.cell.com/{journal}/current.rss`, for example `https://www.cell.com/chem/current.rss`. |
+| ACS | Use the journal RSS link from the ACS follow/RSS page. Feeds follow `https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc={journal-code}`; the code must match the official journal page, for example `jacsat`. |
+| Wiley | Open the Wiley Online Library journal page and use the RSS icon. Feeds usually follow `https://onlinelibrary.wiley.com/feed/{online-issn}/most-recent`. |
+| Elsevier/ScienceDirect | Open the journal page, then `Articles & Issues`, then `RSS`; ScienceDirect feeds commonly use `https://rss.sciencedirect.com/publication/science/{issn}`. |
+| PNAS | Use the official RSS page: `https://www.pnas.org/about/rss`. |
+| bioRxiv/medRxiv | Use the official alerts/RSS pages: `https://www.biorxiv.org/alertsrss` and `https://www.medrxiv.org/alertsrss`; subject XML feeds use the `connect.*rxiv.org/*_xml.php?subject={subject}` pattern. |
+| BMJ | Use the journal page RSS link. Many BMJ specialty journals use `https://{journal}.bmj.com/rss/current.xml`; The BMJ currently redirects from `https://www.bmj.com/rss/recent.xml` to `http://feeds.bmj.com/bmj/recent`. |
+| Cambridge Core | Use only the RSS alternate link exposed on the official journal page; do not guess `core/rss/product/id/...` identifiers. |
+
 ## Contributing
 
 - Prefer official publisher RSS pages, journal pages, or documented URL patterns.
