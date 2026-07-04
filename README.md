@@ -1,40 +1,71 @@
-# 学术期刊RSS订阅地址
+# sci-rss-list
 
-## Nature
+An offline catalog of official scholarly RSS, Atom, and RDF feeds for later import into FeedMeDaily or similar tools.
 
-- Nature: https://www.nature.com/nature.rss
-- Nature Biotechnology: https://www.nature.com/nbt.rss
-- Nature Methods: https://www.nature.com/nmeth.rss
-- 其他： 打开期刊主页，点击右上角RSS feed按钮即可
+The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Publisher pages under [`publishers/`](publishers/) are generated from that JSON with [`tools/publishers`](tools/publishers/).
 
-## Science
+## Scope
 
-- Science: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
-- 汇总页面: https://www.science.org/content/page/email-alerts-and-rss-feeds
+This dataset contains 265 feeds across broad science, medicine, engineering, chemistry, biology, environment, computing, review, and preprint subject collections.
 
-## Cell
+Open coverage and ranking signals, including OpenAlex Sources and official publisher journal lists, were used only to decide what to include. Scores, ranks, and proprietary metric tables are not stored or displayed here.
 
-- Cell: http://www.cell.com/cell/current.rss
-- 其他: 打开期刊主页，将网址中的`home`改为`current.rss`即可，例如 https://www.cell.com/chem/home 改为 https://www.cell.com/chem/current.rss
+Publisher grouping follows the catalog's canonical publisher/host choice. Nature-hosted `www.nature.com` feeds, including Nature Reviews, Communications, and npj journals, are grouped under Nature.
 
-## ACS
+## Publisher Index
 
-- JACS: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat
-- 汇总页面: https://pubs.acs.org/page/follow.html?widget=follow-pane-rss&ref=JournalHome/jacsat_Footer_RSS
+| Publisher | Feeds | Page |
+| --- | ---: | --- |
+| ACS | 65 | [publishers/acs.md](publishers/acs.md) |
+| bioRxiv/medRxiv | 77 | [publishers/biorxiv-medrxiv.md](publishers/biorxiv-medrxiv.md) |
+| BMJ | 8 | [publishers/bmj.md](publishers/bmj.md) |
+| Cambridge Core | 6 | [publishers/cambridge-core.md](publishers/cambridge-core.md) |
+| Cell Press | 12 | [publishers/cell-press.md](publishers/cell-press.md) |
+| Elsevier/ScienceDirect | 14 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
+| IEEE/ACM | 8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
+| Nature | 48 | [publishers/nature.md](publishers/nature.md) |
+| PNAS | 1 | [publishers/pnas.md](publishers/pnas.md) |
+| Science/AAAS | 6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
+| Taylor & Francis | 8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
+| Wiley | 12 | [publishers/wiley.md](publishers/wiley.md) |
 
-## Wiley
+## Entry Format
 
-- Angew: https://onlinelibrary.wiley.com/feed/15213773/most-recent
-- 其他: 打开期刊主页，点击右上角RSS图标即可
+Each `data/feeds.json` entry has:
 
-## Elsevier
+```json
+{
+  "publisher": "Nature",
+  "journal": "Nature Methods",
+  "url": "https://www.nature.com/nmeth.rss",
+  "subjects": ["biology", "methods"],
+  "source": "https://www.nature.com/nmeth/",
+  "method": "url_pattern",
+  "status": "verified",
+  "notes": ""
+}
+```
 
-- 打开期刊主页，点击`Articles & Issues`，点击`RSS`
+Allowed `method` values are `publisher_index`, `url_pattern`, and `manual`.
 
-## PNAS
+Allowed `status` values are:
 
-- 汇总页面：https://www.pnas.org/about/rss
+- `verified`: feed URL has returned RSS, Atom, or RDF to the Go validator or WebView2 verifier.
+- `protected`: generic HTTP clients receive a challenge/block page and WebView2 verification has not yet captured XML.
+- `source_documented`: official source documents the feed, but live validation did not confirm XML.
 
-## Biorxiv
+## Contributing
 
-- 汇总页面: https://www.biorxiv.org/alertsrss
+- Prefer official publisher RSS pages, journal pages, or documented URL patterns.
+- If a publisher exposes a complete official RSS index, include the full index rather than a sample.
+- Do not copy proprietary ranking tables or store impact scores.
+- Include `source`, `method`, `status`, and short `notes` when a feed is protected or only source-documented.
+- Run:
+
+```powershell
+go test ./...
+go run .\tools\feedcheck.go
+go run .\tools\publishers
+```
+
+`feedcheck` validates feeds whose `data/feeds.json` status is not `verified`. `protected` feeds, and `source_documented` feeds that return a protection/challenge page to ordinary HTTP, are sent through WebView2. When WebView2 captures feed XML, `feedcheck` updates that entry to `verified` and regenerates publisher pages. Use `--force` to re-check every entry. The persistent WebView2 profile is stored under `.feedcheck-webview2/`, which is ignored by Git.

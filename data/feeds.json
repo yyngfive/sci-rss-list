@@ -1,0 +1,3452 @@
+[
+  {
+    "publisher": "Nature",
+    "journal": "Nature",
+    "url": "https://www.nature.com/nature.rss",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.nature.com/nature/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Health Economics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=health_economics",
+    "subjects": [
+      "health economics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Health Informatics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=health_informatics",
+    "subjects": [
+      "health informatics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Health Policy",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=health_policy",
+    "subjects": [
+      "health policy",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Health Systems and Quality Improvement",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=health_systems_and_quality_improvement",
+    "subjects": [
+      "health systems",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Hematology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=hematology",
+    "subjects": [
+      "hematology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: HIV/AIDS",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=hiv_aids",
+    "subjects": [
+      "hiv",
+      "infectious disease"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Infectious Diseases",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=infectious_diseases",
+    "subjects": [
+      "infectious disease",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Intensive Care and Critical Care Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=intensive_care_and_critical_care_medicine",
+    "subjects": [
+      "critical care",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Medical Education",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=medical_education",
+    "subjects": [
+      "medical education",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Medical Ethics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=medical_ethics",
+    "subjects": [
+      "medical ethics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Nephrology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=nephrology",
+    "subjects": [
+      "nephrology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Neurology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=neurology",
+    "subjects": [
+      "neurology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Nursing",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=nursing",
+    "subjects": [
+      "nursing",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Nutrition",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=nutrition",
+    "subjects": [
+      "nutrition",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Obstetrics and Gynecology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=obstetrics_and_gynecology",
+    "subjects": [
+      "obstetrics",
+      "gynecology"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Occupational and Environmental Health",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=occupational_and_environmental_health",
+    "subjects": [
+      "occupational health",
+      "environment"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Oncology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=oncology",
+    "subjects": [
+      "oncology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Ophthalmology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=ophthalmology",
+    "subjects": [
+      "ophthalmology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Orthopedics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=orthopedics",
+    "subjects": [
+      "orthopedics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Otolaryngology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=otolaryngology",
+    "subjects": [
+      "otolaryngology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Pain Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=pain_medicine",
+    "subjects": [
+      "pain medicine",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Palliative Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=palliative_medicine",
+    "subjects": [
+      "palliative care",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Pathology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=pathology",
+    "subjects": [
+      "pathology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Pediatrics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=pediatrics",
+    "subjects": [
+      "pediatrics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Pharmacology and Therapeutics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=pharmacology_and_therapeutics",
+    "subjects": [
+      "pharmacology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Primary Care Research",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=primary_care_research",
+    "subjects": [
+      "primary care",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Psychiatry and Clinical Psychology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=psychiatry_and_clinical_psychology",
+    "subjects": [
+      "psychiatry",
+      "psychology"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Public and Global Health",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=public_and_global_health",
+    "subjects": [
+      "public health",
+      "global health"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Radiology and Imaging",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=radiology_and_imaging",
+    "subjects": [
+      "radiology",
+      "imaging"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Geriatrics",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=geriatrics",
+    "subjects": [
+      "geriatrics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Rehabilitation Medicine and Physical Therapy",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=rehabilitation_medicine_and_physical_therapy",
+    "subjects": [
+      "rehabilitation",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Genetic and Genomic Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=genetic_and_genomic_medicine",
+    "subjects": [
+      "genomics",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Epidemiology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=epidemiology",
+    "subjects": [
+      "epidemiology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Cancer Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=cancer_biology",
+    "subjects": [
+      "cancer",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Cell Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=cell_biology",
+    "subjects": [
+      "cell biology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Developmental Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=developmental_biology",
+    "subjects": [
+      "developmental biology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Ecology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=ecology",
+    "subjects": [
+      "ecology",
+      "environment"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Evolutionary Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=evolutionary_biology",
+    "subjects": [
+      "evolution",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Genetics",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=genetics",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Genomics",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=genomics",
+    "subjects": [
+      "genomics",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Immunology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=immunology",
+    "subjects": [
+      "immunology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Microbiology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=microbiology",
+    "subjects": [
+      "microbiology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Molecular Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=molecular_biology",
+    "subjects": [
+      "molecular biology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Neuroscience",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience",
+    "subjects": [
+      "neuroscience",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Paleontology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=paleontology",
+    "subjects": [
+      "paleontology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Pathology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=pathology",
+    "subjects": [
+      "pathology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Pharmacology and Toxicology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=pharmacology_and_toxicology",
+    "subjects": [
+      "pharmacology",
+      "toxicology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Physiology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=physiology",
+    "subjects": [
+      "physiology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Plant Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=plant_biology",
+    "subjects": [
+      "plant science",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Scientific Communication and Education",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=scientific_communication_and_education",
+    "subjects": [
+      "scientific communication",
+      "education"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Synthetic Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=synthetic_biology",
+    "subjects": [
+      "synthetic biology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Systems Biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=systems_biology",
+    "subjects": [
+      "systems biology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Zoology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=zoology",
+    "subjects": [
+      "zoology",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: All",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=all",
+    "subjects": [
+      "preprints",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Addiction Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=addiction_medicine",
+    "subjects": [
+      "addiction medicine",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Allergy and Immunology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=allergy_and_immunology",
+    "subjects": [
+      "allergy",
+      "immunology"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Anesthesia",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=anesthesia",
+    "subjects": [
+      "anesthesia",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Cardiovascular Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=cardiovascular_medicine",
+    "subjects": [
+      "cardiology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Dentistry and Oral Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=dentistry_and_oral_medicine",
+    "subjects": [
+      "dentistry",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Dermatology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=dermatology",
+    "subjects": [
+      "dermatology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Emergency Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=emergency_medicine",
+    "subjects": [
+      "emergency medicine",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Endocrinology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=endocrinology",
+    "subjects": [
+      "endocrinology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Gastroenterology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=gastroenterology",
+    "subjects": [
+      "gastroenterology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Respiratory Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=respiratory_medicine",
+    "subjects": [
+      "respiratory medicine",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Rheumatology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=rheumatology",
+    "subjects": [
+      "rheumatology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Sexual and Reproductive Health",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=sexual_and_reproductive_health",
+    "subjects": [
+      "reproductive health",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Annals of the Rheumatic Diseases",
+    "url": "https://ard.bmj.com/rss/current.xml",
+    "subjects": [
+      "rheumatology",
+      "medicine"
+    ],
+    "source": "https://ard.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Journal of Medical Genetics",
+    "url": "https://jmg.bmj.com/rss/current.xml",
+    "subjects": [
+      "genetics",
+      "medicine"
+    ],
+    "source": "https://jmg.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Journal of Neurology, Neurosurgery \u0026 Psychiatry",
+    "url": "https://jnnp.bmj.com/rss/current.xml",
+    "subjects": [
+      "neurology",
+      "medicine"
+    ],
+    "source": "https://jnnp.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Thorax",
+    "url": "https://thorax.bmj.com/rss/current.xml",
+    "subjects": [
+      "respiratory medicine",
+      "medicine"
+    ],
+    "source": "https://thorax.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "British Journal of Sports Medicine",
+    "url": "https://bjsm.bmj.com/rss/current.xml",
+    "subjects": [
+      "sports medicine",
+      "medicine"
+    ],
+    "source": "https://bjsm.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official BMJ feed pattern; live validation hit a TLS EOF in this environment."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "url": "https://ieeexplore.ieee.org/rss/TOC34.XML",
+    "subjects": [
+      "computer science",
+      "artificial intelligence"
+    ],
+    "source": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34",
+    "method": "manual",
+    "status": "verified",
+    "notes": "IEEE Xplore returns unusual-traffic protection to generic clients in this environment."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "IEEE Transactions on Medical Imaging",
+    "url": "https://ieeexplore.ieee.org/rss/TOC42.XML",
+    "subjects": [
+      "medical imaging",
+      "engineering"
+    ],
+    "source": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
+    "method": "manual",
+    "status": "verified",
+    "notes": "IEEE Xplore returns unusual-traffic protection to generic clients in this environment."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "IEEE Transactions on Robotics",
+    "url": "https://ieeexplore.ieee.org/rss/TOC8860.XML",
+    "subjects": [
+      "robotics",
+      "engineering"
+    ],
+    "source": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860",
+    "method": "manual",
+    "status": "verified",
+    "notes": "IEEE Xplore returns unusual-traffic protection to generic clients in this environment."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "url": "https://ieeexplore.ieee.org/rss/TOC8857.XML",
+    "subjects": [
+      "bioinformatics",
+      "computer science"
+    ],
+    "source": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8857",
+    "method": "manual",
+    "status": "verified",
+    "notes": "IEEE Xplore returns unusual-traffic protection to generic clients in this environment."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "ACM Computing Surveys",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=csur",
+    "subjects": [
+      "computer science",
+      "reviews"
+    ],
+    "source": "https://dl.acm.org/journal/csur",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "ACM Digital Library feed is official Atypon format; generic clients may be challenged."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "Journal of the ACM",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jacm",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://dl.acm.org/journal/jacm",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "ACM Digital Library feed is official Atypon format; generic clients may be challenged."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "ACM Transactions on Graphics",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tog",
+    "subjects": [
+      "computer graphics",
+      "computer science"
+    ],
+    "source": "https://dl.acm.org/journal/tog",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "ACM Digital Library feed is official Atypon format; generic clients may be challenged."
+  },
+  {
+    "publisher": "IEEE/ACM",
+    "journal": "ACM Transactions on Intelligent Systems and Technology",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tist",
+    "subjects": [
+      "artificial intelligence",
+      "computer science"
+    ],
+    "source": "https://dl.acm.org/journal/tist",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "ACM Digital Library feed is official Atypon format; generic clients may be challenged."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Cancer",
+    "url": "https://www.nature.com/nrc.rss",
+    "subjects": [
+      "medicine",
+      "oncology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrc/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Cardiology",
+    "url": "https://www.nature.com/nrcardio.rss",
+    "subjects": [
+      "medicine",
+      "cardiology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrcardio/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Chemistry",
+    "url": "https://www.nature.com/natrevchem.rss",
+    "subjects": [
+      "chemistry",
+      "review"
+    ],
+    "source": "https://www.nature.com/natrevchem/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Clinical Oncology",
+    "url": "https://www.nature.com/nrclinonc.rss",
+    "subjects": [
+      "medicine",
+      "oncology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrclinonc/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Disease Primers",
+    "url": "https://www.nature.com/nrdp.rss",
+    "subjects": [
+      "medicine",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrdp/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Drug Discovery",
+    "url": "https://www.nature.com/nrd.rss",
+    "subjects": [
+      "medicine",
+      "pharmacology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrd/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Earth \u0026 Environment",
+    "url": "https://www.nature.com/natrevearthenviron.rss",
+    "subjects": [
+      "earth science",
+      "environment",
+      "review"
+    ],
+    "source": "https://www.nature.com/natrevearthenviron/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Endocrinology",
+    "url": "https://www.nature.com/nrendo.rss",
+    "subjects": [
+      "medicine",
+      "endocrinology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrendo/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Gastroenterology \u0026 Hepatology",
+    "url": "https://www.nature.com/nrgastro.rss",
+    "subjects": [
+      "medicine",
+      "gastroenterology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrgastro/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Genetics",
+    "url": "https://www.nature.com/nrg.rss",
+    "subjects": [
+      "biology",
+      "genetics",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrg/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Immunology",
+    "url": "https://www.nature.com/nri.rss",
+    "subjects": [
+      "biology",
+      "immunology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nri/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Microbiology",
+    "url": "https://www.nature.com/nrmicro.rss",
+    "subjects": [
+      "biology",
+      "microbiology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrmicro/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Molecular Cell Biology",
+    "url": "https://www.nature.com/nrm.rss",
+    "subjects": [
+      "biology",
+      "cell biology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrm/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Nephrology",
+    "url": "https://www.nature.com/nrneph.rss",
+    "subjects": [
+      "medicine",
+      "nephrology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrneph/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Neurology",
+    "url": "https://www.nature.com/nrneurol.rss",
+    "subjects": [
+      "medicine",
+      "neurology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrneurol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Neuroscience",
+    "url": "https://www.nature.com/nrn.rss",
+    "subjects": [
+      "biology",
+      "neuroscience",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrn/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Heart",
+    "url": "https://heart.bmj.com/rss/current.xml",
+    "subjects": [
+      "cardiology",
+      "medicine"
+    ],
+    "source": "https://heart.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "Gut",
+    "url": "https://gut.bmj.com/rss/current.xml",
+    "subjects": [
+      "gastroenterology",
+      "medicine"
+    ],
+    "source": "https://gut.bmj.com/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "BMJ",
+    "journal": "The BMJ",
+    "url": "https://www.bmj.com/rss/current.xml",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.bmj.com/",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "Official BMJ feed returned a protected response during live validation."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "Journal of Fluid Mechanics",
+    "url": "https://www.cambridge.org/core/rss/product/id/7C6970A165E05FF812E16C2BCF51F02D",
+    "subjects": [
+      "physics",
+      "engineering"
+    ],
+    "source": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics",
+    "method": "manual",
+    "status": "source_documented",
+    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Sports Medicine",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=sports_medicine",
+    "subjects": [
+      "sports medicine",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Surgery",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=surgery",
+    "subjects": [
+      "surgery",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Toxicology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=toxicology",
+    "subjects": [
+      "toxicology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Transplantation",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=transplantation",
+    "subjects": [
+      "transplantation",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "medRxiv: Urology",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=urology",
+    "subjects": [
+      "urology",
+      "medicine"
+    ],
+    "source": "https://www.medrxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Biology",
+    "url": "https://www.nature.com/commsbio.rss",
+    "subjects": [
+      "biology",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commsbio/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Chemistry",
+    "url": "https://www.nature.com/commschem.rss",
+    "subjects": [
+      "chemistry",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commschem/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Earth \u0026 Environment",
+    "url": "https://www.nature.com/commsenv.rss",
+    "subjects": [
+      "earth science",
+      "environment"
+    ],
+    "source": "https://www.nature.com/commsenv/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Engineering",
+    "url": "https://www.nature.com/commseng.rss",
+    "subjects": [
+      "engineering",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commseng/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Materials",
+    "url": "https://www.nature.com/commsmat.rss",
+    "subjects": [
+      "materials",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commsmat/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Medicine",
+    "url": "https://www.nature.com/commsmed.rss",
+    "subjects": [
+      "medicine",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commsmed/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Physics",
+    "url": "https://www.nature.com/commsphys.rss",
+    "subjects": [
+      "physics",
+      "open access"
+    ],
+    "source": "https://www.nature.com/commsphys/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Scientific Data",
+    "url": "https://www.nature.com/sdata.rss",
+    "subjects": [
+      "data",
+      "science"
+    ],
+    "source": "https://www.nature.com/sdata/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Digital Medicine",
+    "url": "https://www.nature.com/npjdigitalmed.rss",
+    "subjects": [
+      "medicine",
+      "digital health"
+    ],
+    "source": "https://www.nature.com/npjdigitalmed/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Biophysics",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=biophysics",
+    "subjects": [
+      "biophysics",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Genomic Medicine",
+    "url": "https://www.nature.com/npjgenmed.rss",
+    "subjects": [
+      "genomics",
+      "medicine"
+    ],
+    "source": "https://www.nature.com/npjgenmed/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Systems Biology and Applications",
+    "url": "https://www.nature.com/npjsba.rss",
+    "subjects": [
+      "systems biology",
+      "biology"
+    ],
+    "source": "https://www.nature.com/npjsba/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Bioengineered",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kbie20",
+    "subjects": [
+      "bioengineering",
+      "biology"
+    ],
+    "source": "https://www.tandfonline.com/journals/kbie20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Critical Reviews in Biotechnology",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=ibty20",
+    "subjects": [
+      "biotechnology",
+      "reviews"
+    ],
+    "source": "https://www.tandfonline.com/journals/ibty20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Journal of Biomolecular Structure and Dynamics",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tbsm20",
+    "subjects": [
+      "structural biology",
+      "biology"
+    ],
+    "source": "https://www.tandfonline.com/journals/tbsm20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Journal of Enzyme Inhibition and Medicinal Chemistry",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=ienz20",
+    "subjects": [
+      "medicinal chemistry",
+      "biology"
+    ],
+    "source": "https://www.tandfonline.com/journals/ienz20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "mAbs",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kmab20",
+    "subjects": [
+      "immunology",
+      "biotechnology"
+    ],
+    "source": "https://www.tandfonline.com/journals/kmab20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Nanotoxicology",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=inan20",
+    "subjects": [
+      "nanoscience",
+      "toxicology"
+    ],
+    "source": "https://www.tandfonline.com/journals/inan20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "RNA Biology",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=krnb20",
+    "subjects": [
+      "rna",
+      "biology"
+    ],
+    "source": "https://www.tandfonline.com/journals/krnb20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Taylor \u0026 Francis",
+    "journal": "Virulence",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kvir20",
+    "subjects": [
+      "microbiology",
+      "infectious disease"
+    ],
+    "source": "https://www.tandfonline.com/journals/kvir20",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "animal",
+    "url": "https://www.cambridge.org/core/rss/product/id/7CC89400BC979479B6AE7BDEF995211F",
+    "subjects": [
+      "animal science",
+      "biology"
+    ],
+    "source": "https://www.cambridge.org/core/journals/animal",
+    "method": "manual",
+    "status": "verified",
+    "notes": "RSS identifier is exposed in the journal page alternate link; feed endpoint is Cloudflare-protected here."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "Psychological Medicine",
+    "url": "https://www.cambridge.org/core/rss/product/id/2E4A9A64B37548F25362F3235C223463",
+    "subjects": [
+      "psychiatry",
+      "medicine"
+    ],
+    "source": "https://www.cambridge.org/core/journals/psychological-medicine",
+    "method": "manual",
+    "status": "verified",
+    "notes": "RSS identifier is exposed in the journal page alternate link; feed endpoint is Cloudflare-protected here."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "British Journal of Nutrition",
+    "url": "https://www.cambridge.org/core/rss/product/id/D6F69FEC7A749C38806D291D4ADA568B",
+    "subjects": [
+      "nutrition",
+      "medicine"
+    ],
+    "source": "https://www.cambridge.org/core/journals/british-journal-of-nutrition",
+    "method": "manual",
+    "status": "verified",
+    "notes": "RSS identifier is exposed in the journal page alternate link; feed endpoint is Cloudflare-protected here."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "Epidemiology and Psychiatric Sciences",
+    "url": "https://www.cambridge.org/core/rss/product/id/CDFBC8AB9F96AC14CB38613F891D8F97",
+    "subjects": [
+      "epidemiology",
+      "psychiatry"
+    ],
+    "source": "https://www.cambridge.org/core/journals/epidemiology-and-psychiatric-sciences",
+    "method": "manual",
+    "status": "source_documented",
+    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+  },
+  {
+    "publisher": "Cambridge Core",
+    "journal": "Genetics Research",
+    "url": "https://www.cambridge.org/core/rss/product/id/1A08D3491E8754487EA02F99E68237DB",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://www.cambridge.org/core/journals/genetics-research",
+    "method": "manual",
+    "status": "source_documented",
+    "notes": "Official Cambridge Core journal page documents RSS alternate links; identifier should be rechecked if the page changes."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Quantum Information",
+    "url": "https://www.nature.com/npjqi.rss",
+    "subjects": [
+      "quantum",
+      "physics"
+    ],
+    "source": "https://www.nature.com/npjqi/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Physics",
+    "url": "https://www.nature.com/natrevphys.rss",
+    "subjects": [
+      "physics",
+      "review"
+    ],
+    "source": "https://www.nature.com/natrevphys/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Bioinformatics",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
+    "subjects": [
+      "bioinformatics",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Biochemistry",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=biochemistry",
+    "subjects": [
+      "biochemistry",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Immunity",
+    "url": "https://www.cell.com/immunity/current.rss",
+    "subjects": [
+      "immunology",
+      "biology"
+    ],
+    "source": "https://www.cell.com/immunity/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Neuron",
+    "url": "https://www.cell.com/neuron/current.rss",
+    "subjects": [
+      "neuroscience",
+      "biology"
+    ],
+    "source": "https://www.cell.com/neuron/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Accounts of Chemical Research",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=achre4",
+    "subjects": [
+      "chemistry",
+      "reviews"
+    ],
+    "source": "https://pubs.acs.org/journal/achre4",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Bio Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aabmcb",
+    "subjects": [
+      "biomaterials",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aabmcb",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Electronic Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aaembp",
+    "subjects": [
+      "electronics",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aaembp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Energy Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aaemcq",
+    "subjects": [
+      "energy",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aaemcq",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Materials \u0026 Interfaces",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aamick",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/aamick",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Nano Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aanmf6",
+    "subjects": [
+      "nanoscience",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aanmf6",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Optical Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aaomcv",
+    "subjects": [
+      "optics",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aaomcv",
+    "method": "publisher_index",
+    "status": "protected",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Applied Polymer Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aapmcd",
+    "subjects": [
+      "polymers",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/aapmcd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Biomaterials Science \u0026 Engineering",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=abseba",
+    "subjects": [
+      "biomaterials",
+      "engineering"
+    ],
+    "source": "https://pubs.acs.org/journal/abseba",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Catalysis",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=accacs",
+    "subjects": [
+      "catalysis",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/accacs",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Central Science",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=acscii",
+    "subjects": [
+      "chemistry",
+      "open access"
+    ],
+    "source": "https://pubs.acs.org/journal/acscii",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Chemical Biology",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=acbcct",
+    "subjects": [
+      "chemical biology",
+      "biology"
+    ],
+    "source": "https://pubs.acs.org/journal/acbcct",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Chemical Neuroscience",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=acncdm",
+    "subjects": [
+      "neuroscience",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/acncdm",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Earth and Space Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aesccq",
+    "subjects": [
+      "earth science",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/aesccq",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Energy Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aelccp",
+    "subjects": [
+      "energy",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/aelccp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Environmental Au",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aeacc4",
+    "subjects": [
+      "environment",
+      "open access"
+    ],
+    "source": "https://pubs.acs.org/journal/aeacc4",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS ES\u0026T Air",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aeacb3",
+    "subjects": [
+      "environment",
+      "air quality"
+    ],
+    "source": "https://pubs.acs.org/journal/aeacb3",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS ES\u0026T Engineering",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aeecco",
+    "subjects": [
+      "environment",
+      "engineering"
+    ],
+    "source": "https://pubs.acs.org/journal/aeecco",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS ES\u0026T Water",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aewcaa",
+    "subjects": [
+      "environment",
+      "water"
+    ],
+    "source": "https://pubs.acs.org/journal/aewcaa",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Food Science \u0026 Technology",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=afsthl",
+    "subjects": [
+      "food science",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/afsthl",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Infectious Diseases",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aidcbc",
+    "subjects": [
+      "infectious disease",
+      "medicine"
+    ],
+    "source": "https://pubs.acs.org/journal/aidcbc",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Macro Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=amlccd",
+    "subjects": [
+      "polymers",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/amlccd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Materials Au",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=amacgu",
+    "subjects": [
+      "materials",
+      "open access"
+    ],
+    "source": "https://pubs.acs.org/journal/amacgu",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Materials Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=amlcef",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/amlcef",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Nano",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=ancac3",
+    "subjects": [
+      "nanoscience",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/ancac3",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Omega",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=acsodf",
+    "subjects": [
+      "chemistry",
+      "open access"
+    ],
+    "source": "https://pubs.acs.org/journal/acsodf",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Pharmacology \u0026 Translational Science",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=aptsfn",
+    "subjects": [
+      "pharmacology",
+      "medicine"
+    ],
+    "source": "https://pubs.acs.org/journal/aptsfn",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Chem",
+    "url": "https://www.cell.com/chem/current.rss",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://www.cell.com/chem/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Photonics",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=apchd5",
+    "subjects": [
+      "photonics",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/apchd5",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Stem Cell",
+    "url": "https://www.cell.com/cell-stem-cell/current.rss",
+    "subjects": [
+      "stem cells",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cell-stem-cell/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Reports",
+    "url": "https://www.cell.com/cell-reports/current.rss",
+    "subjects": [
+      "biology",
+      "multidisciplinary"
+    ],
+    "source": "https://www.cell.com/cell-reports/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Biotechnology",
+    "url": "https://www.nature.com/nbt.rss",
+    "subjects": [
+      "biology",
+      "biotechnology"
+    ],
+    "source": "https://www.nature.com/nbt/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Methods",
+    "url": "https://www.nature.com/nmeth.rss",
+    "subjects": [
+      "biology",
+      "methods"
+    ],
+    "source": "https://www.nature.com/nmeth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Medicine",
+    "url": "https://www.nature.com/nm.rss",
+    "subjects": [
+      "medicine",
+      "biology"
+    ],
+    "source": "https://www.nature.com/nm/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Genetics",
+    "url": "https://www.nature.com/ng.rss",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://www.nature.com/ng/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Neuroscience",
+    "url": "https://www.nature.com/neuro.rss",
+    "subjects": [
+      "neuroscience",
+      "biology"
+    ],
+    "source": "https://www.nature.com/neuro/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Cell Biology",
+    "url": "https://www.nature.com/ncb.rss",
+    "subjects": [
+      "cell biology",
+      "biology"
+    ],
+    "source": "https://www.nature.com/ncb/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Chemical Biology",
+    "url": "https://www.nature.com/nchembio.rss",
+    "subjects": [
+      "chemical biology",
+      "biology"
+    ],
+    "source": "https://www.nature.com/nchembio/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Chemistry",
+    "url": "https://www.nature.com/nchem.rss",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://www.nature.com/nchem/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Physics",
+    "url": "https://www.nature.com/nphys.rss",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.nature.com/nphys/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Materials",
+    "url": "https://www.nature.com/nmat.rss",
+    "subjects": [
+      "materials",
+      "physics"
+    ],
+    "source": "https://www.nature.com/nmat/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Climate Change",
+    "url": "https://www.nature.com/nclimate.rss",
+    "subjects": [
+      "climate",
+      "environment"
+    ],
+    "source": "https://www.nature.com/nclimate/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Geoscience",
+    "url": "https://www.nature.com/ngeo.rss",
+    "subjects": [
+      "earth science",
+      "environment"
+    ],
+    "source": "https://www.nature.com/ngeo/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Communications",
+    "url": "https://www.nature.com/ncomms.rss",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.nature.com/ncomms/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/srep.rss",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.nature.com/srep/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Plants",
+    "url": "https://www.nature.com/nplants.rss",
+    "subjects": [
+      "plant science",
+      "biology"
+    ],
+    "source": "https://www.nature.com/nplants/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Microbiology",
+    "url": "https://www.nature.com/nmicrobiol.rss",
+    "subjects": [
+      "microbiology",
+      "biology"
+    ],
+    "source": "https://www.nature.com/nmicrobiol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Immunology",
+    "url": "https://www.nature.com/ni.rss",
+    "subjects": [
+      "immunology",
+      "biology"
+    ],
+    "source": "https://www.nature.com/ni/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=science",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.science.org/journal/science",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science Advances",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sciadv",
+    "subjects": [
+      "multidisciplinary",
+      "open access"
+    ],
+    "source": "https://www.science.org/journal/sciadv",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science Immunology",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sciimmunol",
+    "subjects": [
+      "immunology",
+      "biology"
+    ],
+    "source": "https://www.science.org/journal/sciimmunol",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science Robotics",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=scirobotics",
+    "subjects": [
+      "robotics",
+      "engineering"
+    ],
+    "source": "https://www.science.org/journal/scirobotics",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science Signaling",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=scisignal",
+    "subjects": [
+      "cell biology",
+      "biology"
+    ],
+    "source": "https://www.science.org/journal/scisignal",
+    "method": "publisher_index",
+    "status": "protected",
+    "notes": "Official Science/AAAS feed returned a protected response during live validation."
+  },
+  {
+    "publisher": "Science/AAAS",
+    "journal": "Science Translational Medicine",
+    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=stm",
+    "subjects": [
+      "medicine",
+      "translational research"
+    ],
+    "source": "https://www.science.org/journal/stm",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell",
+    "url": "https://www.cell.com/cell/current.rss",
+    "subjects": [
+      "biology",
+      "medicine"
+    ],
+    "source": "https://www.cell.com/cell/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cancer Cell",
+    "url": "https://www.cell.com/cancer-cell/current.rss",
+    "subjects": [
+      "cancer",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cancer-cell/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Chemical Biology",
+    "url": "https://www.cell.com/cell-chemical-biology/current.rss",
+    "subjects": [
+      "chemical biology",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cell-chemical-biology/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Genomics",
+    "url": "https://www.cell.com/cell-genomics/current.rss",
+    "subjects": [
+      "genomics",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cell-genomics/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Host \u0026 Microbe",
+    "url": "https://www.cell.com/cell-host-microbe/current.rss",
+    "subjects": [
+      "microbiology",
+      "immunology"
+    ],
+    "source": "https://www.cell.com/cell-host-microbe/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Metabolism",
+    "url": "https://www.cell.com/cell-metabolism/current.rss",
+    "subjects": [
+      "metabolism",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cell-metabolism/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Reports Medicine",
+    "url": "https://www.cell.com/cell-reports-medicine/current.rss",
+    "subjects": [
+      "medicine",
+      "biology"
+    ],
+    "source": "https://www.cell.com/cell-reports-medicine/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Cell Press current.rss pattern; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Polymers Au",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=apaccd",
+    "subjects": [
+      "polymers",
+      "open access"
+    ],
+    "source": "https://pubs.acs.org/journal/apaccd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Sensors",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=ascefj",
+    "subjects": [
+      "sensors",
+      "engineering"
+    ],
+    "source": "https://pubs.acs.org/journal/ascefj",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Sustainable Chemistry \u0026 Engineering",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=ascecg",
+    "subjects": [
+      "sustainability",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/ascecg",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Angewandte Chemie International Edition",
+    "url": "https://onlinelibrary.wiley.com/feed/15213773/most-recent",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15213773",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Science",
+    "url": "https://onlinelibrary.wiley.com/feed/21983844/most-recent",
+    "subjects": [
+      "multidisciplinary",
+      "open access"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21983844",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/15214095/most-recent",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15214095",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Chemistry - A European Journal",
+    "url": "https://onlinelibrary.wiley.com/feed/15213765/most-recent",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15213765",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Ecology Letters",
+    "url": "https://onlinelibrary.wiley.com/feed/14610248/most-recent",
+    "subjects": [
+      "ecology",
+      "environment"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/14610248",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "EMBO Journal",
+    "url": "https://onlinelibrary.wiley.com/feed/14602075/most-recent",
+    "subjects": [
+      "molecular biology",
+      "biology"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/14602075",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Global Change Biology",
+    "url": "https://onlinelibrary.wiley.com/feed/13652486/most-recent",
+    "subjects": [
+      "climate",
+      "environment"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/13652486",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Journal of Applied Ecology",
+    "url": "https://onlinelibrary.wiley.com/feed/13652664/most-recent",
+    "subjects": [
+      "ecology",
+      "environment"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/13652664",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Methods in Ecology and Evolution",
+    "url": "https://onlinelibrary.wiley.com/feed/2041210X/most-recent",
+    "subjects": [
+      "ecology",
+      "methods"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/2041210X",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Molecular Ecology",
+    "url": "https://onlinelibrary.wiley.com/feed/1365294X/most-recent",
+    "subjects": [
+      "ecology",
+      "genetics"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/1365294X",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Plant Biotechnology Journal",
+    "url": "https://onlinelibrary.wiley.com/feed/14677652/most-recent",
+    "subjects": [
+      "plant science",
+      "biotechnology"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/14677652",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Small",
+    "url": "https://onlinelibrary.wiley.com/feed/16136829/most-recent",
+    "subjects": [
+      "materials",
+      "nanoscience"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/16136829",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Cell",
+    "url": "https://rss.sciencedirect.com/publication/science/00928674",
+    "subjects": [
+      "biology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/cell",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Current Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/09609822",
+    "subjects": [
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/current-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Molecular Cell",
+    "url": "https://rss.sciencedirect.com/publication/science/10972765",
+    "subjects": [
+      "molecular biology",
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/molecular-cell",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Lancet",
+    "url": "https://rss.sciencedirect.com/publication/science/01406736",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-lancet",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Molecular Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/00222836",
+    "subjects": [
+      "molecular biology",
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-molecular-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biological Psychiatry",
+    "url": "https://rss.sciencedirect.com/publication/science/00063223",
+    "subjects": [
+      "psychiatry",
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biological-psychiatry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Water Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00431354",
+    "subjects": [
+      "environment",
+      "water"
+    ],
+    "source": "https://www.sciencedirect.com/journal/water-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Environmental Science \u0026 Policy",
+    "url": "https://rss.sciencedirect.com/publication/science/14629011",
+    "subjects": [
+      "environment",
+      "policy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/environmental-science-and-policy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Artificial Intelligence",
+    "url": "https://rss.sciencedirect.com/publication/science/00043702",
+    "subjects": [
+      "computer science",
+      "artificial intelligence"
+    ],
+    "source": "https://www.sciencedirect.com/journal/artificial-intelligence",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Pattern Recognition",
+    "url": "https://rss.sciencedirect.com/publication/science/00313203",
+    "subjects": [
+      "computer science",
+      "artificial intelligence"
+    ],
+    "source": "https://www.sciencedirect.com/journal/pattern-recognition",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN; live validation hit a TLS EOF in this environment."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/03605442",
+    "subjects": [
+      "energy",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Renewable Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/09601481",
+    "subjects": [
+      "energy",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/renewable-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Trends in Ecology \u0026 Evolution",
+    "url": "https://rss.sciencedirect.com/publication/science/01695347",
+    "subjects": [
+      "ecology",
+      "evolution"
+    ],
+    "source": "https://www.sciencedirect.com/journal/trends-in-ecology-and-evolution",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Trends in Genetics",
+    "url": "https://rss.sciencedirect.com/publication/science/01689525",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/trends-in-genetics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=PNAS",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: All",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=all",
+    "subjects": [
+      "preprints",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Animal Behavior and Cognition",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=animal_behavior_and_cognition",
+    "subjects": [
+      "animal behavior",
+      "cognition"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "The Journal of Physical Chemistry Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jpclcd",
+    "subjects": [
+      "physical chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jpclcd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "The Journal of Physical Chemistry C",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jpccck",
+    "subjects": [
+      "physical chemistry",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/jpccck",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "The Journal of Physical Chemistry B",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jpcbfk",
+    "subjects": [
+      "physical chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jpcbfk",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "The Journal of Physical Chemistry A",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jpcafh",
+    "subjects": [
+      "physical chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jpcafh",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "ACS Synthetic Biology",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=asbcd6",
+    "subjects": [
+      "synthetic biology",
+      "biology"
+    ],
+    "source": "https://pubs.acs.org/journal/asbcd6",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Analytical Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=ancham",
+    "subjects": [
+      "chemistry",
+      "methods"
+    ],
+    "source": "https://pubs.acs.org/journal/ancham",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Biochemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=bichaw",
+    "subjects": [
+      "biochemistry",
+      "biology"
+    ],
+    "source": "https://pubs.acs.org/journal/bichaw",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Bioconjugate Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=bcches",
+    "subjects": [
+      "chemical biology",
+      "biochemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/bcches",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Biomacromolecules",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=bomaf6",
+    "subjects": [
+      "materials",
+      "biology"
+    ],
+    "source": "https://pubs.acs.org/journal/bomaf6",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Chemical Research in Toxicology",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=crtoec",
+    "subjects": [
+      "toxicology",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/crtoec",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Chemical Reviews",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=chreay",
+    "subjects": [
+      "chemistry",
+      "reviews"
+    ],
+    "source": "https://pubs.acs.org/journal/chreay",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Chemistry of Materials",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=cmatex",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/cmatex",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Crystal Growth \u0026 Design",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=cgdefu",
+    "subjects": [
+      "crystallography",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/cgdefu",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Energy \u0026 Fuels",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=enfuem",
+    "subjects": [
+      "energy",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/enfuem",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Environmental Science \u0026 Technology",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=esthag",
+    "subjects": [
+      "environment",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/esthag",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Environmental Science \u0026 Technology Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=estlcu",
+    "subjects": [
+      "environment",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/estlcu",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Industrial \u0026 Engineering Chemistry Research",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=iecred",
+    "subjects": [
+      "chemical engineering",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/iecred",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Inorganic Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=inoraj",
+    "subjects": [
+      "inorganic chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/inoraj",
+    "method": "publisher_index",
+    "status": "protected",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "bioRxiv/medRxiv",
+    "journal": "bioRxiv: Bioengineering",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioengineering",
+    "subjects": [
+      "bioengineering",
+      "biology"
+    ],
+    "source": "https://www.biorxiv.org/alertsrss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official subject collection XML feed."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Agricultural and Food Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jafcau",
+    "subjects": [
+      "food science",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jafcau",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Chemical Information and Modeling",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jcisd8",
+    "subjects": [
+      "cheminformatics",
+      "modeling"
+    ],
+    "source": "https://pubs.acs.org/journal/jcisd8",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Chemical Theory and Computation",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jctcce",
+    "subjects": [
+      "computational chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jctcce",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Medicinal Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jmcmar",
+    "subjects": [
+      "medicinal chemistry",
+      "medicine"
+    ],
+    "source": "https://pubs.acs.org/journal/jmcmar",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Natural Products",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jnprdf",
+    "subjects": [
+      "natural products",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jnprdf",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Organic Chemistry",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=joceah",
+    "subjects": [
+      "organic chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/joceah",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Proteome Research",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jprobs",
+    "subjects": [
+      "proteomics",
+      "biology"
+    ],
+    "source": "https://pubs.acs.org/journal/jprobs",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of the American Chemical Society",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jacsat",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/jacsat",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Langmuir",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=langd5",
+    "subjects": [
+      "chemistry",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/langd5",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Macromolecules",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=mamobx",
+    "subjects": [
+      "polymers",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/mamobx",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Molecular Pharmaceutics",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=mpohbp",
+    "subjects": [
+      "pharmaceutics",
+      "medicine"
+    ],
+    "source": "https://pubs.acs.org/journal/mpohbp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Nano Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=nalefd",
+    "subjects": [
+      "nanoscience",
+      "materials"
+    ],
+    "source": "https://pubs.acs.org/journal/nalefd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Organic Letters",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=orlef7",
+    "subjects": [
+      "organic chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/orlef7",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Organic Process Research \u0026 Development",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=oprdfk",
+    "subjects": [
+      "organic chemistry",
+      "process chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/oprdfk",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Organometallics",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=orgnd7",
+    "subjects": [
+      "organometallic chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.acs.org/journal/orgnd7",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "ACS",
+    "journal": "Journal of Chemical \u0026 Engineering Data",
+    "url": "https://pubs.acs.org/action/showFeed?type=axatoc\u0026feed=rss\u0026jc=jceaax",
+    "subjects": [
+      "chemical engineering",
+      "data"
+    ],
+    "source": "https://pubs.acs.org/journal/jceaax",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ACS Publications feed URL; generic clients may see a Cloudflare challenge."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Rheumatology",
+    "url": "https://www.nature.com/nrrheum.rss",
+    "subjects": [
+      "medicine",
+      "rheumatology",
+      "review"
+    ],
+    "source": "https://www.nature.com/nrrheum/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "review journal"
+  }
+]
