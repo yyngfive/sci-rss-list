@@ -1,16 +1,9 @@
-# sci-rss-list
+# Sci-RSS-List
 
 An offline catalog of official scholarly RSS, Atom, and RDF feeds for later import into FeedMeDaily or similar tools.
 
 The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Publisher pages under [`publishers/`](publishers/) are generated from that JSON with [`tools/publishers`](tools/publishers/).
 
-## Scope
-
-This dataset contains 265 feeds across broad science, medicine, engineering, chemistry, biology, environment, computing, review, and preprint subject collections.
-
-Open coverage and ranking signals, including OpenAlex Sources and official publisher journal lists, were used only to decide what to include. Scores, ranks, and proprietary metric tables are not stored or displayed here.
-
-Publisher grouping follows the catalog's canonical publisher/host choice. Nature-hosted `www.nature.com` feeds, including Nature Reviews, Communications, and npj journals, are grouped under Nature.
 
 ## Publisher Index
 
@@ -61,21 +54,15 @@ Use these publisher patterns only after checking the official journal or RSS pag
 | Publisher | Manual source or pattern |
 | --- | --- |
 | Nature | Open the journal page and use its RSS link. Most Nature-hosted journals also follow `https://www.nature.com/{journal-code}.rss`, for example `https://www.nature.com/nmeth.rss`. |
-| Science/AAAS | Use the official RSS page: `https://www.science.org/content/page/email-alerts-and-rss-feeds`. A journal feed usually follows `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc={journal-code}`. |
 | Cell Press | Open the journal page. Most feeds follow `https://www.cell.com/{journal}/current.rss`, for example `https://www.cell.com/chem/current.rss`. |
-| ACS | Use the journal RSS link from the ACS follow/RSS page. Feeds follow `https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc={journal-code}`; the code must match the official journal page, for example `jacsat`. |
 | Wiley | Open the Wiley Online Library journal page and use the RSS icon. Feeds usually follow `https://onlinelibrary.wiley.com/feed/{online-issn}/most-recent`. |
 | Elsevier/ScienceDirect | Open the journal page, then `Articles & Issues`, then `RSS`; ScienceDirect feeds commonly use `https://rss.sciencedirect.com/publication/science/{issn}`. |
-| PNAS | Use the official RSS page: `https://www.pnas.org/about/rss`. |
-| bioRxiv/medRxiv | Use the official alerts/RSS pages: `https://www.biorxiv.org/alertsrss` and `https://www.medrxiv.org/alertsrss`; subject XML feeds use the `connect.*rxiv.org/*_xml.php?subject={subject}` pattern. |
 | BMJ | Use the journal page RSS link. Many BMJ specialty journals use `https://{journal}.bmj.com/rss/current.xml`; The BMJ currently redirects from `https://www.bmj.com/rss/recent.xml` to `http://feeds.bmj.com/bmj/recent`. |
-| Cambridge Core | Use only the RSS alternate link exposed on the official journal page; do not guess `core/rss/product/id/...` identifiers. |
 
 ## Contributing
 
 - Prefer official publisher RSS pages, journal pages, or documented URL patterns.
 - If a publisher exposes a complete official RSS index, include the full index rather than a sample.
-- Do not copy proprietary ranking tables or store impact scores.
 - Include `source`, `method`, `status`, and short `notes` when a feed is protected or only source-documented.
 - Run:
 
@@ -85,4 +72,4 @@ go run .\tools\feedcheck.go
 go run .\tools\publishers
 ```
 
-`feedcheck` validates feeds whose `data/feeds.json` status is not `verified`. `protected` feeds, and `source_documented` feeds that return a protection/challenge page to ordinary HTTP, are sent through WebView2. When WebView2 captures feed XML, `feedcheck` updates that entry to `verified` and regenerates publisher pages. Use `--force` to re-check every entry. The persistent WebView2 profile is stored under `.feedcheck-webview2/`, which is ignored by Git.
+Use `--force` to re-check every entry. 
