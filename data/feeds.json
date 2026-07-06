@@ -1663,32 +1663,6 @@
     "notes": "RSS identifier is exposed in the journal page alternate link; feed endpoint is Cloudflare-protected here."
   },
   {
-    "publisher": "Cambridge Core",
-    "journal": "Epidemiology and Psychiatric Sciences",
-    "url": "https://www.cambridge.org/core/rss/product/id/632A08D3365E9EB35B0A7D5ED4D805B6",
-    "subjects": [
-      "epidemiology",
-      "psychiatry"
-    ],
-    "source": "https://www.cambridge.org/core/journals/epidemiology-and-psychiatric-sciences",
-    "method": "publisher_index",
-    "status": "source_documented",
-    "notes": "RSS identifier is exposed in the official Cambridge Core page alternate link."
-  },
-  {
-    "publisher": "Cambridge Core",
-    "journal": "Journal of Fluid Mechanics",
-    "url": "https://www.cambridge.org/core/rss/product/id/1F51D2E8C79ED50145FE97D5D8FA7DE9",
-    "subjects": [
-      "physics",
-      "engineering"
-    ],
-    "source": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics",
-    "method": "publisher_index",
-    "status": "source_documented",
-    "notes": "RSS identifier is exposed in the official Cambridge Core page alternate link."
-  },
-  {
     "publisher": "Nature",
     "journal": "npj Quantum Information",
     "url": "https://www.nature.com/npjqi.rss",
@@ -2707,7 +2681,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/2041210X",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2720,7 +2694,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/1365294X",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2733,7 +2707,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/14677652",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2746,7 +2720,7 @@
     ],
     "source": "https://onlinelibrary.wiley.com/journal/16136829",
     "method": "url_pattern",
-    "status": "source_documented",
+    "status": "verified",
     "notes": "Official Wiley Online Library feed pattern based on online ISSN."
   },
   {
@@ -2936,6 +2910,443 @@
     "subjects": [
       "multidisciplinary",
       "science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Physical Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys-sci",
+    "subjects": [
+      "physical sciences"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Physics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Chemistry",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=chem",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Applied Mathematics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-math",
+    "subjects": [
+      "applied mathematics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Applied Physical Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-phys",
+    "subjects": [
+      "applied physical sciences"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Astronomy",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=astro",
+    "subjects": [
+      "astronomy"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Biophysics and Computational Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biophys",
+    "subjects": [
+      "biophysics",
+      "computational biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Computer Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=comp-sci",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Earth, Atmospheric, and Planetary Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=earth-sci",
+    "subjects": [
+      "earth science",
+      "atmospheric science",
+      "planetary science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Engineering",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eng",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Mathematics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=math",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Statistics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=stat",
+    "subjects": [
+      "statistics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Biological Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=bio-sci",
+    "subjects": [
+      "biological sciences"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Sustainability Science",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sustainability",
+    "subjects": [
+      "sustainability"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Agricultural Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=ag-sci",
+    "subjects": [
+      "agriculture"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Applied Biological Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-bio",
+    "subjects": [
+      "applied biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Biochemistry",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biochem",
+    "subjects": [
+      "biochemistry"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Cell Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=cell-bio",
+    "subjects": [
+      "cell biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Developmental Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=dev-bio",
+    "subjects": [
+      "developmental biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Ecology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eco",
+    "subjects": [
+      "ecology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Evolution",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=evolution",
+    "subjects": [
+      "evolution"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Genetics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=genetics",
+    "subjects": [
+      "genetics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Immunology and Inflammation",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=immun",
+    "subjects": [
+      "immunology",
+      "inflammation"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Medical Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=med-sci",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Microbiology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=microbio",
+    "subjects": [
+      "microbiology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Neuroscience",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=neuro",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Pharmacology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pharm",
+    "subjects": [
+      "pharmacology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Physiology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=physio",
+    "subjects": [
+      "physiology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Plant Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=plant-bio",
+    "subjects": [
+      "plant biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Population Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pop-bio",
+    "subjects": [
+      "population biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Systems Biology",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sys-bio",
+    "subjects": [
+      "systems biology"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Social Science",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=soc-sci",
+    "subjects": [
+      "social science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Demography",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=demo",
+    "subjects": [
+      "demography"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Economic Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=econ-sci",
+    "subjects": [
+      "economics"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Political Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pol-sci",
+    "subjects": [
+      "political science"
+    ],
+    "source": "https://www.pnas.org/about/rss",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": ""
+  },
+  {
+    "publisher": "PNAS",
+    "journal": "PNAS: Psychological and Cognitive Sciences",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=psych",
+    "subjects": [
+      "psychology",
+      "cognitive science"
     ],
     "source": "https://www.pnas.org/about/rss",
     "method": "publisher_index",

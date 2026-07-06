@@ -57,3 +57,15 @@ func TestVisibleFeedXML(t *testing.T) {
 		t.Fatal("plain text should not be recognized as feed XML")
 	}
 }
+
+func TestCaptureFeedReportsDuplicate(t *testing.T) {
+	app := &verifierApp{capturedFeeds: map[string]capturedFeed{}}
+	count, fresh := app.captureFeed("https://example.com/feed.xml", "application/xml", "<rss/>")
+	if count != 1 || !fresh {
+		t.Fatalf("first capture = count %d fresh %t, want count 1 fresh true", count, fresh)
+	}
+	count, fresh = app.captureFeed("https://example.com/feed.xml", "text/xml", "<rss/>")
+	if count != 1 || fresh {
+		t.Fatalf("duplicate capture = count %d fresh %t, want count 1 fresh false", count, fresh)
+	}
+}

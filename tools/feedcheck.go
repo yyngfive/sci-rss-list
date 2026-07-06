@@ -28,6 +28,8 @@ type fetchResult struct {
 	detail string
 }
 
+const feedcheckUserAgent = "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)"
+
 type capturedFeed struct {
 	FeedURL     string `json:"feed_url"`
 	ContentType string `json:"content_type"`
@@ -107,6 +109,12 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 		switch f.Status {
 		case "verified":
 			if actual.status != "verified" {
+				if needsManualVerification(f.Status, actual, force) {
+					if err := queueProtectedFeed(protected, feeds[idx]); err != nil {
+						errs = append(errs, fmt.Sprintf("%s: bad url %s", f.Journal, f.URL))
+					}
+					continue
+				}
 				errs = append(errs, fmt.Sprintf("%s: expected verified, got %s (%s)", f.Journal, actual.detail, f.URL))
 			} else {
 				fmt.Println("  ok: feed XML")
@@ -117,7 +125,7 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 				fmt.Println("  ok: feed XML without manual verification")
 				continue
 			}
-			if !needsManualVerification(f.Status, actual) {
+			if !needsManualVerification(f.Status, actual, force) {
 				errs = append(errs, fmt.Sprintf("%s: expected protected, got %s (%s)", f.Journal, actual.detail, f.URL))
 				continue
 			}
@@ -130,7 +138,7 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 			case actual.status == "verified":
 				markVerified(feeds, idx, changed)
 				fmt.Println("  ok: source_documented feed XML")
-			case needsManualVerification(f.Status, actual):
+			case needsManualVerification(f.Status, actual, force):
 				if err := queueProtectedFeed(protected, feeds[idx]); err != nil {
 					errs = append(errs, fmt.Sprintf("%s: bad url %s", f.Journal, f.URL))
 					continue
@@ -142,7 +150,7 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 			}
 		}
 	}
-	if len(errs) > 0 || len(protected) == 0 {
+	if len(protected) == 0 {
 		return errs
 	}
 	if runtime.GOOS != "windows" {
@@ -183,12 +191,12 @@ func validateFeeds(root string, feeds []catalog.Feed, requestTimeout, manualTime
 	return errs
 }
 
-func needsManualVerification(catalogStatus string, actual fetchResult) bool {
-	return actual.status == "protected" && (catalogStatus == "protected" || catalogStatus == "source_documented")
+func needsManualVerification(catalogStatus string, actual fetchResult, force bool) bool {
+	return actual.status == "protected" && (catalogStatus == "protected" || catalogStatus == "source_documented" || (force && catalogStatus == "verified"))
 }
 
 func requiresManualCapture(f catalog.Feed) bool {
-	return f.Status == "protected"
+	return f.Status == "protected" || f.Status == "verified"
 }
 
 func queueProtectedFeed(protected map[string][]catalog.Feed, f catalog.Feed) error {
@@ -246,7 +254,7 @@ func fetchStatus(rawurl string, timeout time.Duration) fetchResult {
 	if err != nil {
 		return fetchResult{"bad_url", err.Error()}
 	}
-	req.Header.Set("User-Agent", "sci-rss-list-feedcheck/1.0 (+https://github.com/yyngfive/feedmedaily)")
+	req.Header.Set("User-Agent", feedcheckUserAgent)
 	req.Header.Set("Accept", "application/rss+xml, application/atom+xml, application/rdf+xml, application/xml, text/xml;q=0.9, */*;q=0.1")
 	res, err := client.Do(req)
 	if err != nil {

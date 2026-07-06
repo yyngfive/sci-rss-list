@@ -17,7 +17,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Elsevier/ScienceDirect | 14 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
 | IEEE/ACM | 8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
 | Nature | 48 | [publishers/nature.md](publishers/nature.md) |
-| PNAS | 1 | [publishers/pnas.md](publishers/pnas.md) |
+| PNAS | 37 | [publishers/pnas.md](publishers/pnas.md) |
 | Science/AAAS | 6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
 | Taylor & Francis | 8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
 | Wiley | 12 | [publishers/wiley.md](publishers/wiley.md) |

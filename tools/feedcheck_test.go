@@ -25,6 +25,21 @@ func TestProtectedHints(t *testing.T) {
 	}
 }
 
+func TestFetchStatusUsesFeedReaderUserAgent(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if got := r.Header.Get("User-Agent"); got != feedcheckUserAgent {
+			t.Fatalf("User-Agent = %q, want %q", got, feedcheckUserAgent)
+		}
+		w.Header().Set("Content-Type", "application/rss+xml")
+		_, _ = w.Write([]byte(`<rss><channel/></rss>`))
+	}))
+	defer server.Close()
+
+	if got := fetchStatus(server.URL+"/feed", time.Second); got.status != "verified" {
+		t.Fatalf("fetchStatus status = %q, want verified", got.status)
+	}
+}
+
 func TestCachedURLSkipsFetchUnlessForced(t *testing.T) {
 	hits := 0
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -65,16 +80,19 @@ func TestPendingFeedsExcludesCachedUnlessForced(t *testing.T) {
 }
 
 func TestSourceDocumentedProtectedNeedsManualVerification(t *testing.T) {
-	if !needsManualVerification("source_documented", fetchResult{status: "protected"}) {
+	if !needsManualVerification("source_documented", fetchResult{status: "protected"}, false) {
 		t.Fatal("source_documented protected response should be sent to manual verification")
 	}
-	if !needsManualVerification("protected", fetchResult{status: "protected"}) {
+	if !needsManualVerification("protected", fetchResult{status: "protected"}, false) {
 		t.Fatal("protected response should be sent to manual verification")
 	}
-	if needsManualVerification("verified", fetchResult{status: "protected"}) {
-		t.Fatal("verified feeds should not silently fall back to manual verification")
+	if needsManualVerification("verified", fetchResult{status: "protected"}, false) {
+		t.Fatal("verified feeds should not be fetched without --force")
 	}
-	if needsManualVerification("source_documented", fetchResult{status: "verified"}) {
+	if !needsManualVerification("verified", fetchResult{status: "protected"}, true) {
+		t.Fatal("forced verified feeds should use manual verification after a protected response")
+	}
+	if needsManualVerification("source_documented", fetchResult{status: "verified"}, true) {
 		t.Fatal("verified XML should not need manual verification")
 	}
 }

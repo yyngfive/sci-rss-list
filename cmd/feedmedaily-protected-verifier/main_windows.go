@@ -508,13 +508,11 @@ func (a *verifierApp) captureVisibleXML(feedURL string) {
 func (a *verifierApp) onResponseBody(feedURL, contentType, body string) {
 	a.log.Printf("response feed=%s content_type=%s bytes=%d", feedURL, contentType, len(body))
 	if looksLikeXML(contentType, body) {
-		a.mu.Lock()
-		if _, ok := a.capturedFeeds[feedURL]; !ok {
-			a.capturedFeeds[feedURL] = capturedFeed{FeedURL: feedURL, ContentType: contentType, FeedXML: body}
-		}
-		count := len(a.capturedFeeds)
-		a.mu.Unlock()
+		count, fresh := a.captureFeed(feedURL, contentType, body)
 		a.log.Printf("captured xml feed=%s captured=%d/%d", feedURL, count, len(a.opts.FeedURLs))
+		if !fresh {
+			return
+		}
 		a.enqueue(func() {
 			a.setStatus(fmt.Sprintf("Captured %d/%d protected-feed XML documents.", count, len(a.opts.FeedURLs)))
 			a.navigateNextFeed()
@@ -532,6 +530,16 @@ func (a *verifierApp) onResponseBody(feedURL, contentType, body string) {
 	a.enqueue(func() {
 		a.skipCurrentFeed(feedURL, fmt.Sprintf("non-XML response content_type=%s", contentType))
 	})
+}
+
+func (a *verifierApp) captureFeed(feedURL, contentType, body string) (int, bool) {
+	a.mu.Lock()
+	defer a.mu.Unlock()
+	if _, ok := a.capturedFeeds[feedURL]; ok {
+		return len(a.capturedFeeds), false
+	}
+	a.capturedFeeds[feedURL] = capturedFeed{FeedURL: feedURL, ContentType: contentType, FeedXML: body}
+	return len(a.capturedFeeds), true
 }
 
 func (a *verifierApp) onScriptResult(feedURL, raw string) {
