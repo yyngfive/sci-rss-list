@@ -36,3 +36,33 @@ func TestKnownBrokenFeedURLsAreAbsent(t *testing.T) {
 		}
 	}
 }
+
+func TestWriteReadmePublisherIndexUsesVerifiedOverTotal(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "README.md")
+	readme := "# Test\n\n## Publisher Index\n\nold table\n\n## Entry Format\n\nbody\n"
+	if err := os.WriteFile(path, []byte(readme), 0644); err != nil {
+		t.Fatal(err)
+	}
+	feeds := []Feed{
+		{Publisher: "B Pub", Status: "verified"},
+		{Publisher: "A Pub", Status: "verified"},
+		{Publisher: "A Pub", Status: "protected"},
+	}
+	if err := WriteReadmePublisherIndex(path, feeds); err != nil {
+		t.Fatal(err)
+	}
+	got, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	text := string(got)
+	if !strings.Contains(text, "| A Pub | 1/2 | [publishers/a-pub.md](publishers/a-pub.md) |") {
+		t.Fatalf("README missing A Pub count:\n%s", text)
+	}
+	if !strings.Contains(text, "| B Pub | 1/1 | [publishers/b-pub.md](publishers/b-pub.md) |") {
+		t.Fatalf("README missing B Pub count:\n%s", text)
+	}
+	if !strings.Contains(text, "## Entry Format") {
+		t.Fatalf("README lost next section:\n%s", text)
+	}
+}

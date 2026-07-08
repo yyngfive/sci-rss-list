@@ -84,6 +84,9 @@ func main() {
 		if err := catalog.WritePublisherMarkdown(filepath.Join(root, "publishers"), feeds); err != nil {
 			errs = append(errs, err.Error())
 		}
+		if err := catalog.WriteReadmePublisherIndex(filepath.Join(root, "README.md"), feeds); err != nil {
+			errs = append(errs, err.Error())
+		}
 	}
 	if len(errs) > 0 {
 		for _, err := range errs {

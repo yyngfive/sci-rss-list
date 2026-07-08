@@ -140,6 +140,61 @@ func WritePublisherMarkdown(dir string, feeds []Feed) error {
 	return nil
 }
 
+func WriteReadmePublisherIndex(path string, feeds []Feed) error {
+	b, err := os.ReadFile(path)
+	if err != nil {
+		return err
+	}
+	text := string(b)
+	start := strings.Index(text, "## Publisher Index")
+	if start < 0 {
+		return fmt.Errorf("README publisher index heading not found")
+	}
+	afterStart := text[start+len("## Publisher Index"):]
+	next := strings.Index(afterStart, "\n## ")
+	if next < 0 {
+		return fmt.Errorf("README next section after publisher index not found")
+	}
+	var section strings.Builder
+	section.WriteString("## Publisher Index\n\n")
+	section.WriteString("| Publisher | Feeds | Page |\n")
+	section.WriteString("| --- | ---: | --- |\n")
+	for _, row := range publisherRows(feeds) {
+		fmt.Fprintf(&section, "| %s | %d/%d | [publishers/%s.md](publishers/%s.md) |\n",
+			cell(row.publisher), row.verified, row.total, row.slug, row.slug)
+	}
+	updated := text[:start] + section.String() + afterStart[next:]
+	return os.WriteFile(path, []byte(updated), 0644)
+}
+
+type publisherRow struct {
+	publisher string
+	slug      string
+	verified  int
+	total     int
+}
+
+func publisherRows(feeds []Feed) []publisherRow {
+	rowsByPublisher := map[string]*publisherRow{}
+	for _, f := range feeds {
+		row := rowsByPublisher[f.Publisher]
+		if row == nil {
+			row = &publisherRow{publisher: f.Publisher, slug: Slugify(f.Publisher)}
+			rowsByPublisher[f.Publisher] = row
+		}
+		row.total++
+		if f.Status == "verified" {
+			row.verified++
+		}
+	}
+	rows := make([]publisherRow, 0, len(rowsByPublisher))
+	for _, row := range rowsByPublisher {
+		rows = append(rows, *row)
+	}
+	sort.Slice(rows, func(i, j int) bool { return rows[i].publisher < rows[j].publisher })
+	return rows
+}
+
 func CanonicalURL(rawurl string) string {
 	u, err := url.Parse(strings.TrimSpace(rawurl))
 	if err != nil {

@@ -9,18 +9,22 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
-| ACS | 65 | [publishers/acs.md](publishers/acs.md) |
-| bioRxiv/medRxiv | 77 | [publishers/biorxiv-medrxiv.md](publishers/biorxiv-medrxiv.md) |
-| BMJ | 8 | [publishers/bmj.md](publishers/bmj.md) |
-| Cambridge Core | 6 | [publishers/cambridge-core.md](publishers/cambridge-core.md) |
-| Cell Press | 12 | [publishers/cell-press.md](publishers/cell-press.md) |
-| Elsevier/ScienceDirect | 14 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
-| IEEE/ACM | 8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
-| Nature | 48 | [publishers/nature.md](publishers/nature.md) |
-| PNAS | 37 | [publishers/pnas.md](publishers/pnas.md) |
-| Science/AAAS | 6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
-| Taylor & Francis | 8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
-| Wiley | 12 | [publishers/wiley.md](publishers/wiley.md) |
+| ACS | 65/65 | [publishers/acs.md](publishers/acs.md) |
+| BMJ | 8/8 | [publishers/bmj.md](publishers/bmj.md) |
+| Cambridge Core | 3/3 | [publishers/cambridge-core.md](publishers/cambridge-core.md) |
+| Cell Press | 19/19 | [publishers/cell-press.md](publishers/cell-press.md) |
+| ChemRxiv | 1/1 | [publishers/chemrxiv.md](publishers/chemrxiv.md) |
+| Elsevier/ScienceDirect | 43/43 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
+| IEEE/ACM | 8/8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
+| JAMA Network | 13/13 | [publishers/jama-network.md](publishers/jama-network.md) |
+| NEJM Group | 1/1 | [publishers/nejm-group.md](publishers/nejm-group.md) |
+| Nature | 141/143 | [publishers/nature.md](publishers/nature.md) |
+| PNAS | 37/37 | [publishers/pnas.md](publishers/pnas.md) |
+| Science/AAAS | 6/6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
+| Taylor & Francis | 8/8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
+| The Lancet | 9/9 | [publishers/the-lancet.md](publishers/the-lancet.md) |
+| Wiley | 43/43 | [publishers/wiley.md](publishers/wiley.md) |
+| bioRxiv/medRxiv | 77/77 | [publishers/biorxiv-medrxiv.md](publishers/biorxiv-medrxiv.md) |
 
 ## Entry Format
 

@@ -3846,5 +3846,2326 @@
     "method": "url_pattern",
     "status": "verified",
     "notes": "review journal"
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Functional Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/16163028/most-recent",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/16163028",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Energy Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/16146840/most-recent",
+    "subjects": [
+      "energy",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/16146840",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Optical Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/21951071/most-recent",
+    "subjects": [
+      "optical materials",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21951071",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Electronic Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/2199160X/most-recent",
+    "subjects": [
+      "electronic materials",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/2199160X",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Healthcare Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/21922659/most-recent",
+    "subjects": [
+      "biomaterials",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21922659",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Sustainable Systems",
+    "url": "https://onlinelibrary.wiley.com/feed/23667486/most-recent",
+    "subjects": [
+      "sustainability",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/23667486",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Materials Interfaces",
+    "url": "https://onlinelibrary.wiley.com/feed/21967350/most-recent",
+    "subjects": [
+      "interfaces",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21967350",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Materials Technologies",
+    "url": "https://onlinelibrary.wiley.com/feed/2365709X/most-recent",
+    "subjects": [
+      "materials",
+      "technology"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/2365709X",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Engineering Materials",
+    "url": "https://onlinelibrary.wiley.com/feed/15272648/most-recent",
+    "subjects": [
+      "engineering",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15272648",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Intelligent Systems",
+    "url": "https://onlinelibrary.wiley.com/feed/26404567/most-recent",
+    "subjects": [
+      "robotics",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/26404567",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Advanced Quantum Technologies",
+    "url": "https://onlinelibrary.wiley.com/feed/25119044/most-recent",
+    "subjects": [
+      "quantum",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/25119044",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Solar RRL",
+    "url": "https://onlinelibrary.wiley.com/feed/2367198X/most-recent",
+    "subjects": [
+      "solar energy",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/2367198X",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Batteries \u0026 Supercaps",
+    "url": "https://onlinelibrary.wiley.com/feed/25666223/most-recent",
+    "subjects": [
+      "energy storage",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/25666223",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Energy Technology",
+    "url": "https://onlinelibrary.wiley.com/feed/21944296/most-recent",
+    "subjects": [
+      "energy",
+      "engineering"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21944296",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Global Challenges",
+    "url": "https://onlinelibrary.wiley.com/feed/20566646/most-recent",
+    "subjects": [
+      "sustainability",
+      "science"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/20566646",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemSusChem",
+    "url": "https://onlinelibrary.wiley.com/feed/1864564X/most-recent",
+    "subjects": [
+      "sustainable chemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/1864564X",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemCatChem",
+    "url": "https://onlinelibrary.wiley.com/feed/18673899/most-recent",
+    "subjects": [
+      "catalysis",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/18673899",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemElectroChem",
+    "url": "https://onlinelibrary.wiley.com/feed/21960216/most-recent",
+    "subjects": [
+      "electrochemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21960216",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemPhotoChem",
+    "url": "https://onlinelibrary.wiley.com/feed/23670932/most-recent",
+    "subjects": [
+      "photochemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/23670932",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemPlusChem",
+    "url": "https://onlinelibrary.wiley.com/feed/21926506/most-recent",
+    "subjects": [
+      "chemistry",
+      "multidisciplinary"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21926506",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemBioChem",
+    "url": "https://onlinelibrary.wiley.com/feed/14397633/most-recent",
+    "subjects": [
+      "chemical biology",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/14397633",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemMedChem",
+    "url": "https://onlinelibrary.wiley.com/feed/18607187/most-recent",
+    "subjects": [
+      "medicinal chemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/18607187",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemistryOpen",
+    "url": "https://onlinelibrary.wiley.com/feed/21911363/most-recent",
+    "subjects": [
+      "chemistry",
+      "open access"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21911363",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "ChemistrySelect",
+    "url": "https://onlinelibrary.wiley.com/feed/23656549/most-recent",
+    "subjects": [
+      "chemistry",
+      "multidisciplinary"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/23656549",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "European Journal of Organic Chemistry",
+    "url": "https://onlinelibrary.wiley.com/feed/10990690/most-recent",
+    "subjects": [
+      "organic chemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/10990690",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "European Journal of Inorganic Chemistry",
+    "url": "https://onlinelibrary.wiley.com/feed/10990682/most-recent",
+    "subjects": [
+      "inorganic chemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/10990682",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Asian Journal of Organic Chemistry",
+    "url": "https://onlinelibrary.wiley.com/feed/21935815/most-recent",
+    "subjects": [
+      "organic chemistry",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/21935815",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Macromolecular Rapid Communications",
+    "url": "https://onlinelibrary.wiley.com/feed/15213927/most-recent",
+    "subjects": [
+      "polymer science",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15213927",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Macromolecular Materials and Engineering",
+    "url": "https://onlinelibrary.wiley.com/feed/14392054/most-recent",
+    "subjects": [
+      "polymer science",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/14392054",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Macromolecular Chemistry and Physics",
+    "url": "https://onlinelibrary.wiley.com/feed/15213935/most-recent",
+    "subjects": [
+      "polymer science",
+      "chemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/15213935",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Journal of Polymer Science",
+    "url": "https://onlinelibrary.wiley.com/feed/26424169/most-recent",
+    "subjects": [
+      "polymer science",
+      "materials"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/26424169",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "NEJM Group",
+    "journal": "New England Journal of Medicine",
+    "url": "https://www.nejm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=nejm",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.nejm.org/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Atypon RSS feed pattern."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Infectious Diseases",
+    "url": "https://www.thelancet.com/rssfeed/laninf_current.xml",
+    "subjects": [
+      "infectious disease",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/laninf/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Oncology",
+    "url": "https://www.thelancet.com/rssfeed/lanonc_current.xml",
+    "subjects": [
+      "oncology",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/lanonc/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Neurology",
+    "url": "https://www.thelancet.com/rssfeed/laneur_current.xml",
+    "subjects": [
+      "neurology",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/laneur/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Respiratory Medicine",
+    "url": "https://www.thelancet.com/rssfeed/lanres_current.xml",
+    "subjects": [
+      "respiratory medicine",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/lanres/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Diabetes \u0026 Endocrinology",
+    "url": "https://www.thelancet.com/rssfeed/landia_current.xml",
+    "subjects": [
+      "endocrinology",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/landia/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Rheumatology",
+    "url": "https://www.thelancet.com/rssfeed/lanrhe_current.xml",
+    "subjects": [
+      "rheumatology",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/lanrhe/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Psychiatry",
+    "url": "https://www.thelancet.com/rssfeed/lanpsy_current.xml",
+    "subjects": [
+      "psychiatry",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/lanpsy/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "The Lancet Public Health",
+    "url": "https://www.thelancet.com/rssfeed/lanpub_current.xml",
+    "subjects": [
+      "public health",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/lanpub/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "The Lancet",
+    "journal": "eBioMedicine",
+    "url": "https://www.thelancet.com/rssfeed/ebiom_current.xml",
+    "subjects": [
+      "biomedicine",
+      "medicine"
+    ],
+    "source": "https://www.thelancet.com/journals/ebiom/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Lancet current issue RSS feed."
+  },
+  {
+    "publisher": "ChemRxiv",
+    "journal": "ChemRxiv: Latest",
+    "url": "https://chemrxiv.org/action/showFeed?type=latest\u0026format=rss",
+    "subjects": [
+      "chemistry",
+      "preprints"
+    ],
+    "source": "https://chemrxiv.org/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official ChemRxiv latest RSS feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA",
+    "url": "https://jamanetwork.com/rss/site_3/67.xml",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Network Open",
+    "url": "https://jamanetwork.com/rss/site_214/187.xml",
+    "subjects": [
+      "medicine",
+      "open access"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Cardiology",
+    "url": "https://jamanetwork.com/rss/site_192/184.xml",
+    "subjects": [
+      "cardiology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Dermatology",
+    "url": "https://jamanetwork.com/rss/site_12/68.xml",
+    "subjects": [
+      "dermatology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Health Forum",
+    "url": "https://jamanetwork.com/rss/site_193/185.xml",
+    "subjects": [
+      "health policy",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Internal Medicine",
+    "url": "https://jamanetwork.com/rss/site_15/71.xml",
+    "subjects": [
+      "internal medicine",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Neurology",
+    "url": "https://jamanetwork.com/rss/site_16/72.xml",
+    "subjects": [
+      "neurology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Oncology",
+    "url": "https://jamanetwork.com/rss/site_159/174.xml",
+    "subjects": [
+      "oncology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Ophthalmology",
+    "url": "https://jamanetwork.com/rss/site_17/73.xml",
+    "subjects": [
+      "ophthalmology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Otolaryngology-Head \u0026 Neck Surgery",
+    "url": "https://jamanetwork.com/rss/site_18/74.xml",
+    "subjects": [
+      "otolaryngology",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Pediatrics",
+    "url": "https://jamanetwork.com/rss/site_19/75.xml",
+    "subjects": [
+      "pediatrics",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Psychiatry",
+    "url": "https://jamanetwork.com/rss/site_14/70.xml",
+    "subjects": [
+      "psychiatry",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "JAMA Network",
+    "journal": "JAMA Surgery",
+    "url": "https://jamanetwork.com/rss/site_20/76.xml",
+    "subjects": [
+      "surgery",
+      "medicine"
+    ],
+    "source": "https://jamanetwork.com/pages/rss/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official JAMA Network RSS page feed."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemical Engineering Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/13858947",
+    "subjects": [
+      "chemical engineering",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemical-engineering-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Catalysis B: Environment and Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/09263373",
+    "subjects": [
+      "catalysis",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-catalysis-b-environment-and-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Catalysis",
+    "url": "https://rss.sciencedirect.com/publication/science/00219517",
+    "subjects": [
+      "catalysis",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-catalysis",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Coordination Chemistry Reviews",
+    "url": "https://rss.sciencedirect.com/publication/science/00108545",
+    "subjects": [
+      "coordination chemistry",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/coordination-chemistry-reviews",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Today",
+    "url": "https://rss.sciencedirect.com/publication/science/13697021",
+    "subjects": [
+      "materials",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-today",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Progress in Materials Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00796425",
+    "subjects": [
+      "materials",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/progress-in-materials-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Acta Materialia",
+    "url": "https://rss.sciencedirect.com/publication/science/13596454",
+    "subjects": [
+      "materials",
+      "metallurgy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/acta-materialia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Scripta Materialia",
+    "url": "https://rss.sciencedirect.com/publication/science/13596462",
+    "subjects": [
+      "materials",
+      "metallurgy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/scripta-materialia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials \u0026 Design",
+    "url": "https://rss.sciencedirect.com/publication/science/02641275",
+    "subjects": [
+      "materials",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-and-design",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nano Today",
+    "url": "https://rss.sciencedirect.com/publication/science/17480132",
+    "subjects": [
+      "nanoscience",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nano-today",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nano Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/22112855",
+    "subjects": [
+      "nanoscience",
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nano-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Carbon",
+    "url": "https://rss.sciencedirect.com/publication/science/00086223",
+    "subjects": [
+      "carbon materials",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/carbon",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Composites Part B: Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/13598368",
+    "subjects": [
+      "composites",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/composites-part-b-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Progress in Polymer Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00796700",
+    "subjects": [
+      "polymer science",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/progress-in-polymer-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biomaterials",
+    "url": "https://rss.sciencedirect.com/publication/science/01429612",
+    "subjects": [
+      "biomaterials",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biomaterials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Acta Biomaterialia",
+    "url": "https://rss.sciencedirect.com/publication/science/17427061",
+    "subjects": [
+      "biomaterials",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/acta-biomaterialia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Power Sources",
+    "url": "https://rss.sciencedirect.com/publication/science/03787753",
+    "subjects": [
+      "energy storage",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-power-sources",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Energy Storage Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/24058297",
+    "subjects": [
+      "energy storage",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/energy-storage-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/03062619",
+    "subjects": [
+      "energy",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Renewable and Sustainable Energy Reviews",
+    "url": "https://rss.sciencedirect.com/publication/science/13640321",
+    "subjects": [
+      "renewable energy",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/renewable-and-sustainable-energy-reviews",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Membrane Science",
+    "url": "https://rss.sciencedirect.com/publication/science/03767388",
+    "subjects": [
+      "membranes",
+      "chemical engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-membrane-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Gastroenterology",
+    "url": "https://rss.sciencedirect.com/publication/science/00165085",
+    "subjects": [
+      "gastroenterology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/gastroenterology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Hepatology",
+    "url": "https://rss.sciencedirect.com/publication/science/01688278",
+    "subjects": [
+      "hepatology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-hepatology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinical Gastroenterology and Hepatology",
+    "url": "https://rss.sciencedirect.com/publication/science/15423565",
+    "subjects": [
+      "gastroenterology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinical-gastroenterology-and-hepatology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Brain, Behavior, and Immunity",
+    "url": "https://rss.sciencedirect.com/publication/science/08891591",
+    "subjects": [
+      "neuroscience",
+      "immunology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/brain-behavior-and-immunity",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "NeuroImage",
+    "url": "https://rss.sciencedirect.com/publication/science/10538119",
+    "subjects": [
+      "neuroimaging",
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuroimage",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Pharmacological Research",
+    "url": "https://rss.sciencedirect.com/publication/science/10436618",
+    "subjects": [
+      "pharmacology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/pharmacological-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Redox Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/22132317",
+    "subjects": [
+      "redox biology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/redox-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Cancer Treatment Reviews",
+    "url": "https://rss.sciencedirect.com/publication/science/03057372",
+    "subjects": [
+      "oncology",
+      "review"
+    ],
+    "source": "https://www.sciencedirect.com/journal/cancer-treatment-reviews",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Matter",
+    "url": "https://www.cell.com/matter/current.rss",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://www.cell.com/matter/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Joule",
+    "url": "https://www.cell.com/joule/current.rss",
+    "subjects": [
+      "energy",
+      "materials"
+    ],
+    "source": "https://www.cell.com/joule/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Cell Reports Physical Science",
+    "url": "https://www.cell.com/cell-reports-physical-science/current.rss",
+    "subjects": [
+      "physical science",
+      "materials"
+    ],
+    "source": "https://www.cell.com/cell-reports-physical-science/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Trends in Chemistry",
+    "url": "https://www.cell.com/trends/chemistry/current.rss",
+    "subjects": [
+      "chemistry",
+      "review"
+    ],
+    "source": "https://www.cell.com/trends/chemistry/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Trends in Biotechnology",
+    "url": "https://www.cell.com/trends/biotechnology/current.rss",
+    "subjects": [
+      "biotechnology",
+      "review"
+    ],
+    "source": "https://www.cell.com/trends/biotechnology/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "Med",
+    "url": "https://www.cell.com/med/current.rss",
+    "subjects": [
+      "medicine",
+      "biology"
+    ],
+    "source": "https://www.cell.com/med/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Cell Press",
+    "journal": "iScience",
+    "url": "https://www.cell.com/iscience/current.rss",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://www.cell.com/iscience/home",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate official Cell Press current.rss pattern."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "British Dental Journal",
+    "url": "https://www.nature.com/bdj.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/bdj/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "BDJ Open",
+    "url": "https://www.nature.com/bdjopen.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/bdjopen/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "BDJ Team",
+    "url": "https://www.nature.com/bdjteam.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/bdjteam/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "BJC Reports",
+    "url": "https://www.nature.com/bjcreports.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/bjcreports/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Bone Marrow Transplantation",
+    "url": "https://www.nature.com/bmt.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/bmt/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Cell Death \u0026 Differentiation",
+    "url": "https://www.nature.com/cdd.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/cdd/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Cell Death Discovery",
+    "url": "https://www.nature.com/cddiscovery.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/cddiscovery/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications AI \u0026 Computing",
+    "url": "https://www.nature.com/commsaicomp.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/commsaicomp/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Communications Sustainability",
+    "url": "https://www.nature.com/commssustain.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/commssustain/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Cell Research",
+    "url": "https://www.nature.com/cr.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/cr/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "European Journal of Human Genetics",
+    "url": "https://www.nature.com/ejhg.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/ejhg/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Experimental \u0026 Molecular Medicine",
+    "url": "https://www.nature.com/emm.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/emm/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Eye Open",
+    "url": "https://www.nature.com/eyeopen.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/eyeopen/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Genes \u0026 Immunity",
+    "url": "https://www.nature.com/gene.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/gene/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Human Genome Variation",
+    "url": "https://www.nature.com/hgv.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/hgv/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Hypertension Research",
+    "url": "https://www.nature.com/hr.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/hr/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "International Journal of Obesity",
+    "url": "https://www.nature.com/ijo.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/ijo/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "International Journal of Oral Science",
+    "url": "https://www.nature.com/ijos.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/ijos/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "The ISME Journal",
+    "url": "https://www.nature.com/ismej.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/ismej/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Journal of Exposure Science \u0026 Environmental Epidemiology",
+    "url": "https://www.nature.com/jes.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/jes/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Journal of Human Hypertension",
+    "url": "https://www.nature.com/jhh.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/jhh/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Leukemia",
+    "url": "https://www.nature.com/leu.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/leu/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Light: Science \u0026 Applications",
+    "url": "https://www.nature.com/lsa.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/lsa/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Molecular Psychiatry",
+    "url": "https://www.nature.com/mp.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/mp/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Africa",
+    "url": "https://www.nature.com/natafrica.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natafrica/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Astronomy",
+    "url": "https://www.nature.com/natastron.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natastron/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Cardiovascular Research",
+    "url": "https://www.nature.com/natcardiovascres.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natcardiovascres/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Chemical Engineering",
+    "url": "https://www.nature.com/natchemeng.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natchemeng/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Cities",
+    "url": "https://www.nature.com/natcities.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natcities/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Electronics",
+    "url": "https://www.nature.com/natelectron.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natelectron/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Food",
+    "url": "https://www.nature.com/natfood.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natfood/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Human Behaviour",
+    "url": "https://www.nature.com/nathumbehav.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nathumbehav/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature India",
+    "url": "https://www.nature.com/natindia.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natindia/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Machine Intelligence",
+    "url": "https://www.nature.com/natmachintell.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natmachintell/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Mechanical Engineering",
+    "url": "https://www.nature.com/natmecheng.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natmecheng/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Mental Health",
+    "url": "https://www.nature.com/natmentalhealth.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natmentalhealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Progress Oncology",
+    "url": "https://www.nature.com/natprogoncology.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natprogoncology/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Materials",
+    "url": "https://www.nature.com/natrevmats.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natrevmats/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Synthesis",
+    "url": "https://www.nature.com/natsynth.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/natsynth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Digest",
+    "url": "https://www.nature.com/ndigest.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/ndigest/",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Nanotechnology",
+    "url": "https://www.nature.com/nnano.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nnano/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Photonics",
+    "url": "https://www.nature.com/nphoton.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nphoton/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj 2D Materials and Applications",
+    "url": "https://www.nature.com/npj2dmaterials.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npj2dmaterials/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Advanced Manufacturing",
+    "url": "https://www.nature.com/npjadvmanuf.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjadvmanuf/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Antimicrobials and Resistance",
+    "url": "https://www.nature.com/npjamar.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjamar/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Autoimmunity",
+    "url": "https://www.nature.com/npjautoimmun.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjautoimmun/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Breast Cancer",
+    "url": "https://www.nature.com/npjbcancer.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjbcancer/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Biodiversity",
+    "url": "https://www.nature.com/npjbiodivers.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjbiodivers/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Biological Physics and Mechanics",
+    "url": "https://www.nature.com/npjbiolphysmech.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjbiolphysmech/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Biomedical Innovations",
+    "url": "https://www.nature.com/npjbiomedinnov.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjbiomedinnov/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Clean Air",
+    "url": "https://www.nature.com/npjcleanair.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjcleanair/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Clean Water",
+    "url": "https://www.nature.com/npjcleanwater.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjcleanwater/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Climate and Atmospheric Science",
+    "url": "https://www.nature.com/npjclimatsci.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjclimatsci/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Computational Materials",
+    "url": "https://www.nature.com/npjcompumats.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjcompumats/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Digital Surgery",
+    "url": "https://www.nature.com/npjdigisurg.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjdigisurg/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Energy Systems and Resilience",
+    "url": "https://www.nature.com/npjelectsysres.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjelectsysres/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Emerging Contaminants",
+    "url": "https://www.nature.com/npjemergcontam.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjemergcontam/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Environmental Social Sciences",
+    "url": "https://www.nature.com/npjenvsocsci.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjenvsocsci/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Extreme Ecosystems",
+    "url": "https://www.nature.com/npjextremeeco.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjextremeeco/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Fungal Science",
+    "url": "https://www.nature.com/npjfungalsci.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjfungalsci/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Geoinformatics",
+    "url": "https://www.nature.com/npjgeoinform.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjgeoinform/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Health Systems",
+    "url": "https://www.nature.com/npjhealthsyst.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjhealthsyst/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Hydrosphere",
+    "url": "https://www.nature.com/npjhydrosph.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjhydrosph/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Integrated Electronics",
+    "url": "https://www.nature.com/npjintgrelect.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjintgrelect/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Materials Sustainability",
+    "url": "https://www.nature.com/npjmatsustain.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjmatsustain/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Metabolic Health and Disease",
+    "url": "https://www.nature.com/npjmetabhealth.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjmetabhealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Microgravity",
+    "url": "https://www.nature.com/npjmgrav.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjmgrav/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Natural Hazards",
+    "url": "https://www.nature.com/npjnathazards.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjnathazards/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Pain",
+    "url": "https://www.nature.com/npjpain.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjpain/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Parkinson's Disease",
+    "url": "https://www.nature.com/npjparkd.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjparkd/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Precision Oncology",
+    "url": "https://www.nature.com/npjprecisiononcology.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjprecisiononcology/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Regenerative Medicine",
+    "url": "https://www.nature.com/npjregenmed.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjregenmed/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Science of Food",
+    "url": "https://www.nature.com/npjscifood.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjscifood/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Science of Plants",
+    "url": "https://www.nature.com/npjsciplants.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjsciplants/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Soft Matter",
+    "url": "https://www.nature.com/npjsoftmat.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjsoftmat/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Space Exploration",
+    "url": "https://www.nature.com/npjspaceexplor.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjspaceexplor/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Structural Biology",
+    "url": "https://www.nature.com/npjstructbiol.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjstructbiol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Sustainable Mobility and Transport",
+    "url": "https://www.nature.com/npjsustainmobil.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjsustainmobil/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Thermal Science and Engineering",
+    "url": "https://www.nature.com/npjthermscieng.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjthermscieng/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Unconventional Computing",
+    "url": "https://www.nature.com/npjunconvcomput.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjunconvcomput/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Vaccines",
+    "url": "https://www.nature.com/npjvaccines.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjvaccines/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Viruses",
+    "url": "https://www.nature.com/npjviruses.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjviruses/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "npj Women's Health",
+    "url": "https://www.nature.com/npjwomenshealth.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npjwomenshealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Neuropsychopharmacology",
+    "url": "https://www.nature.com/npp.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/npp/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Biodiversity",
+    "url": "https://www.nature.com/nrbd.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nrbd/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Psychology",
+    "url": "https://www.nature.com/nrpsychol.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nrpsychol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Reviews Urology",
+    "url": "https://www.nature.com/nrurol.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nrurol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nature Structural \u0026 Molecular Biology",
+    "url": "https://www.nature.com/nsmb.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nsmb/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Nutrition \u0026 Diabetes",
+    "url": "https://www.nature.com/nutd.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/nutd/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Oncogenesis",
+    "url": "https://www.nature.com/oncsis.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/oncsis/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Prostate Cancer and Prostatic Diseases",
+    "url": "https://www.nature.com/pcan.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/pcan/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Spinal Cord",
+    "url": "https://www.nature.com/sc.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/sc/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Scientific American",
+    "url": "https://www.nature.com/scientificamerican.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/scientificamerican/",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "Scientific Reviews",
+    "url": "https://www.nature.com/scirev.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/scirev/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "Nature",
+    "journal": "The Pharmacogenomics Journal",
+    "url": "https://www.nature.com/tpj.rss",
+    "subjects": [
+      "science"
+    ],
+    "source": "https://www.nature.com/tpj/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
   }
 ]

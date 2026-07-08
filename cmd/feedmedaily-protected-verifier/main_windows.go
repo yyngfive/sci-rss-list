@@ -1080,7 +1080,7 @@ func contentHandlerInvoke(this, errorCode uintptr, streamPtr uintptr) uintptr {
 	if int32(errorCode) < 0 || streamPtr == 0 {
 		handler.app.log.Printf("response body unavailable feed=%s error=0x%x", handler.feedURL, errorCode)
 		handler.app.enqueue(func() {
-			handler.app.skipCurrentFeed(handler.feedURL, fmt.Sprintf("response body unavailable error=0x%x", errorCode))
+			handler.app.captureVisibleXML(handler.feedURL)
 		})
 		return errorCode
 	}

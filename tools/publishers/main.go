@@ -20,6 +20,9 @@ func main() {
 	if err := catalog.WritePublisherMarkdown(filepath.Join(root, "publishers"), feeds); err != nil {
 		die(err)
 	}
+	if err := catalog.WriteReadmePublisherIndex(filepath.Join(root, "README.md"), feeds); err != nil {
+		die(err)
+	}
 	fmt.Printf("ok: wrote %d publisher pages\n", catalog.PublisherCount(feeds))
 }
 
