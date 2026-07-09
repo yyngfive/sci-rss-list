@@ -1,0 +1,14 @@
+# SAGE
+
+8 feeds generated from `data/feeds.json`.
+
+| Journal | Subjects | Status | Method | Feed | Source | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Administrative Science Quarterly | management, social science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=asq) | [source](https://journals.sagepub.com/home/asq) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| American Behavioral Scientist | behavioral science, social science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=abs) | [source](https://journals.sagepub.com/home/abs) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| American Sociological Review | sociology, social science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=asr) | [source](https://journals.sagepub.com/home/asr) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| Journal of Conflict Resolution | political science, social science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=jcr) | [source](https://journals.sagepub.com/home/jcr) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| Journal of Management | management, business | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=jom) | [source](https://journals.sagepub.com/home/jom) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| Psychological Science | psychology, behavioral science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=pss) | [source](https://journals.sagepub.com/home/pss) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| Science, Technology, & Human Values | science studies, technology | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=sth) | [source](https://journals.sagepub.com/home/sth) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |
+| Social Studies of Science | science studies, social science | source_documented | url_pattern | [RSS](https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=sss) | [source](https://journals.sagepub.com/home/sss) | Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments. |

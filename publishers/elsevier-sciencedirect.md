@@ -1,6 +1,6 @@
 # Elsevier/ScienceDirect
 
-43 feeds generated from `data/feeds.json`.
+46 feeds generated from `data/feeds.json`.
 
 | Journal | Subjects | Status | Method | Feed | Source | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,13 +24,16 @@
 | Energy Storage Materials | energy storage, materials | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/24058297) | [source](https://www.sciencedirect.com/journal/energy-storage-materials) | Candidate ScienceDirect publication RSS by ISSN. |
 | Environmental Science & Policy | environment, policy | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/14629011) | [source](https://www.sciencedirect.com/journal/environmental-science-and-policy) | ScienceDirect publication RSS by ISSN. |
 | Gastroenterology | gastroenterology, medicine | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/00165085) | [source](https://www.sciencedirect.com/journal/gastroenterology) | Candidate ScienceDirect publication RSS by ISSN. |
+| Journal of Biological Chemistry | biochemistry, molecular biology | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/00219258) | [source](https://www.sciencedirect.com/journal/journal-of-biological-chemistry) | ScienceDirect publication RSS by ISSN; ASBMB journal. |
 | Journal of Catalysis | catalysis, chemistry | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/00219517) | [source](https://www.sciencedirect.com/journal/journal-of-catalysis) | Candidate ScienceDirect publication RSS by ISSN. |
 | Journal of Hepatology | hepatology, medicine | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/01688278) | [source](https://www.sciencedirect.com/journal/journal-of-hepatology) | Candidate ScienceDirect publication RSS by ISSN. |
+| Journal of Lipid Research | lipids, biochemistry | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/00222275) | [source](https://www.sciencedirect.com/journal/journal-of-lipid-research) | ScienceDirect publication RSS by ISSN; ASBMB journal. |
 | Journal of Membrane Science | membranes, chemical engineering | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/03767388) | [source](https://www.sciencedirect.com/journal/journal-of-membrane-science) | Candidate ScienceDirect publication RSS by ISSN. |
 | Journal of Molecular Biology | molecular biology, biology | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/00222836) | [source](https://www.sciencedirect.com/journal/journal-of-molecular-biology) | ScienceDirect publication RSS by ISSN. |
 | Journal of Power Sources | energy storage, materials | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/03787753) | [source](https://www.sciencedirect.com/journal/journal-of-power-sources) | Candidate ScienceDirect publication RSS by ISSN. |
 | Materials & Design | materials, engineering | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/02641275) | [source](https://www.sciencedirect.com/journal/materials-and-design) | Candidate ScienceDirect publication RSS by ISSN. |
 | Materials Today | materials, review | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/13697021) | [source](https://www.sciencedirect.com/journal/materials-today) | Candidate ScienceDirect publication RSS by ISSN. |
+| Molecular & Cellular Proteomics | proteomics, molecular biology | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/15359476) | [source](https://www.sciencedirect.com/journal/molecular-and-cellular-proteomics) | ScienceDirect publication RSS by ISSN; ASBMB journal. |
 | Molecular Cell | molecular biology, biology | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/10972765) | [source](https://www.sciencedirect.com/journal/molecular-cell) | ScienceDirect publication RSS by ISSN. |
 | Nano Energy | nanoscience, energy | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/22112855) | [source](https://www.sciencedirect.com/journal/nano-energy) | Candidate ScienceDirect publication RSS by ISSN. |
 | Nano Today | nanoscience, materials | verified | url_pattern | [RSS](https://rss.sciencedirect.com/publication/science/17480132) | [source](https://www.sciencedirect.com/journal/nano-today) | Candidate ScienceDirect publication RSS by ISSN. |

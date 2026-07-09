@@ -1,6 +1,6 @@
 # Wiley
 
-43 feeds generated from `data/feeds.json`.
+47 feeds generated from `data/feeds.json`.
 
 | Journal | Subjects | Status | Method | Feed | Source | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,8 @@
 | Energy Technology | energy, engineering | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/21944296/most-recent) | [source](https://onlinelibrary.wiley.com/journal/21944296) | Candidate official Wiley Online Library feed pattern based on online ISSN. |
 | European Journal of Inorganic Chemistry | inorganic chemistry, chemistry | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/10990682/most-recent) | [source](https://onlinelibrary.wiley.com/journal/10990682) | Candidate official Wiley Online Library feed pattern based on online ISSN. |
 | European Journal of Organic Chemistry | organic chemistry, chemistry | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/10990690/most-recent) | [source](https://onlinelibrary.wiley.com/journal/10990690) | Candidate official Wiley Online Library feed pattern based on online ISSN. |
+| FEBS Journal | biochemistry, molecular biology | verified | url_pattern | [RSS](https://febs.onlinelibrary.wiley.com/feed/17424658/most-recent) | [source](https://febs.onlinelibrary.wiley.com/journal/17424658) | Official Wiley Online Library feed pattern based on online ISSN. |
+| FEBS Letters | biochemistry, molecular biology | verified | url_pattern | [RSS](https://febs.onlinelibrary.wiley.com/feed/18733468/most-recent) | [source](https://febs.onlinelibrary.wiley.com/journal/18733468) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Global Challenges | sustainability, science | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/20566646/most-recent) | [source](https://onlinelibrary.wiley.com/journal/20566646) | Candidate official Wiley Online Library feed pattern based on online ISSN. |
 | Global Change Biology | climate, environment | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/13652486/most-recent) | [source](https://onlinelibrary.wiley.com/journal/13652486) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Journal of Applied Ecology | ecology, environment | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/13652664/most-recent) | [source](https://onlinelibrary.wiley.com/journal/13652664) | Official Wiley Online Library feed pattern based on online ISSN. |
@@ -44,6 +46,8 @@
 | Macromolecular Rapid Communications | polymer science, materials | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/15213927/most-recent) | [source](https://onlinelibrary.wiley.com/journal/15213927) | Candidate official Wiley Online Library feed pattern based on online ISSN. |
 | Methods in Ecology and Evolution | ecology, methods | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/2041210X/most-recent) | [source](https://onlinelibrary.wiley.com/journal/2041210X) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Molecular Ecology | ecology, genetics | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/1365294X/most-recent) | [source](https://onlinelibrary.wiley.com/journal/1365294X) | Official Wiley Online Library feed pattern based on online ISSN. |
+| Molecular Systems Biology | systems biology, molecular biology | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/17444292/most-recent) | [source](https://onlinelibrary.wiley.com/journal/17444292) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Plant Biotechnology Journal | plant science, biotechnology | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/14677652/most-recent) | [source](https://onlinelibrary.wiley.com/journal/14677652) | Official Wiley Online Library feed pattern based on online ISSN. |
+| Protein Science | protein science, biochemistry | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/1469896x/most-recent) | [source](https://onlinelibrary.wiley.com/journal/1469896x) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Small | materials, nanoscience | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/16136829/most-recent) | [source](https://onlinelibrary.wiley.com/journal/16136829) | Official Wiley Online Library feed pattern based on online ISSN. |
 | Solar RRL | solar energy, materials | verified | url_pattern | [RSS](https://onlinelibrary.wiley.com/feed/2367198X/most-recent) | [source](https://onlinelibrary.wiley.com/journal/2367198X) | Candidate official Wiley Online Library feed pattern based on online ISSN. |

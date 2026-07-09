@@ -1,6 +1,6 @@
 # Nature
 
-143 feeds generated from `data/feeds.json`.
+141 feeds generated from `data/feeds.json`.
 
 | Journal | Subjects | Status | Method | Feed | Source | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -46,7 +46,6 @@
 | Nature Cities | science | verified | url_pattern | [RSS](https://www.nature.com/natcities.rss) | [source](https://www.nature.com/natcities/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Nature Climate Change | climate, environment | verified | url_pattern | [RSS](https://www.nature.com/nclimate.rss) | [source](https://www.nature.com/nclimate/) |  |
 | Nature Communications | multidisciplinary, science | verified | url_pattern | [RSS](https://www.nature.com/ncomms.rss) | [source](https://www.nature.com/ncomms/) |  |
-| Nature Digest | science | protected | url_pattern | [RSS](https://www.nature.com/ndigest.rss) | [source](https://www.nature.com/ndigest/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Nature Electronics | science | verified | url_pattern | [RSS](https://www.nature.com/natelectron.rss) | [source](https://www.nature.com/natelectron/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Nature Food | science | verified | url_pattern | [RSS](https://www.nature.com/natfood.rss) | [source](https://www.nature.com/natfood/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Nature Genetics | genetics, biology | verified | url_pattern | [RSS](https://www.nature.com/ng.rss) | [source](https://www.nature.com/ng/) |  |
@@ -140,7 +139,6 @@
 | Nutrition & Diabetes | science | verified | url_pattern | [RSS](https://www.nature.com/nutd.rss) | [source](https://www.nature.com/nutd/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Oncogenesis | science | verified | url_pattern | [RSS](https://www.nature.com/oncsis.rss) | [source](https://www.nature.com/oncsis/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Prostate Cancer and Prostatic Diseases | science | verified | url_pattern | [RSS](https://www.nature.com/pcan.rss) | [source](https://www.nature.com/pcan/) | Candidate Nature-hosted feed from the official nature.com site index. |
-| Scientific American | science | protected | url_pattern | [RSS](https://www.nature.com/scientificamerican.rss) | [source](https://www.nature.com/scientificamerican/) | Candidate Nature-hosted feed from the official nature.com site index. |
 | Scientific Data | data, science | verified | url_pattern | [RSS](https://www.nature.com/sdata.rss) | [source](https://www.nature.com/sdata/) | Springer Nature portfolio feed using the nature.com RSS pattern. |
 | Scientific Reports | multidisciplinary, science | verified | url_pattern | [RSS](https://www.nature.com/srep.rss) | [source](https://www.nature.com/srep/) |  |
 | Scientific Reviews | science | verified | url_pattern | [RSS](https://www.nature.com/scirev.rss) | [source](https://www.nature.com/scirev/) | Candidate Nature-hosted feed from the official nature.com site index. |

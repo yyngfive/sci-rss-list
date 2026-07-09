@@ -10,21 +10,32 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
 | ACS | 65/65 | [publishers/acs.md](publishers/acs.md) |
+| ASCB | 1/1 | [publishers/ascb.md](publishers/ascb.md) |
+| BMC/SpringerLink | 16/16 | [publishers/bmc-springerlink.md](publishers/bmc-springerlink.md) |
 | BMJ | 8/8 | [publishers/bmj.md](publishers/bmj.md) |
 | Cambridge Core | 3/3 | [publishers/cambridge-core.md](publishers/cambridge-core.md) |
 | Cell Press | 19/19 | [publishers/cell-press.md](publishers/cell-press.md) |
 | ChemRxiv | 1/1 | [publishers/chemrxiv.md](publishers/chemrxiv.md) |
-| Elsevier/ScienceDirect | 43/43 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
+| Cold Spring Harbor Laboratory Press | 3/3 | [publishers/cold-spring-harbor-laboratory-press.md](publishers/cold-spring-harbor-laboratory-press.md) |
+| Elsevier/ScienceDirect | 46/46 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
+| Frontiers | 12/12 | [publishers/frontiers.md](publishers/frontiers.md) |
 | IEEE/ACM | 8/8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
 | JAMA Network | 13/13 | [publishers/jama-network.md](publishers/jama-network.md) |
+| Life Science Alliance | 1/1 | [publishers/life-science-alliance.md](publishers/life-science-alliance.md) |
+| MDPI | 12/12 | [publishers/mdpi.md](publishers/mdpi.md) |
 | NEJM Group | 1/1 | [publishers/nejm-group.md](publishers/nejm-group.md) |
-| Nature | 141/143 | [publishers/nature.md](publishers/nature.md) |
+| Nature | 141/141 | [publishers/nature.md](publishers/nature.md) |
+| Oxford Academic | 9/9 | [publishers/oxford-academic.md](publishers/oxford-academic.md) |
+| PLOS | 16/16 | [publishers/plos.md](publishers/plos.md) |
 | PNAS | 37/37 | [publishers/pnas.md](publishers/pnas.md) |
+| SAGE | 0/8 | [publishers/sage.md](publishers/sage.md) |
 | Science/AAAS | 6/6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
+| Scientific American | 1/1 | [publishers/scientific-american.md](publishers/scientific-american.md) |
 | Taylor & Francis | 8/8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
 | The Lancet | 9/9 | [publishers/the-lancet.md](publishers/the-lancet.md) |
-| Wiley | 43/43 | [publishers/wiley.md](publishers/wiley.md) |
+| Wiley | 47/47 | [publishers/wiley.md](publishers/wiley.md) |
 | bioRxiv/medRxiv | 77/77 | [publishers/biorxiv-medrxiv.md](publishers/biorxiv-medrxiv.md) |
+| eLife | 1/1 | [publishers/elife.md](publishers/elife.md) |
 
 ## Entry Format
 

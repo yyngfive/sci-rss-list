@@ -5498,18 +5498,6 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Nature Digest",
-    "url": "https://www.nature.com/ndigest.rss",
-    "subjects": [
-      "science"
-    ],
-    "source": "https://www.nature.com/ndigest/",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
-  },
-  {
-    "publisher": "Nature",
     "journal": "Nature Nanotechnology",
     "url": "https://www.nature.com/nnano.rss",
     "subjects": [
@@ -6133,16 +6121,16 @@
     "notes": "Candidate Nature-hosted feed from the official nature.com site index."
   },
   {
-    "publisher": "Nature",
+    "publisher": "Scientific American",
     "journal": "Scientific American",
-    "url": "https://www.nature.com/scientificamerican.rss",
+    "url": "https://www.scientificamerican.com/platform/syndication/rss/",
     "subjects": [
       "science"
     ],
-    "source": "https://www.nature.com/scientificamerican/",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+    "source": "https://www.scientificamerican.com/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Scientific American RSS feed."
   },
   {
     "publisher": "Nature",
@@ -6167,5 +6155,1123 @@
     "method": "url_pattern",
     "status": "verified",
     "notes": "Candidate Nature-hosted feed from the official nature.com site index."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Aging and Health",
+    "url": "https://journals.plos.org/agingandhealth/feed/rss",
+    "subjects": [
+      "aging",
+      "health"
+    ],
+    "source": "https://journals.plos.org/agingandhealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Biology",
+    "url": "https://journals.plos.org/plosbiology/feed/rss",
+    "subjects": [
+      "biology",
+      "life sciences"
+    ],
+    "source": "https://journals.plos.org/plosbiology/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Climate",
+    "url": "https://journals.plos.org/climate/feed/rss",
+    "subjects": [
+      "climate",
+      "environment"
+    ],
+    "source": "https://journals.plos.org/climate/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Complex Systems",
+    "url": "https://journals.plos.org/complexsystems/feed/rss",
+    "subjects": [
+      "complex systems",
+      "interdisciplinary"
+    ],
+    "source": "https://journals.plos.org/complexsystems/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Computational Biology",
+    "url": "https://journals.plos.org/ploscompbiol/feed/rss",
+    "subjects": [
+      "computational biology",
+      "biology"
+    ],
+    "source": "https://journals.plos.org/ploscompbiol/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Digital Health",
+    "url": "https://journals.plos.org/digitalhealth/feed/rss",
+    "subjects": [
+      "digital health",
+      "medicine"
+    ],
+    "source": "https://journals.plos.org/digitalhealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Ecosystems",
+    "url": "https://journals.plos.org/ecosystems/feed/rss",
+    "subjects": [
+      "ecosystems",
+      "environment"
+    ],
+    "source": "https://journals.plos.org/ecosystems/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Genetics",
+    "url": "https://journals.plos.org/plosgenetics/feed/rss",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://journals.plos.org/plosgenetics/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Global Public Health",
+    "url": "https://journals.plos.org/globalpublichealth/feed/rss",
+    "subjects": [
+      "public health",
+      "global health"
+    ],
+    "source": "https://journals.plos.org/globalpublichealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Medicine",
+    "url": "https://journals.plos.org/plosmedicine/feed/rss",
+    "subjects": [
+      "medicine",
+      "health"
+    ],
+    "source": "https://journals.plos.org/plosmedicine/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Mental Health",
+    "url": "https://journals.plos.org/mentalhealth/feed/rss",
+    "subjects": [
+      "mental health",
+      "medicine"
+    ],
+    "source": "https://journals.plos.org/mentalhealth/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Neglected Tropical Diseases",
+    "url": "https://journals.plos.org/plosntds/feed/rss",
+    "subjects": [
+      "tropical diseases",
+      "medicine"
+    ],
+    "source": "https://journals.plos.org/plosntds/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/feed/rss",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://journals.plos.org/plosone/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Pathogens",
+    "url": "https://journals.plos.org/plospathogens/feed/rss",
+    "subjects": [
+      "pathogens",
+      "microbiology"
+    ],
+    "source": "https://journals.plos.org/plospathogens/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Sustainability and Transformation",
+    "url": "https://journals.plos.org/sustainabilitytransformation/feed/rss",
+    "subjects": [
+      "sustainability",
+      "interdisciplinary"
+    ],
+    "source": "https://journals.plos.org/sustainabilitytransformation/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "PLOS",
+    "journal": "PLOS Water",
+    "url": "https://journals.plos.org/water/feed/rss",
+    "subjects": [
+      "water",
+      "environment"
+    ],
+    "source": "https://journals.plos.org/water/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official PLOS journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Artificial Intelligence",
+    "url": "https://www.frontiersin.org/journals/artificial-intelligence/rss",
+    "subjects": [
+      "artificial intelligence",
+      "computer science"
+    ],
+    "source": "https://www.frontiersin.org/journals/artificial-intelligence",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Bioengineering and Biotechnology",
+    "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/rss",
+    "subjects": [
+      "bioengineering",
+      "biotechnology"
+    ],
+    "source": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Genetics",
+    "url": "https://www.frontiersin.org/journals/genetics/rss",
+    "subjects": [
+      "genetics",
+      "biology"
+    ],
+    "source": "https://www.frontiersin.org/journals/genetics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Immunology",
+    "url": "https://www.frontiersin.org/journals/immunology/rss",
+    "subjects": [
+      "immunology",
+      "medicine"
+    ],
+    "source": "https://www.frontiersin.org/journals/immunology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Medicine",
+    "url": "https://www.frontiersin.org/journals/medicine/rss",
+    "subjects": [
+      "medicine",
+      "health"
+    ],
+    "source": "https://www.frontiersin.org/journals/medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Microbiology",
+    "url": "https://www.frontiersin.org/journals/microbiology/rss",
+    "subjects": [
+      "microbiology",
+      "biology"
+    ],
+    "source": "https://www.frontiersin.org/journals/microbiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Neuroscience",
+    "url": "https://www.frontiersin.org/journals/neuroscience/rss",
+    "subjects": [
+      "neuroscience",
+      "biology"
+    ],
+    "source": "https://www.frontiersin.org/journals/neuroscience",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Oncology",
+    "url": "https://www.frontiersin.org/journals/oncology/rss",
+    "subjects": [
+      "oncology",
+      "medicine"
+    ],
+    "source": "https://www.frontiersin.org/journals/oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Pharmacology",
+    "url": "https://www.frontiersin.org/journals/pharmacology/rss",
+    "subjects": [
+      "pharmacology",
+      "medicine"
+    ],
+    "source": "https://www.frontiersin.org/journals/pharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Physiology",
+    "url": "https://www.frontiersin.org/journals/physiology/rss",
+    "subjects": [
+      "physiology",
+      "biology"
+    ],
+    "source": "https://www.frontiersin.org/journals/physiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Plant Science",
+    "url": "https://www.frontiersin.org/journals/plant-science/rss",
+    "subjects": [
+      "plant science",
+      "biology"
+    ],
+    "source": "https://www.frontiersin.org/journals/plant-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "Frontiers",
+    "journal": "Frontiers in Public Health",
+    "url": "https://www.frontiersin.org/journals/public-health/rss",
+    "subjects": [
+      "public health",
+      "medicine"
+    ],
+    "source": "https://www.frontiersin.org/journals/public-health",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Frontiers journal RSS feed."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Applied Sciences",
+    "url": "https://www.mdpi.com/rss/journal/applsci",
+    "subjects": [
+      "applied sciences",
+      "engineering"
+    ],
+    "source": "https://www.mdpi.com/journal/applsci",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Cancers",
+    "url": "https://www.mdpi.com/rss/journal/cancers",
+    "subjects": [
+      "cancer",
+      "medicine"
+    ],
+    "source": "https://www.mdpi.com/journal/cancers",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Energies",
+    "url": "https://www.mdpi.com/rss/journal/energies",
+    "subjects": [
+      "energy",
+      "engineering"
+    ],
+    "source": "https://www.mdpi.com/journal/energies",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "International Journal of Molecular Sciences",
+    "url": "https://www.mdpi.com/rss/journal/ijms",
+    "subjects": [
+      "molecular sciences",
+      "biology"
+    ],
+    "source": "https://www.mdpi.com/journal/ijms",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Materials",
+    "url": "https://www.mdpi.com/rss/journal/materials",
+    "subjects": [
+      "materials",
+      "engineering"
+    ],
+    "source": "https://www.mdpi.com/journal/materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Microorganisms",
+    "url": "https://www.mdpi.com/rss/journal/microorganisms",
+    "subjects": [
+      "microbiology",
+      "biology"
+    ],
+    "source": "https://www.mdpi.com/journal/microorganisms",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Molecules",
+    "url": "https://www.mdpi.com/rss/journal/molecules",
+    "subjects": [
+      "chemistry",
+      "molecular science"
+    ],
+    "source": "https://www.mdpi.com/journal/molecules",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Nutrients",
+    "url": "https://www.mdpi.com/rss/journal/nutrients",
+    "subjects": [
+      "nutrition",
+      "medicine"
+    ],
+    "source": "https://www.mdpi.com/journal/nutrients",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Pharmaceutics",
+    "url": "https://www.mdpi.com/rss/journal/pharmaceutics",
+    "subjects": [
+      "pharmaceutics",
+      "medicine"
+    ],
+    "source": "https://www.mdpi.com/journal/pharmaceutics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Remote Sensing",
+    "url": "https://www.mdpi.com/rss/journal/remotesensing",
+    "subjects": [
+      "remote sensing",
+      "earth science"
+    ],
+    "source": "https://www.mdpi.com/journal/remotesensing",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Sensors",
+    "url": "https://www.mdpi.com/rss/journal/sensors",
+    "subjects": [
+      "sensors",
+      "engineering"
+    ],
+    "source": "https://www.mdpi.com/journal/sensors",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "MDPI",
+    "journal": "Sustainability",
+    "url": "https://www.mdpi.com/rss/journal/sustainability",
+    "subjects": [
+      "sustainability",
+      "environment"
+    ],
+    "source": "https://www.mdpi.com/journal/sustainability",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official MDPI journal RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Bioinformatics",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12859",
+    "subjects": [
+      "bioinformatics",
+      "computational biology"
+    ],
+    "source": "https://link.springer.com/journal/12859",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Biology",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12915",
+    "subjects": [
+      "biology",
+      "life sciences"
+    ],
+    "source": "https://link.springer.com/journal/12915",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Medicine",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12916",
+    "subjects": [
+      "medicine",
+      "health"
+    ],
+    "source": "https://link.springer.com/journal/12916",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Genome Biology",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=13059",
+    "subjects": [
+      "genomics",
+      "biology"
+    ],
+    "source": "https://link.springer.com/journal/13059",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Genomics",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12864",
+    "subjects": [
+      "genomics",
+      "biology"
+    ],
+    "source": "https://link.springer.com/journal/12864",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Public Health",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12889",
+    "subjects": [
+      "public health",
+      "medicine"
+    ],
+    "source": "https://link.springer.com/journal/12889",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Medical Research Methodology",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12874",
+    "subjects": [
+      "medical research",
+      "methodology"
+    ],
+    "source": "https://link.springer.com/journal/12874",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "BMC Health Services Research",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12913",
+    "subjects": [
+      "health services",
+      "medicine"
+    ],
+    "source": "https://link.springer.com/journal/12913",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Machine Learning",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10994",
+    "subjects": [
+      "machine learning",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/10994",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Artificial Intelligence Review",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10462",
+    "subjects": [
+      "artificial intelligence",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/10462",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Applied Intelligence",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10489",
+    "subjects": [
+      "artificial intelligence",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/10489",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Data Mining and Knowledge Discovery",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10618",
+    "subjects": [
+      "data mining",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/10618",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "World Wide Web",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=11263",
+    "subjects": [
+      "web science",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/11263",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Journal of Materials Science",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10853",
+    "subjects": [
+      "materials",
+      "engineering"
+    ],
+    "source": "https://link.springer.com/journal/10853",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Environmental Science and Pollution Research",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=11356",
+    "subjects": [
+      "environment",
+      "pollution"
+    ],
+    "source": "https://link.springer.com/journal/11356",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Climate Dynamics",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=382",
+    "subjects": [
+      "climate",
+      "earth science"
+    ],
+    "source": "https://link.springer.com/journal/382",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official SpringerLink RSS search feed for this journal id."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Nucleic Acids Research",
+    "url": "https://academic.oup.com/rss/site_5127/advanceAccess_3091.xml",
+    "subjects": [
+      "molecular biology",
+      "genomics"
+    ],
+    "source": "https://academic.oup.com/nar/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Bioinformatics",
+    "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+    "subjects": [
+      "bioinformatics",
+      "computational biology"
+    ],
+    "source": "https://academic.oup.com/bioinformatics/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Journal of the American Medical Informatics Association",
+    "url": "https://academic.oup.com/rss/site_5396/advanceAccess_3257.xml",
+    "subjects": [
+      "medical informatics",
+      "medicine"
+    ],
+    "source": "https://academic.oup.com/jamia/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Clinical Infectious Diseases",
+    "url": "https://academic.oup.com/rss/site_5269/advanceAccess_3135.xml",
+    "subjects": [
+      "infectious diseases",
+      "medicine"
+    ],
+    "source": "https://academic.oup.com/cid/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "JNCI: Journal of the National Cancer Institute",
+    "url": "https://academic.oup.com/rss/site_5125/advanceAccess_3071.xml",
+    "subjects": [
+      "cancer",
+      "medicine"
+    ],
+    "source": "https://academic.oup.com/jnci/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "PNAS Nexus",
+    "url": "https://academic.oup.com/rss/site_6448/advanceAccess_4114.xml",
+    "subjects": [
+      "multidisciplinary",
+      "science"
+    ],
+    "source": "https://academic.oup.com/pnasnexus/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Brain",
+    "url": "https://academic.oup.com/rss/site_5367/advanceAccess_3228.xml",
+    "subjects": [
+      "neurology",
+      "medicine"
+    ],
+    "source": "https://academic.oup.com/brain/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "International Journal of Epidemiology",
+    "url": "https://academic.oup.com/rss/site_5299/advanceAccess_3165.xml",
+    "subjects": [
+      "epidemiology",
+      "public health"
+    ],
+    "source": "https://academic.oup.com/ije/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Psychological Science",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=pss",
+    "subjects": [
+      "psychology",
+      "behavioral science"
+    ],
+    "source": "https://journals.sagepub.com/home/pss",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "American Sociological Review",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=asr",
+    "subjects": [
+      "sociology",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/home/asr",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Administrative Science Quarterly",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=asq",
+    "subjects": [
+      "management",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/home/asq",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Journal of Management",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jom",
+    "subjects": [
+      "management",
+      "business"
+    ],
+    "source": "https://journals.sagepub.com/home/jom",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Journal of Conflict Resolution",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jcr",
+    "subjects": [
+      "political science",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/home/jcr",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "American Behavioral Scientist",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=abs",
+    "subjects": [
+      "behavioral science",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/home/abs",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Social Studies of Science",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sss",
+    "subjects": [
+      "science studies",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/home/sss",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Science, Technology, \u0026 Human Values",
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sth",
+    "subjects": [
+      "science studies",
+      "technology"
+    ],
+    "source": "https://journals.sagepub.com/home/sth",
+    "method": "url_pattern",
+    "status": "source_documented",
+    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Biological Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/00219258",
+    "subjects": [
+      "biochemistry",
+      "molecular biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-biological-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN; ASBMB journal."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Lipid Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00222275",
+    "subjects": [
+      "lipids",
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-lipid-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN; ASBMB journal."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Molecular \u0026 Cellular Proteomics",
+    "url": "https://rss.sciencedirect.com/publication/science/15359476",
+    "subjects": [
+      "proteomics",
+      "molecular biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/molecular-and-cellular-proteomics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "ScienceDirect publication RSS by ISSN; ASBMB journal."
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory Press",
+    "journal": "RNA",
+    "url": "https://rnajournal.cshlp.org/rss/current.xml",
+    "subjects": [
+      "rna",
+      "molecular biology"
+    ],
+    "source": "https://rnajournal.cshlp.org/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official journal RSS feed exposed by the journal site."
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory Press",
+    "journal": "Genes \u0026 Development",
+    "url": "https://genesdev.cshlp.org/rss/current.xml",
+    "subjects": [
+      "genetics",
+      "molecular biology"
+    ],
+    "source": "https://genesdev.cshlp.org/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official RSS alternate link exposed by the journal site; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory Press",
+    "journal": "Genome Research",
+    "url": "https://genome.cshlp.org/rss/current.xml",
+    "subjects": [
+      "genomics",
+      "molecular biology"
+    ],
+    "source": "https://genome.cshlp.org/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "CSHL journal RSS endpoint; generic validator redirects to a protected login/challenge response."
+  },
+  {
+    "publisher": "ASCB",
+    "journal": "Molecular Biology of the Cell",
+    "url": "https://www.molbiolcell.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=molbiolcell",
+    "subjects": [
+      "cell biology",
+      "molecular biology"
+    ],
+    "source": "https://www.molbiolcell.org/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Atypon journal RSS feed."
+  },
+  {
+    "publisher": "eLife",
+    "journal": "eLife",
+    "url": "https://elifesciences.org/rss/recent.xml",
+    "subjects": [
+      "life sciences",
+      "biology"
+    ],
+    "source": "https://elifesciences.org/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official RSS alternate link exposed by the journal site."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Protein Science",
+    "url": "https://onlinelibrary.wiley.com/feed/1469896x/most-recent",
+    "subjects": [
+      "protein science",
+      "biochemistry"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/1469896x",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "FEBS Journal",
+    "url": "https://febs.onlinelibrary.wiley.com/feed/17424658/most-recent",
+    "subjects": [
+      "biochemistry",
+      "molecular biology"
+    ],
+    "source": "https://febs.onlinelibrary.wiley.com/journal/17424658",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "FEBS Letters",
+    "url": "https://febs.onlinelibrary.wiley.com/feed/18733468/most-recent",
+    "subjects": [
+      "biochemistry",
+      "molecular biology"
+    ],
+    "source": "https://febs.onlinelibrary.wiley.com/journal/18733468",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Oxford Academic",
+    "journal": "Molecular Biology and Evolution",
+    "url": "https://academic.oup.com/rss/site_5325/advanceAccess_3191.xml",
+    "subjects": [
+      "molecular evolution",
+      "biology"
+    ],
+    "source": "https://academic.oup.com/mbe/issue",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+  },
+  {
+    "publisher": "Wiley",
+    "journal": "Molecular Systems Biology",
+    "url": "https://onlinelibrary.wiley.com/feed/17444292/most-recent",
+    "subjects": [
+      "systems biology",
+      "molecular biology"
+    ],
+    "source": "https://onlinelibrary.wiley.com/journal/17444292",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official Wiley Online Library feed pattern based on online ISSN."
+  },
+  {
+    "publisher": "Life Science Alliance",
+    "journal": "Life Science Alliance",
+    "url": "https://www.life-science-alliance.org/rss/current.xml",
+    "subjects": [
+      "life sciences",
+      "molecular biology"
+    ],
+    "source": "https://www.life-science-alliance.org/",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Official journal RSS endpoint; generic validator receives a protected or challenge response."
   }
 ]

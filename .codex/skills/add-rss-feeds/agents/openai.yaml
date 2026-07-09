@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add RSS Feeds"
+  short_description: "Add official RSS feeds to sci-rss-list with validation."
+  default_prompt: "Add a small batch of official RSS feeds to this sci-rss-list catalog."

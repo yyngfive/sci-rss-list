@@ -1,0 +1,15 @@
+# Oxford Academic
+
+9 feeds generated from `data/feeds.json`.
+
+| Journal | Subjects | Status | Method | Feed | Source | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bioinformatics | bioinformatics, computational biology | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml) | [source](https://academic.oup.com/bioinformatics/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| Brain | neurology, medicine | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5367/advanceAccess_3228.xml) | [source](https://academic.oup.com/brain/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| Clinical Infectious Diseases | infectious diseases, medicine | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5269/advanceAccess_3135.xml) | [source](https://academic.oup.com/cid/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| International Journal of Epidemiology | epidemiology, public health | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5299/advanceAccess_3165.xml) | [source](https://academic.oup.com/ije/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| JNCI: Journal of the National Cancer Institute | cancer, medicine | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5125/advanceAccess_3071.xml) | [source](https://academic.oup.com/jnci/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| Journal of the American Medical Informatics Association | medical informatics, medicine | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5396/advanceAccess_3257.xml) | [source](https://academic.oup.com/jamia/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| Molecular Biology and Evolution | molecular evolution, biology | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5325/advanceAccess_3191.xml) | [source](https://academic.oup.com/mbe/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| Nucleic Acids Research | molecular biology, genomics | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_5127/advanceAccess_3091.xml) | [source](https://academic.oup.com/nar/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
+| PNAS Nexus | multidisciplinary, science | verified | publisher_index | [RSS](https://academic.oup.com/rss/site_6448/advanceAccess_4114.xml) | [source](https://academic.oup.com/pnasnexus/issue) | Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response. |
