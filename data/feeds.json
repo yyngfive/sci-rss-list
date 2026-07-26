@@ -6887,7 +6887,7 @@
   {
     "publisher": "Oxford Academic",
     "journal": "Nucleic Acids Research",
-    "url": "https://academic.oup.com/rss/site_5127/advanceAccess_3091.xml",
+    "url": "https://academic.oup.com/rss/site_5127/3091.xml",
     "subjects": [
       "molecular biology",
       "genomics"
@@ -6895,7 +6895,7 @@
     "source": "https://academic.oup.com/nar/issue",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
+    "notes": "Official Oxford Academic latest-issue RSS feed; generic validator receives a protected or challenge response."
   },
   {
     "publisher": "Oxford Academic",
