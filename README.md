@@ -9,7 +9,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
-| ACS | 65/65 | [publishers/acs.md](publishers/acs.md) |
+| ACS | 182/182 | [publishers/acs.md](publishers/acs.md) |
 | ASCB | 1/1 | [publishers/ascb.md](publishers/ascb.md) |
 | BMC/SpringerLink | 16/16 | [publishers/bmc-springerlink.md](publishers/bmc-springerlink.md) |
 | BMJ | 8/8 | [publishers/bmj.md](publishers/bmj.md) |

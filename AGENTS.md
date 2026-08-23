@@ -38,7 +38,7 @@ Use publisher patterns only after checking the official journal or RSS page. The
 | --- | --- |
 | Nature | Open the journal page and use its RSS link. Most Nature-hosted journals also follow `https://www.nature.com/{journal-code}.rss`, for example `https://www.nature.com/nmeth.rss`. |
 | Science/AAAS | Use the official RSS page: `https://www.science.org/content/page/email-alerts-and-rss-feeds`. A journal feed usually follows `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc={journal-code}`. |
-| ACS | Use the journal RSS link from the ACS follow/RSS page. Feeds follow `https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc={journal-code}`; the code must match the official journal page, for example `jacsat`. |
+| ACS | Use the journal RSS link from the ACS follow/RSS page. ASAP feeds follow `https://pubs.acs.org/rss/{journal-code}/asap.xml`, and current-issue feeds follow `https://pubs.acs.org/rss/{journal-code}/currentIssue.xml`; the code must match the official RSS page, for example `jacsat`. When both feed types are cataloged, suffix their journal labels with `(ASAP)` and `(Current Issue)`. |
 | Wiley | Open the Wiley Online Library journal page and use the RSS icon. Feeds usually follow `https://onlinelibrary.wiley.com/feed/{online-issn}/most-recent`. |
 | Elsevier/ScienceDirect | Open the journal page, then `Articles & Issues`, then `RSS`; ScienceDirect feeds commonly use `https://rss.sciencedirect.com/publication/science/{issn}`. |
 | Cell Press | Use the journal page or current issue feed; many feeds follow `https://www.cell.com/{journal}/current.rss`, including `matter`, `joule`, `med`, and `iscience`. Trends journals use paths like `https://www.cell.com/trends/chemistry/current.rss`. |
