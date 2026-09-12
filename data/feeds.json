@@ -8791,5 +8791,699 @@
     "method": "publisher_index",
     "status": "verified",
     "notes": "Official ACS Publications current-issue RSS feed from the publisher RSS index."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Analyst",
+    "url": "https://pubs.rsc.org/rss/site_1000007/1000005.xml",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://pubs.rsc.org/an",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Analytical Methods",
+    "url": "https://pubs.rsc.org/rss/site_1000003/1000003.xml",
+    "subjects": [
+      "analytical chemistry",
+      "methods"
+    ],
+    "source": "https://pubs.rsc.org/ay",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Biomaterials Science",
+    "url": "https://pubs.rsc.org/rss/site_1000023/1000013.xml",
+    "subjects": [
+      "biomaterials",
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/bm",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Catalysis Science \u0026 Technology",
+    "url": "https://pubs.rsc.org/rss/site_1000025/1000014.xml",
+    "subjects": [
+      "catalysis",
+      "technology"
+    ],
+    "source": "https://pubs.rsc.org/cy",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Chemical Communications",
+    "url": "https://pubs.rsc.org/rss/site_1000027/1000015.xml",
+    "subjects": [
+      "chemistry",
+      "communications"
+    ],
+    "source": "https://pubs.rsc.org/cc",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Chemical Science",
+    "url": "https://pubs.rsc.org/rss/site_1000029/1000016.xml",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/sc",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Chemical Society Reviews",
+    "url": "https://pubs.rsc.org/rss/site_1000031/1000017.xml",
+    "subjects": [
+      "chemistry",
+      "reviews"
+    ],
+    "source": "https://pubs.rsc.org/cs",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Chemistry Education Research and Practice",
+    "url": "https://pubs.rsc.org/rss/site_1000033/1000018.xml",
+    "subjects": [
+      "chemistry education"
+    ],
+    "source": "https://pubs.rsc.org/rp",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "CrystEngComm",
+    "url": "https://pubs.rsc.org/rss/site_1000039/1000021.xml",
+    "subjects": [
+      "crystallography",
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/ce",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Dalton Transactions",
+    "url": "https://pubs.rsc.org/rss/site_1000041/1000022.xml",
+    "subjects": [
+      "inorganic chemistry"
+    ],
+    "source": "https://pubs.rsc.org/dt",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Digital Discovery",
+    "url": "https://pubs.rsc.org/rss/site_1000043/1000023.xml",
+    "subjects": [
+      "chemistry",
+      "data science"
+    ],
+    "source": "https://pubs.rsc.org/dd",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "EES Batteries",
+    "url": "https://pubs.rsc.org/rss/site_1000047/1000025.xml",
+    "subjects": [
+      "batteries",
+      "energy"
+    ],
+    "source": "https://pubs.rsc.org/eb",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "EES Catalysis",
+    "url": "https://pubs.rsc.org/rss/site_1000049/1000026.xml",
+    "subjects": [
+      "catalysis",
+      "energy"
+    ],
+    "source": "https://pubs.rsc.org/ey",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Energy \u0026 Environmental Science",
+    "url": "https://pubs.rsc.org/rss/site_1000053/1000028.xml",
+    "subjects": [
+      "energy",
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/ee",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Energy Advances",
+    "url": "https://pubs.rsc.org/rss/site_1000055/1000029.xml",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://pubs.rsc.org/ya",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Environmental Science: Advances",
+    "url": "https://pubs.rsc.org/rss/site_1000057/1000030.xml",
+    "subjects": [
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/va",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Environmental Science: Atmospheres",
+    "url": "https://pubs.rsc.org/rss/site_1000059/1000031.xml",
+    "subjects": [
+      "atmospheric science",
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/ea",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Environmental Science: Nano",
+    "url": "https://pubs.rsc.org/rss/site_1000061/1000032.xml",
+    "subjects": [
+      "nanoscience",
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/en",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Environmental Science: Processes \u0026 Impacts",
+    "url": "https://pubs.rsc.org/rss/site_1000063/1000033.xml",
+    "subjects": [
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/em",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Environmental Science: Water Research \u0026 Technology",
+    "url": "https://pubs.rsc.org/rss/site_1000065/1000034.xml",
+    "subjects": [
+      "water research",
+      "environmental science"
+    ],
+    "source": "https://pubs.rsc.org/ew",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Faraday Discussions",
+    "url": "https://pubs.rsc.org/rss/site_1000067/1000035.xml",
+    "subjects": [
+      "physical chemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/fd",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Food \u0026 Function",
+    "url": "https://pubs.rsc.org/rss/site_1000075/1000039.xml",
+    "subjects": [
+      "food science",
+      "nutrition"
+    ],
+    "source": "https://pubs.rsc.org/fo",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Green Chemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000079/1000041.xml",
+    "subjects": [
+      "green chemistry",
+      "sustainability"
+    ],
+    "source": "https://pubs.rsc.org/gc",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Industrial Chemistry \u0026 Materials",
+    "url": "https://pubs.rsc.org/rss/site_1000081/1000042.xml",
+    "subjects": [
+      "industrial chemistry",
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/im",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Inorganic Chemistry Frontiers",
+    "url": "https://pubs.rsc.org/rss/site_1000083/1000043.xml",
+    "subjects": [
+      "inorganic chemistry"
+    ],
+    "source": "https://pubs.rsc.org/qi",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Journal of Analytical Atomic Spectrometry",
+    "url": "https://pubs.rsc.org/rss/site_1000093/1000048.xml",
+    "subjects": [
+      "analytical chemistry",
+      "spectrometry"
+    ],
+    "source": "https://pubs.rsc.org/ja",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Journal of Materials Chemistry A",
+    "url": "https://pubs.rsc.org/rss/site_1000101/1000052.xml",
+    "subjects": [
+      "materials",
+      "energy"
+    ],
+    "source": "https://pubs.rsc.org/ta",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Journal of Materials Chemistry B",
+    "url": "https://pubs.rsc.org/rss/site_1000103/1000053.xml",
+    "subjects": [
+      "materials",
+      "biology"
+    ],
+    "source": "https://pubs.rsc.org/tb",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Journal of Materials Chemistry C",
+    "url": "https://pubs.rsc.org/rss/site_1000105/1000054.xml",
+    "subjects": [
+      "materials",
+      "electronics"
+    ],
+    "source": "https://pubs.rsc.org/tc",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Lab on a Chip",
+    "url": "https://pubs.rsc.org/rss/site_1000133/1000068.xml",
+    "subjects": [
+      "microfluidics",
+      "analytical chemistry"
+    ],
+    "source": "https://pubs.rsc.org/lc",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Materials Advances",
+    "url": "https://pubs.rsc.org/rss/site_1000135/1000069.xml",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/ma",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Materials Chemistry Frontiers",
+    "url": "https://pubs.rsc.org/rss/site_1000137/1000070.xml",
+    "subjects": [
+      "materials chemistry"
+    ],
+    "source": "https://pubs.rsc.org/qm",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Materials Horizons",
+    "url": "https://pubs.rsc.org/rss/site_1000139/1000071.xml",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/mh",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Molecular Systems Design \u0026 Engineering",
+    "url": "https://pubs.rsc.org/rss/site_1000151/1000077.xml",
+    "subjects": [
+      "molecular engineering",
+      "systems chemistry"
+    ],
+    "source": "https://pubs.rsc.org/me",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Nanoscale",
+    "url": "https://pubs.rsc.org/rss/site_1000153/1000078.xml",
+    "subjects": [
+      "nanoscience"
+    ],
+    "source": "https://pubs.rsc.org/nr",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Nanoscale Advances",
+    "url": "https://pubs.rsc.org/rss/site_1000155/1000079.xml",
+    "subjects": [
+      "nanoscience"
+    ],
+    "source": "https://pubs.rsc.org/na",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Nanoscale Horizons",
+    "url": "https://pubs.rsc.org/rss/site_1000157/1000080.xml",
+    "subjects": [
+      "nanoscience"
+    ],
+    "source": "https://pubs.rsc.org/nh",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Natural Product Reports",
+    "url": "https://pubs.rsc.org/rss/site_1000159/1000081.xml",
+    "subjects": [
+      "natural products",
+      "reviews"
+    ],
+    "source": "https://pubs.rsc.org/np",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "New Journal of Chemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000161/1000082.xml",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/nj",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Organic \u0026 Biomolecular Chemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000163/1000083.xml",
+    "subjects": [
+      "organic chemistry",
+      "biomolecular chemistry"
+    ],
+    "source": "https://pubs.rsc.org/ob",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Organic Chemistry Frontiers",
+    "url": "https://pubs.rsc.org/rss/site_1000165/1000084.xml",
+    "subjects": [
+      "organic chemistry"
+    ],
+    "source": "https://pubs.rsc.org/qo",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Physical Chemistry Chemical Physics",
+    "url": "https://pubs.rsc.org/rss/site_1000173/1000088.xml",
+    "subjects": [
+      "physical chemistry",
+      "chemical physics"
+    ],
+    "source": "https://pubs.rsc.org/cp",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Polymer Chemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000175/1000089.xml",
+    "subjects": [
+      "polymer chemistry"
+    ],
+    "source": "https://pubs.rsc.org/py",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Reaction Chemistry \u0026 Engineering",
+    "url": "https://pubs.rsc.org/rss/site_1000205/1000097.xml",
+    "subjects": [
+      "reaction engineering",
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/re",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Advances",
+    "url": "https://pubs.rsc.org/rss/site_1000213/1000099.xml",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/ra",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Applied Interfaces",
+    "url": "https://pubs.rsc.org/rss/site_1000217/1000100.xml",
+    "subjects": [
+      "interfaces",
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/lf",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Applied Polymers",
+    "url": "https://pubs.rsc.org/rss/site_1000221/1000101.xml",
+    "subjects": [
+      "polymers",
+      "materials"
+    ],
+    "source": "https://pubs.rsc.org/lp",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Chemical Biology",
+    "url": "https://pubs.rsc.org/rss/site_1000225/1000102.xml",
+    "subjects": [
+      "chemical biology"
+    ],
+    "source": "https://pubs.rsc.org/cb",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Mechanochemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000229/1000103.xml",
+    "subjects": [
+      "mechanochemistry",
+      "chemistry"
+    ],
+    "source": "https://pubs.rsc.org/mr",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Medicinal Chemistry",
+    "url": "https://pubs.rsc.org/rss/site_1000233/1000104.xml",
+    "subjects": [
+      "medicinal chemistry"
+    ],
+    "source": "https://pubs.rsc.org/md",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "RSC Pharmaceutics",
+    "url": "https://pubs.rsc.org/rss/site_1000237/1000105.xml",
+    "subjects": [
+      "pharmaceutics",
+      "drug delivery"
+    ],
+    "source": "https://pubs.rsc.org/pm",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Sensors \u0026 Diagnostics",
+    "url": "https://pubs.rsc.org/rss/site_1000253/1000109.xml",
+    "subjects": [
+      "sensors",
+      "diagnostics"
+    ],
+    "source": "https://pubs.rsc.org/sd",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Soft Matter",
+    "url": "https://pubs.rsc.org/rss/site_1000257/1000110.xml",
+    "subjects": [
+      "soft matter"
+    ],
+    "source": "https://pubs.rsc.org/sm",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Sustainable Energy \u0026 Fuels",
+    "url": "https://pubs.rsc.org/rss/site_1000265/1000112.xml",
+    "subjects": [
+      "energy",
+      "fuels"
+    ],
+    "source": "https://pubs.rsc.org/se",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "RSC",
+    "journal": "Sustainable Food Technology",
+    "url": "https://pubs.rsc.org/rss/site_1000269/1000113.xml",
+    "subjects": [
+      "food science",
+      "sustainability"
+    ],
+    "source": "https://pubs.rsc.org/fb",
+    "method": "manual",
+    "status": "verified",
+    "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
   }
 ]

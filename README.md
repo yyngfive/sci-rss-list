@@ -28,6 +28,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Oxford Academic | 9/9 | [publishers/oxford-academic.md](publishers/oxford-academic.md) |
 | PLOS | 16/16 | [publishers/plos.md](publishers/plos.md) |
 | PNAS | 37/37 | [publishers/pnas.md](publishers/pnas.md) |
+| RSC | 55/55 | [publishers/rsc.md](publishers/rsc.md) |
 | SAGE | 0/8 | [publishers/sage.md](publishers/sage.md) |
 | Science/AAAS | 6/6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
 | Scientific American | 1/1 | [publishers/scientific-american.md](publishers/scientific-american.md) |
