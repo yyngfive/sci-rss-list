@@ -6989,110 +6989,6 @@
     "notes": "Official Oxford Academic issue-page RSS feed; generic validator receives a protected or challenge response."
   },
   {
-    "publisher": "SAGE",
-    "journal": "Psychological Science",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=pss",
-    "subjects": [
-      "psychology",
-      "behavioral science"
-    ],
-    "source": "https://journals.sagepub.com/home/pss",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "American Sociological Review",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=asr",
-    "subjects": [
-      "sociology",
-      "social science"
-    ],
-    "source": "https://journals.sagepub.com/home/asr",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "Administrative Science Quarterly",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=asq",
-    "subjects": [
-      "management",
-      "social science"
-    ],
-    "source": "https://journals.sagepub.com/home/asq",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "Journal of Management",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jom",
-    "subjects": [
-      "management",
-      "business"
-    ],
-    "source": "https://journals.sagepub.com/home/jom",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "Journal of Conflict Resolution",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jcr",
-    "subjects": [
-      "political science",
-      "social science"
-    ],
-    "source": "https://journals.sagepub.com/home/jcr",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "American Behavioral Scientist",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=abs",
-    "subjects": [
-      "behavioral science",
-      "social science"
-    ],
-    "source": "https://journals.sagepub.com/home/abs",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "Social Studies of Science",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sss",
-    "subjects": [
-      "science studies",
-      "social science"
-    ],
-    "source": "https://journals.sagepub.com/home/sss",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
-    "publisher": "SAGE",
-    "journal": "Science, Technology, \u0026 Human Values",
-    "url": "https://journals.sagepub.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sth",
-    "subjects": [
-      "science studies",
-      "technology"
-    ],
-    "source": "https://journals.sagepub.com/home/sth",
-    "method": "url_pattern",
-    "status": "source_documented",
-    "notes": "Official SAGE/Atypon journal RSS feed; ordinary validation may be unreachable in some network environments."
-  },
-  {
     "publisher": "Elsevier/ScienceDirect",
     "journal": "Journal of Biological Chemistry",
     "url": "https://rss.sciencedirect.com/publication/science/00219258",
@@ -9485,5 +9381,4272 @@
     "method": "manual",
     "status": "verified",
     "notes": "Official journal-page RSS link on the new pubs.rsc.org platform (current issue)."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biochemical and Biophysical Research Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/0006291X",
+    "subjects": [
+      "biochemistry",
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biochemical-and-biophysical-research-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Blood",
+    "url": "https://rss.sciencedirect.com/publication/science/00064971",
+    "subjects": [
+      "hematology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/blood",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Tetrahedron Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/00404039",
+    "subjects": [
+      "organic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/tetrahedron-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Obstetrics and Gynecology",
+    "url": "https://rss.sciencedirect.com/publication/science/00029378",
+    "subjects": [
+      "obstetrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-obstetrics-and-gynecology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Radiation Oncology*Biology*Physics",
+    "url": "https://rss.sciencedirect.com/publication/science/03603016",
+    "subjects": [
+      "oncology",
+      "radiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-radiation-oncology-biology-physics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Alloys and Compounds",
+    "url": "https://rss.sciencedirect.com/publication/science/09258388",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-alloys-and-compounds",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "CHEST",
+    "url": "https://rss.sciencedirect.com/publication/science/00123692",
+    "subjects": [
+      "respiratory medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chest",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biophysical Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/00063495",
+    "subjects": [
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biophysical-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Science of the Total Environment",
+    "url": "https://rss.sciencedirect.com/publication/science/00489697",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/science-of-the-total-environment",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Value in Health",
+    "url": "https://rss.sciencedirect.com/publication/science/10983015",
+    "subjects": [
+      "health economics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/value-in-health",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The American Journal of the Medical Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/00029629",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-the-medical-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Surface Science",
+    "url": "https://rss.sciencedirect.com/publication/science/01694332",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-surface-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Chromatography A",
+    "url": "https://rss.sciencedirect.com/publication/science/00219673",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-chromatography-a",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemical Physics Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/00092614",
+    "subjects": [
+      "physical chemistry",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemical-physics-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physics Letters B",
+    "url": "https://rss.sciencedirect.com/publication/science/03702693",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physics-letters-b",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Annals of Oncology",
+    "url": "https://rss.sciencedirect.com/publication/science/09237534",
+    "subjects": [
+      "oncology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/annals-of-oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Fertility and Sterility",
+    "url": "https://rss.sciencedirect.com/publication/science/00150282",
+    "subjects": [
+      "obstetrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/fertility-and-sterility",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Brain Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00068993",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/brain-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Hydrogen Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/03603199",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Gastrointestinal Endoscopy",
+    "url": "https://rss.sciencedirect.com/publication/science/00165107",
+    "subjects": [
+      "gastroenterology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/gastrointestinal-endoscopy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the Franklin Institute",
+    "url": "https://rss.sciencedirect.com/publication/science/00160032",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-the-franklin-institute",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the American Academy of Dermatology",
+    "url": "https://rss.sciencedirect.com/publication/science/01909622",
+    "subjects": [
+      "dermatology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-the-american-academy-of-dermatology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Radiotherapy and Oncology",
+    "url": "https://rss.sciencedirect.com/publication/science/01678140",
+    "subjects": [
+      "oncology",
+      "radiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/radiotherapy-and-oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Tetrahedron",
+    "url": "https://rss.sciencedirect.com/publication/science/00404020",
+    "subjects": [
+      "organic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/tetrahedron",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ceramics International",
+    "url": "https://rss.sciencedirect.com/publication/science/02728842",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ceramics-international",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "url": "https://rss.sciencedirect.com/publication/science/00916749",
+    "subjects": [
+      "immunology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment",
+    "url": "https://rss.sciencedirect.com/publication/science/01689002",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nuclear-instruments-and-methods-in-physics-research-section-a-accelerators-spectrometers-detectors-and-associated-equipment",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The American Journal of Cardiology",
+    "url": "https://rss.sciencedirect.com/publication/science/00029149",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-cardiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Electrochimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00134686",
+    "subjects": [
+      "electrochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/electrochimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physics Letters A",
+    "url": "https://rss.sciencedirect.com/publication/science/03759601",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physics-letters-a",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Vacuum",
+    "url": "https://rss.sciencedirect.com/publication/science/0042207X",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/vacuum",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Biological Macromolecules",
+    "url": "https://rss.sciencedirect.com/publication/science/01418130",
+    "subjects": [
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-biological-macromolecules",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Food Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/03088146",
+    "subjects": [
+      "food science",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/food-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemosphere",
+    "url": "https://rss.sciencedirect.com/publication/science/00456535",
+    "subjects": [
+      "environmental science",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemosphere",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Colloid and Interface Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00219797",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-colloid-and-interface-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Journal of Pediatrics",
+    "url": "https://rss.sciencedirect.com/publication/science/00223476",
+    "subjects": [
+      "pediatrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-pediatrics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Cleaner Production",
+    "url": "https://rss.sciencedirect.com/publication/science/09596526",
+    "subjects": [
+      "sustainability"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-cleaner-production",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Ophthalmology",
+    "url": "https://rss.sciencedirect.com/publication/science/00029394",
+    "subjects": [
+      "ophthalmology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-ophthalmology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Magnetism and Magnetic Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/03048853",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-magnetism-and-magnetic-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Molecular Structure",
+    "url": "https://rss.sciencedirect.com/publication/science/00222860",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-molecular-structure",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Construction and Building Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/09500618",
+    "subjects": [
+      "materials",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/construction-and-building-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Annals of Thoracic Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/00034975",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-annals-of-thoracic-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Thin Solid Films",
+    "url": "https://rss.sciencedirect.com/publication/science/00406090",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/thin-solid-films",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Fuel",
+    "url": "https://rss.sciencedirect.com/publication/science/00162361",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/fuel",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Analytica Chimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00032670",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/analytica-chimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Science and Engineering A",
+    "url": "https://rss.sciencedirect.com/publication/science/09215093",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-science-and-engineering-a",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Investigative Dermatology",
+    "url": "https://rss.sciencedirect.com/publication/science/0022202X",
+    "subjects": [
+      "dermatology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-investigative-dermatology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Heliyon",
+    "url": "https://rss.sciencedirect.com/publication/science/24058440",
+    "subjects": [
+      "multidisciplinary"
+    ],
+    "source": "https://www.sciencedirect.com/journal/heliyon",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Organometallic Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/0022328X",
+    "subjects": [
+      "inorganic chemistry",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-organometallic-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Solid State Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/00381098",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/solid-state-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Pharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/00142999",
+    "subjects": [
+      "pharmacology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-pharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Hazardous Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/03043894",
+    "subjects": [
+      "environment",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-hazardous-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nuclear Instruments and Methods in Physics Research Section B Beam Interactions with Materials and Atoms",
+    "url": "https://rss.sciencedirect.com/publication/science/0168583X",
+    "subjects": [
+      "materials",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nuclear-instruments-and-methods-in-physics-research-section-b-beam-interactions-with-materials-and-atoms",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Dairy Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00220302",
+    "subjects": [
+      "animal science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-dairy-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/0167577X",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Cancer",
+    "url": "https://rss.sciencedirect.com/publication/science/09598049",
+    "subjects": [
+      "oncology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-cancer",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Polymer",
+    "url": "https://rss.sciencedirect.com/publication/science/00323861",
+    "subjects": [
+      "polymers"
+    ],
+    "source": "https://www.sciencedirect.com/journal/polymer",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/00225223",
+    "subjects": [
+      "cardiology",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-thoracic-and-cardiovascular-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Crystal Growth",
+    "url": "https://rss.sciencedirect.com/publication/science/00220248",
+    "subjects": [
+      "crystallography"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-crystal-growth",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physica B: Condensed Matter",
+    "url": "https://rss.sciencedirect.com/publication/science/09214526",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physica-b-condensed-matter",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the Neurological Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/0022510X",
+    "subjects": [
+      "neurology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-the-neurological-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Heart Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/00028703",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-heart-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Optics Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/00304018",
+    "subjects": [
+      "optics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/optics-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neuroscience Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/03043940",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuroscience-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The American Journal of Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/00029610",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Vascular Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/07415214",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-vascular-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Surface Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00396028",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/surface-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Cardiology",
+    "url": "https://rss.sciencedirect.com/publication/science/01675273",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-cardiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Urology",
+    "url": "https://rss.sciencedirect.com/publication/science/00904295",
+    "subjects": [
+      "urology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/urology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Sensors and Actuators B Chemical",
+    "url": "https://rss.sciencedirect.com/publication/science/09254005",
+    "subjects": [
+      "sensors",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/sensors-and-actuators-b-chemical",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nuclear Physics A",
+    "url": "https://rss.sciencedirect.com/publication/science/03759474",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nuclear-physics-a",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Life Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/00243205",
+    "subjects": [
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/life-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Pediatric Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/00223468",
+    "subjects": [
+      "pediatrics",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-pediatric-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Atherosclerosis",
+    "url": "https://rss.sciencedirect.com/publication/science/00219150",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/atherosclerosis",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Talanta",
+    "url": "https://rss.sciencedirect.com/publication/science/00399140",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/talanta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Heat and Mass Transfer",
+    "url": "https://rss.sciencedirect.com/publication/science/00179310",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-heat-and-mass-transfer",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Phytochemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/00319422",
+    "subjects": [
+      "natural products",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/phytochemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Mathematical Analysis and Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/0022247X",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-mathematical-analysis-and-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Bioresource Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/09608524",
+    "subjects": [
+      "biotechnology",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/bioresource-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Poultry Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00325791",
+    "subjects": [
+      "animal science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/poultry-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Neuropsychopharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/0924977X",
+    "subjects": [
+      "pharmacology",
+      "psychiatry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-neuropsychopharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Annals of Emergency Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/01960644",
+    "subjects": [
+      "emergency medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Archives of Biochemistry and Biophysics",
+    "url": "https://rss.sciencedirect.com/publication/science/00039861",
+    "subjects": [
+      "biochemistry",
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/archives-of-biochemistry-and-biophysics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
+    "url": "https://rss.sciencedirect.com/publication/science/09277757",
+    "subjects": [
+      "physical chemistry",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Journal of the American Dental Association",
+    "url": "https://rss.sciencedirect.com/publication/science/00028177",
+    "subjects": [
+      "dentistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-the-american-dental-association",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The American Journal of Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/00029343",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemical Engineering Science",
+    "url": "https://rss.sciencedirect.com/publication/science/00092509",
+    "subjects": [
+      "chemical engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemical-engineering-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Thermal Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/13594311",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-thermal-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physica A: Statistical Mechanics and its Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/03784371",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physica-a-statistical-mechanics-and-its-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Nuclear Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/00223115",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-nuclear-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Toxicology Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/03784274",
+    "subjects": [
+      "toxicology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/toxicology-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biochemical Pharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/00062952",
+    "subjects": [
+      "pharmacology",
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biochemical-pharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Vaccine",
+    "url": "https://rss.sciencedirect.com/publication/science/0264410X",
+    "subjects": [
+      "infectious disease"
+    ],
+    "source": "https://www.sciencedirect.com/journal/vaccine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Bioorganic \u0026 Medicinal Chemistry Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/0960894X",
+    "subjects": [
+      "medicinal chemistry",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/bioorganic-and-medicinal-chemistry-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Inorganica Chimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00201693",
+    "subjects": [
+      "inorganic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/inorganica-chimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Expert Systems with Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/09574174",
+    "subjects": [
+      "artificial intelligence"
+    ],
+    "source": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Surface and Coatings Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/02578972",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/surface-and-coatings-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Journal of Heart and Lung Transplantation",
+    "url": "https://rss.sciencedirect.com/publication/science/10532498",
+    "subjects": [
+      "cardiology",
+      "respiratory medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-heart-and-lung-transplantation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nuclear Physics B",
+    "url": "https://rss.sciencedirect.com/publication/science/05503213",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nuclear-physics-b",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Non-Crystalline Solids",
+    "url": "https://rss.sciencedirect.com/publication/science/00223093",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-non-crystalline-solids",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Separation and Purification Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/13835866",
+    "subjects": [
+      "chemical engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/separation-and-purification-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Analytical Biochemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/00032697",
+    "subjects": [
+      "analytical chemistry",
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/analytical-biochemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Microelectronics Reliability",
+    "url": "https://rss.sciencedirect.com/publication/science/00262714",
+    "subjects": [
+      "electronics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/microelectronics-reliability",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Environmental Management",
+    "url": "https://rss.sciencedirect.com/publication/science/03014797",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-environmental-management",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the American College of Cardiology",
+    "url": "https://rss.sciencedirect.com/publication/science/07351097",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/jacc",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Nutrition",
+    "url": "https://rss.sciencedirect.com/publication/science/00223166",
+    "subjects": [
+      "nutrition"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-nutrition",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinica Chimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00098981",
+    "subjects": [
+      "analytical chemistry",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinica-chimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Virology",
+    "url": "https://rss.sciencedirect.com/publication/science/00426822",
+    "subjects": [
+      "infectious disease",
+      "microbiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/virology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "La Revue de Médecine Interne",
+    "url": "https://rss.sciencedirect.com/publication/science/02488663",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/la-revue-de-medecine-interne",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "British Journal of Anaesthesia",
+    "url": "https://rss.sciencedirect.com/publication/science/00070912",
+    "subjects": [
+      "critical care"
+    ],
+    "source": "https://www.sciencedirect.com/journal/british-journal-of-anaesthesia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Hydrology",
+    "url": "https://rss.sciencedirect.com/publication/science/00221694",
+    "subjects": [
+      "water"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-hydrology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Pharmaceutical Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/00223549",
+    "subjects": [
+      "pharmacology",
+      "medicinal chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-pharmaceutical-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Sound and Vibration",
+    "url": "https://rss.sciencedirect.com/publication/science/0022460X",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-sound-and-vibration",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neuroscience",
+    "url": "https://rss.sciencedirect.com/publication/science/03064522",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuroscience",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Clinical Nutrition",
+    "url": "https://rss.sciencedirect.com/publication/science/00029165",
+    "subjects": [
+      "nutrition",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-clinical-nutrition",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Environmental Pollution",
+    "url": "https://rss.sciencedirect.com/publication/science/02697491",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/environmental-pollution",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physica C: Superconductivity and its Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/09214534",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physica-c-superconductivity-and-its-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Gynecologic Oncology",
+    "url": "https://rss.sciencedirect.com/publication/science/00908258",
+    "subjects": [
+      "oncology",
+      "obstetrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/gynecologic-oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Molecular Liquids",
+    "url": "https://rss.sciencedirect.com/publication/science/01677322",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-molecular-liquids",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Transplantation Proceedings",
+    "url": "https://rss.sciencedirect.com/publication/science/00411345",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/transplantation-proceedings",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Thoracic Oncology",
+    "url": "https://rss.sciencedirect.com/publication/science/15560864",
+    "subjects": [
+      "oncology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-thoracic-oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neurocomputing",
+    "url": "https://rss.sciencedirect.com/publication/science/09252312",
+    "subjects": [
+      "computer science",
+      "artificial intelligence"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neurocomputing",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Gene",
+    "url": "https://rss.sciencedirect.com/publication/science/03781119",
+    "subjects": [
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/gene",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Surgical Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00224804",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-surgical-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Oral and Maxillofacial Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/02782391",
+    "subjects": [
+      "dentistry",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-oral-and-maxillofacial-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Marine Pollution Bulletin",
+    "url": "https://rss.sciencedirect.com/publication/science/0025326X",
+    "subjects": [
+      "earth science",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/marine-pollution-bulletin",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Advances in Space Research",
+    "url": "https://rss.sciencedirect.com/publication/science/02731177",
+    "subjects": [
+      "astronomy",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/advances-in-space-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Pharmaceutics",
+    "url": "https://rss.sciencedirect.com/publication/science/03785173",
+    "subjects": [
+      "pharmacology",
+      "medicinal chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-pharmaceutics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ocean Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/00298018",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ocean-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Free Radical Biology and Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/08915849",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/free-radical-biology-and-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Lung Cancer",
+    "url": "https://rss.sciencedirect.com/publication/science/01695002",
+    "subjects": [
+      "oncology",
+      "respiratory medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/lung-cancer",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Aquaculture",
+    "url": "https://rss.sciencedirect.com/publication/science/00448486",
+    "subjects": [
+      "agriculture"
+    ],
+    "source": "https://www.sciencedirect.com/journal/aquaculture",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Chemistry and Physics",
+    "url": "https://rss.sciencedirect.com/publication/science/02540584",
+    "subjects": [
+      "materials",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-chemistry-and-physics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Spectrochimica Acta Part A Molecular and Biomolecular Spectroscopy",
+    "url": "https://rss.sciencedirect.com/publication/science/13861425",
+    "subjects": [
+      "analytical chemistry",
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/spectrochimica-acta-part-a-molecular-and-biomolecular-spectroscopy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Carbohydrate Polymers",
+    "url": "https://rss.sciencedirect.com/publication/science/01448617",
+    "subjects": [
+      "organic chemistry",
+      "polymers"
+    ],
+    "source": "https://www.sciencedirect.com/journal/carbohydrate-polymers",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Public Health",
+    "url": "https://rss.sciencedirect.com/publication/science/00333506",
+    "subjects": [
+      "public health",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/public-health",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Geochimica et Cosmochimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00167037",
+    "subjects": [
+      "earth science",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/geochimica-et-cosmochimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Urology",
+    "url": "https://rss.sciencedirect.com/publication/science/03022838",
+    "subjects": [
+      "urology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-urology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Experimental Cell Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00144827",
+    "subjects": [
+      "cell biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/experimental-cell-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinical Neurophysiology",
+    "url": "https://rss.sciencedirect.com/publication/science/13882457",
+    "subjects": [
+      "physiology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinical-neurophysiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Mayo Clinic Proceedings",
+    "url": "https://rss.sciencedirect.com/publication/science/00256196",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/mayo-clinic-proceedings",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "World Neurosurgery",
+    "url": "https://rss.sciencedirect.com/publication/science/18788750",
+    "subjects": [
+      "neurology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/world-neurosurgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Vascular and Interventional Radiology",
+    "url": "https://rss.sciencedirect.com/publication/science/10510443",
+    "subjects": [
+      "radiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-vascular-and-interventional-radiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Kidney International",
+    "url": "https://rss.sciencedirect.com/publication/science/00852538",
+    "subjects": [
+      "nephrology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/kidney-international",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Heart Lung and Circulation",
+    "url": "https://rss.sciencedirect.com/publication/science/14439506",
+    "subjects": [
+      "cardiology",
+      "respiratory medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/heart-lung-and-circulation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Mathematics and Computation",
+    "url": "https://rss.sciencedirect.com/publication/science/00963003",
+    "subjects": [
+      "computer science",
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-mathematics-and-computation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Kidney Diseases",
+    "url": "https://rss.sciencedirect.com/publication/science/02726386",
+    "subjects": [
+      "nephrology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Operational Research",
+    "url": "https://rss.sciencedirect.com/publication/science/03772217",
+    "subjects": [
+      "applied mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-operational-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Archives of Physical Medicine and Rehabilitation",
+    "url": "https://rss.sciencedirect.com/publication/science/00039993",
+    "subjects": [
+      "rehabilitation",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/archives-of-physical-medicine-and-rehabilitation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Microchemical Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/0026265X",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/microchemical-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Environmental Chemical Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/22133437",
+    "subjects": [
+      "chemical engineering",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-environmental-chemical-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Biomechanics",
+    "url": "https://rss.sciencedirect.com/publication/science/00219290",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-biomechanics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Wear",
+    "url": "https://rss.sciencedirect.com/publication/science/00431648",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/wear",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Solid State Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/00224596",
+    "subjects": [
+      "inorganic chemistry",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-solid-state-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Molecular and Cellular Cardiology",
+    "url": "https://rss.sciencedirect.com/publication/science/00222828",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-molecular-and-cellular-cardiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Social Science \u0026 Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/02779536",
+    "subjects": [
+      "social science",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/social-science-and-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Environmental Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00139351",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/environmental-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Affective Disorders",
+    "url": "https://rss.sciencedirect.com/publication/science/01650327",
+    "subjects": [
+      "psychiatry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-affective-disorders",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Powder Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/00325910",
+    "subjects": [
+      "chemical engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/powder-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the American Academy of Child \u0026 Adolescent Psychiatry",
+    "url": "https://rss.sciencedirect.com/publication/science/08908567",
+    "subjects": [
+      "psychiatry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-the-american-academy-of-child-and-adolescent-psychiatry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Polyhedron",
+    "url": "https://rss.sciencedirect.com/publication/science/02775387",
+    "subjects": [
+      "inorganic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/polyhedron",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Prosthetic Dentistry",
+    "url": "https://rss.sciencedirect.com/publication/science/00223913",
+    "subjects": [
+      "dentistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-prosthetic-dentistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Information Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/00200255",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/information-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Developmental Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/00121606",
+    "subjects": [
+      "developmental biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/developmental-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Engineering Structures",
+    "url": "https://rss.sciencedirect.com/publication/science/01410296",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/engineering-structures",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Molecular Therapy",
+    "url": "https://rss.sciencedirect.com/publication/science/15250016",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/molecular-therapy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Schizophrenia Research",
+    "url": "https://rss.sciencedirect.com/publication/science/09209964",
+    "subjects": [
+      "psychiatry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/schizophrenia-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Energy Storage",
+    "url": "https://rss.sciencedirect.com/publication/science/2352152X",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-energy-storage",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Energy Conversion and Management",
+    "url": "https://rss.sciencedirect.com/publication/science/01968904",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/energy-conversion-and-management",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Thermochimica Acta",
+    "url": "https://rss.sciencedirect.com/publication/science/00406031",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/thermochimica-acta",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Physics and Chemistry of Solids",
+    "url": "https://rss.sciencedirect.com/publication/science/00223697",
+    "subjects": [
+      "physics",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-physics-and-chemistry-of-solids",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ophthalmology",
+    "url": "https://rss.sciencedirect.com/publication/science/01616420",
+    "subjects": [
+      "ophthalmology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ophthalmology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Optik",
+    "url": "https://rss.sciencedirect.com/publication/science/00304026",
+    "subjects": [
+      "optics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/optik",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Atmospheric Environment",
+    "url": "https://rss.sciencedirect.com/publication/science/13522310",
+    "subjects": [
+      "climate",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/atmospheric-environment",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Measurement",
+    "url": "https://rss.sciencedirect.com/publication/science/02632241",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/measurement",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Ethnopharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/03788741",
+    "subjects": [
+      "pharmacology",
+      "natural products"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-ethnopharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Carbohydrate Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00086215",
+    "subjects": [
+      "organic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/carbohydrate-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Algebra",
+    "url": "https://rss.sciencedirect.com/publication/science/00218693",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-algebra",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Earth and Planetary Science Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/0012821X",
+    "subjects": [
+      "earth science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/earth-and-planetary-science-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Heart Rhythm",
+    "url": "https://rss.sciencedirect.com/publication/science/15475271",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/heart-rhythm",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Computational Physics",
+    "url": "https://rss.sciencedirect.com/publication/science/00219991",
+    "subjects": [
+      "physics",
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-computational-physics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Synthetic Metals",
+    "url": "https://rss.sciencedirect.com/publication/science/03796779",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/synthetic-metals",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Osteoarthritis and Cartilage",
+    "url": "https://rss.sciencedirect.com/publication/science/10634584",
+    "subjects": [
+      "rheumatology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/osteoarthritis-and-cartilage",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Digestive and Liver Disease",
+    "url": "https://rss.sciencedirect.com/publication/science/15908658",
+    "subjects": [
+      "hepatology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/digestive-and-liver-disease",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Luminescence",
+    "url": "https://rss.sciencedirect.com/publication/science/00222313",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-luminescence",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Desalination",
+    "url": "https://rss.sciencedirect.com/publication/science/00119164",
+    "subjects": [
+      "water"
+    ],
+    "source": "https://www.sciencedirect.com/journal/desalination",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "HPB",
+    "url": "https://rss.sciencedirect.com/publication/science/1365182X",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/hpb",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Surgical Oncology",
+    "url": "https://rss.sciencedirect.com/publication/science/07487983",
+    "subjects": [
+      "oncology",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-surgical-oncology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Physiology \u0026 Behavior",
+    "url": "https://rss.sciencedirect.com/publication/science/00319384",
+    "subjects": [
+      "physiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/physiology-and-behavior",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Electroanalytical Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/15726657",
+    "subjects": [
+      "analytical chemistry",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-electroanalytical-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biomedicine \u0026 Pharmacotherapy",
+    "url": "https://rss.sciencedirect.com/publication/science/07533322",
+    "subjects": [
+      "pharmacology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biomedicine-and-pharmacotherapy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemical Physics",
+    "url": "https://rss.sciencedirect.com/publication/science/03010104",
+    "subjects": [
+      "physical chemistry",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemical-physics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biosensors and Bioelectronics",
+    "url": "https://rss.sciencedirect.com/publication/science/09565663",
+    "subjects": [
+      "sensors",
+      "electronics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biosensors-and-bioelectronics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Forest Ecology and Management",
+    "url": "https://rss.sciencedirect.com/publication/science/03781127",
+    "subjects": [
+      "ecology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/forest-ecology-and-management",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Solar Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/0038092X",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/solar-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Injury",
+    "url": "https://rss.sciencedirect.com/publication/science/00201383",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/injury",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Toxicon",
+    "url": "https://rss.sciencedirect.com/publication/science/00410101",
+    "subjects": [
+      "toxicology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/toxicon",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Industrial Crops and Products",
+    "url": "https://rss.sciencedirect.com/publication/science/09266690",
+    "subjects": [
+      "agriculture"
+    ],
+    "source": "https://www.sciencedirect.com/journal/industrial-crops-and-products",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ecotoxicology and Environmental Safety",
+    "url": "https://rss.sciencedirect.com/publication/science/01476513",
+    "subjects": [
+      "toxicology",
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ecotoxicology-and-environmental-safety",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "LWT",
+    "url": "https://rss.sciencedirect.com/publication/science/00236438",
+    "subjects": [
+      "food science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/lwt",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Cardiac Failure",
+    "url": "https://rss.sciencedirect.com/publication/science/10719164",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-cardiac-failure",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biochimica et Biophysica Acta (BBA) - Biomembranes",
+    "url": "https://rss.sciencedirect.com/publication/science/00052736",
+    "subjects": [
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biochimica-et-biophysica-acta-bba-biomembranes",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Thrombosis Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00493848",
+    "subjects": [
+      "hematology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/thrombosis-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Infectious Diseases",
+    "url": "https://rss.sciencedirect.com/publication/science/12019712",
+    "subjects": [
+      "infectious disease",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-infectious-diseases",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Composite Structures",
+    "url": "https://rss.sciencedirect.com/publication/science/02638223",
+    "subjects": [
+      "composites"
+    ],
+    "source": "https://www.sciencedirect.com/journal/composite-structures",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Research Bulletin",
+    "url": "https://rss.sciencedirect.com/publication/science/00255408",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-research-bulletin",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Polymer Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/00143057",
+    "subjects": [
+      "polymers"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-polymer-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinical Lymphoma Myeloma \u0026 Leukemia",
+    "url": "https://rss.sciencedirect.com/publication/science/21522650",
+    "subjects": [
+      "hematology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinical-lymphoma-myeloma-and-leukemia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Food Research International",
+    "url": "https://rss.sciencedirect.com/publication/science/09639969",
+    "subjects": [
+      "food science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/food-research-international",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Process Safety and Environmental Protection",
+    "url": "https://rss.sciencedirect.com/publication/science/09575820",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/process-safety-and-environmental-protection",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Bone",
+    "url": "https://rss.sciencedirect.com/publication/science/87563282",
+    "subjects": [
+      "rheumatology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/bone",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Cancer Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/03043835",
+    "subjects": [
+      "oncology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/cancer-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Catalysis A General",
+    "url": "https://rss.sciencedirect.com/publication/science/0926860X",
+    "subjects": [
+      "catalysis"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-catalysis-a-general",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Medicinal Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/02235234",
+    "subjects": [
+      "medicinal chemistry",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-medicinal-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Bioorganic \u0026 Medicinal Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/09680896",
+    "subjects": [
+      "medicinal chemistry",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/bioorganic-and-medicinal-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Discrete Mathematics",
+    "url": "https://rss.sciencedirect.com/publication/science/0012365X",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/discrete-mathematics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Optics \u0026 Laser Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/00303992",
+    "subjects": [
+      "optics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/optics-and-laser-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Theriogenology",
+    "url": "https://rss.sciencedirect.com/publication/science/0093691X",
+    "subjects": [
+      "animal science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/theriogenology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nuclear Engineering and Design",
+    "url": "https://rss.sciencedirect.com/publication/science/00295493",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nuclear-engineering-and-design",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Sensors and Actuators A Physical",
+    "url": "https://rss.sciencedirect.com/publication/science/09244247",
+    "subjects": [
+      "sensors"
+    ],
+    "source": "https://www.sciencedirect.com/journal/sensors-and-actuators-a-physical",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Obstetrics \u0026 Gynecology and Reproductive Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/03012115",
+    "subjects": [
+      "obstetrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-obstetrics-and-gynecology-and-reproductive-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Toxicology and Applied Pharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/0041008X",
+    "subjects": [
+      "pharmacology",
+      "toxicology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/toxicology-and-applied-pharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The American Journal of Emergency Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/07356757",
+    "subjects": [
+      "critical care",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-american-journal-of-emergency-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Materials Processing Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/09240136",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-materials-processing-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ultrasound in Medicine \u0026 Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/03015629",
+    "subjects": [
+      "radiology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ultrasound-in-medicine-and-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Minimally Invasive Gynecology",
+    "url": "https://rss.sciencedirect.com/publication/science/15534650",
+    "subjects": [
+      "obstetrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-minimally-invasive-gynecology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Food and Chemical Toxicology",
+    "url": "https://rss.sciencedirect.com/publication/science/02786915",
+    "subjects": [
+      "toxicology",
+      "food science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/food-and-chemical-toxicology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chaos Solitons \u0026 Fractals",
+    "url": "https://rss.sciencedirect.com/publication/science/09600779",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chaos-solitons-and-fractals",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinical Radiology",
+    "url": "https://rss.sciencedirect.com/publication/science/00099260",
+    "subjects": [
+      "radiology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinical-radiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Controlled Release",
+    "url": "https://rss.sciencedirect.com/publication/science/01683659",
+    "subjects": [
+      "pharmaceutics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-controlled-release",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Materials Research and Technology",
+    "url": "https://rss.sciencedirect.com/publication/science/22387854",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-materials-research-and-technology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Cystic Fibrosis",
+    "url": "https://rss.sciencedirect.com/publication/science/15691993",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-cystic-fibrosis",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of the European Ceramic Society",
+    "url": "https://rss.sciencedirect.com/publication/science/09552219",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-the-european-ceramic-society",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Oral and Maxillofacial Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/09015027",
+    "subjects": [
+      "dentistry",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-oral-and-maxillofacial-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Linear Algebra and its Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/00243795",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/linear-algebra-and-its-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Solid State Ionics",
+    "url": "https://rss.sciencedirect.com/publication/science/01672738",
+    "subjects": [
+      "materials",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/solid-state-ionics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Theoretical Biology",
+    "url": "https://rss.sciencedirect.com/publication/science/00225193",
+    "subjects": [
+      "biology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-theoretical-biology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Spine Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/15299430",
+    "subjects": [
+      "orthopedics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-spine-journal",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Energy and Buildings",
+    "url": "https://rss.sciencedirect.com/publication/science/03787788",
+    "subjects": [
+      "energy",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/energy-and-buildings",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Computational and Applied Mathematics",
+    "url": "https://rss.sciencedirect.com/publication/science/03770427",
+    "subjects": [
+      "computer science",
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Tectonophysics",
+    "url": "https://rss.sciencedirect.com/publication/science/00401951",
+    "subjects": [
+      "earth science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/tectonophysics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Optical Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/09253467",
+    "subjects": [
+      "materials",
+      "optics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/optical-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Theoretical Computer Science",
+    "url": "https://rss.sciencedirect.com/publication/science/03043975",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/theoretical-computer-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Corrosion Science",
+    "url": "https://rss.sciencedirect.com/publication/science/0010938X",
+    "subjects": [
+      "electrochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/corrosion-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Pharmaceutical and Biomedical Analysis",
+    "url": "https://rss.sciencedirect.com/publication/science/07317085",
+    "subjects": [
+      "pharmacology",
+      "medicinal chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-pharmaceutical-and-biomedical-analysis",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biotechnology Advances",
+    "url": "https://rss.sciencedirect.com/publication/science/07349750",
+    "subjects": [
+      "biotechnology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biotechnology-advances",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Inorganic Chemistry Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/13877003",
+    "subjects": [
+      "inorganic chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/inorganic-chemistry-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Energy Policy",
+    "url": "https://rss.sciencedirect.com/publication/science/03014215",
+    "subjects": [
+      "energy",
+      "political science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/energy-policy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Clinical Nutrition",
+    "url": "https://rss.sciencedirect.com/publication/science/02615614",
+    "subjects": [
+      "nutrition",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/clinical-nutrition",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neuroscience Research",
+    "url": "https://rss.sciencedirect.com/publication/science/01680102",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuroscience-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Animal Behaviour",
+    "url": "https://rss.sciencedirect.com/publication/science/00033472",
+    "subjects": [
+      "animal behavior"
+    ],
+    "source": "https://www.sciencedirect.com/journal/animal-behaviour",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Emergency Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/07364679",
+    "subjects": [
+      "emergency medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-emergency-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Resuscitation",
+    "url": "https://rss.sciencedirect.com/publication/science/03009572",
+    "subjects": [
+      "critical care"
+    ],
+    "source": "https://www.sciencedirect.com/journal/resuscitation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Personality and Individual Differences",
+    "url": "https://rss.sciencedirect.com/publication/science/01918869",
+    "subjects": [
+      "psychology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/personality-and-individual-differences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Building Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/23527102",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-building-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Catalysis Today",
+    "url": "https://rss.sciencedirect.com/publication/science/09205861",
+    "subjects": [
+      "catalysis"
+    ],
+    "source": "https://www.sciencedirect.com/journal/catalysis-today",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Computer Methods in Applied Mechanics and Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/00457825",
+    "subjects": [
+      "engineering",
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Journal of Arthroplasty",
+    "url": "https://rss.sciencedirect.com/publication/science/08835403",
+    "subjects": [
+      "orthopedics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-arthroplasty",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Pharmacology Biochemistry and Behavior",
+    "url": "https://rss.sciencedirect.com/publication/science/00913057",
+    "subjects": [
+      "pharmacology",
+      "biochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/pharmacology-biochemistry-and-behavior",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Scientia Horticulturae",
+    "url": "https://rss.sciencedirect.com/publication/science/03044238",
+    "subjects": [
+      "agriculture"
+    ],
+    "source": "https://www.sciencedirect.com/journal/scientia-horticulturae",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biochimica et Biophysica Acta (BBA) - General Subjects",
+    "url": "https://rss.sciencedirect.com/publication/science/03044165",
+    "subjects": [
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biochimica-et-biophysica-acta-bba-general-subjects",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Behavioural Brain Research",
+    "url": "https://rss.sciencedirect.com/publication/science/01664328",
+    "subjects": [
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/behavioural-brain-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Icarus",
+    "url": "https://rss.sciencedirect.com/publication/science/00191035",
+    "subjects": [
+      "astronomy",
+      "planetary science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/icarus",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Computers \u0026 Mathematics with Applications",
+    "url": "https://rss.sciencedirect.com/publication/science/08981221",
+    "subjects": [
+      "computer science",
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/computers-and-mathematics-with-applications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Sleep Medicine",
+    "url": "https://rss.sciencedirect.com/publication/science/13899457",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/sleep-medicine",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Transplantation",
+    "url": "https://rss.sciencedirect.com/publication/science/16006135",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-transplantation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Fusion Engineering and Design",
+    "url": "https://rss.sciencedirect.com/publication/science/09203796",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/fusion-engineering-and-design",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Experimental Neurology",
+    "url": "https://rss.sciencedirect.com/publication/science/00144886",
+    "subjects": [
+      "neurology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/experimental-neurology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Immunopharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/15675769",
+    "subjects": [
+      "immunology",
+      "pharmacology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-immunopharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "The Journal Of Hand Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/03635023",
+    "subjects": [
+      "surgery",
+      "orthopedics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/the-journal-of-hand-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Diabetes Research and Clinical Practice",
+    "url": "https://rss.sciencedirect.com/publication/science/01688227",
+    "subjects": [
+      "endocrinology",
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/diabetes-research-and-clinical-practice",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Drug and Alcohol Dependence",
+    "url": "https://rss.sciencedirect.com/publication/science/03768716",
+    "subjects": [
+      "addiction medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/drug-and-alcohol-dependence",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Archives de Pédiatrie",
+    "url": "https://rss.sciencedirect.com/publication/science/0929693X",
+    "subjects": [
+      "pediatrics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/archives-de-pediatrie",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Pathology",
+    "url": "https://rss.sciencedirect.com/publication/science/00313025",
+    "subjects": [
+      "pathology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/pathology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Human Immunology",
+    "url": "https://rss.sciencedirect.com/publication/science/01988859",
+    "subjects": [
+      "immunology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/human-immunology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Vision Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00426989",
+    "subjects": [
+      "ophthalmology",
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/vision-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biological Conservation",
+    "url": "https://rss.sciencedirect.com/publication/science/00063207",
+    "subjects": [
+      "ecology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biological-conservation",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Science and Engineering B",
+    "url": "https://rss.sciencedirect.com/publication/science/09215107",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-science-and-engineering-b",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Photochemistry and Photobiology A Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/10106030",
+    "subjects": [
+      "photochemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-photochemistry-and-photobiology-a-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neuromuscular Disorders",
+    "url": "https://rss.sciencedirect.com/publication/science/09608966",
+    "subjects": [
+      "neurology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuromuscular-disorders",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Materials Today Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/23524928",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/materials-today-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neurobiology of Aging",
+    "url": "https://rss.sciencedirect.com/publication/science/01974580",
+    "subjects": [
+      "geriatrics",
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neurobiology-of-aging",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Infection Control",
+    "url": "https://rss.sciencedirect.com/publication/science/01966553",
+    "subjects": [
+      "infectious disease"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-infection-control",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Biotechnology",
+    "url": "https://rss.sciencedirect.com/publication/science/01681656",
+    "subjects": [
+      "biotechnology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-biotechnology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Engineering Fracture Mechanics",
+    "url": "https://rss.sciencedirect.com/publication/science/00137944",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/engineering-fracture-mechanics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Automatica",
+    "url": "https://rss.sciencedirect.com/publication/science/00051098",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/automatica",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Solids and Structures",
+    "url": "https://rss.sciencedirect.com/publication/science/00207683",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-solids-and-structures",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Pain and Symptom Management",
+    "url": "https://rss.sciencedirect.com/publication/science/08853924",
+    "subjects": [
+      "pain medicine",
+      "palliative care"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-pain-and-symptom-management",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Solid-State Electronics",
+    "url": "https://rss.sciencedirect.com/publication/science/00381101",
+    "subjects": [
+      "electronics",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/solid-state-electronics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Colloids and Surfaces B Biointerfaces",
+    "url": "https://rss.sciencedirect.com/publication/science/09277765",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/colloids-and-surfaces-b-biointerfaces",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Nonlinear Analysis",
+    "url": "https://rss.sciencedirect.com/publication/science/0362546X",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/nonlinear-analysis",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Cardiothoracic and Vascular Anesthesia",
+    "url": "https://rss.sciencedirect.com/publication/science/10530770",
+    "subjects": [
+      "cardiology",
+      "critical care"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-cardiothoracic-and-vascular-anesthesia",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Ecological Indicators",
+    "url": "https://rss.sciencedirect.com/publication/science/1470160X",
+    "subjects": [
+      "ecology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/ecological-indicators",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Psychiatry Research",
+    "url": "https://rss.sciencedirect.com/publication/science/01651781",
+    "subjects": [
+      "psychiatry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/psychiatry-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Pharmaceutical Education",
+    "url": "https://rss.sciencedirect.com/publication/science/00029459",
+    "subjects": [
+      "pharmaceutics",
+      "education"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-pharmaceutical-education",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "American Journal of Orthodontics and Dentofacial Orthopedics",
+    "url": "https://rss.sciencedirect.com/publication/science/08895406",
+    "subjects": [
+      "dentistry",
+      "orthopedics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/american-journal-of-orthodontics-and-dentofacial-orthopedics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Building and Environment",
+    "url": "https://rss.sciencedirect.com/publication/science/03601323",
+    "subjects": [
+      "environment",
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/building-and-environment",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/00396060",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Economics Letters",
+    "url": "https://rss.sciencedirect.com/publication/science/01651765",
+    "subjects": [
+      "economics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/economics-letters",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Acta Astronautica",
+    "url": "https://rss.sciencedirect.com/publication/science/00945765",
+    "subjects": [
+      "engineering",
+      "physics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/acta-astronautica",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Palaeogeography Palaeoclimatology Palaeoecology",
+    "url": "https://rss.sciencedirect.com/publication/science/00310182",
+    "subjects": [
+      "climate",
+      "earth science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/palaeogeography-palaeoclimatology-palaeoecology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Differential Equations",
+    "url": "https://rss.sciencedirect.com/publication/science/00220396",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-differential-equations",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Neuropharmacology",
+    "url": "https://rss.sciencedirect.com/publication/science/00283908",
+    "subjects": [
+      "pharmacology",
+      "neuroscience"
+    ],
+    "source": "https://www.sciencedirect.com/journal/neuropharmacology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Tribology International",
+    "url": "https://rss.sciencedirect.com/publication/science/0301679X",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/tribology-international",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Metabolism",
+    "url": "https://rss.sciencedirect.com/publication/science/00260495",
+    "subjects": [
+      "endocrinology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/metabolism",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Diamond and Related Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/09259635",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/diamond-and-related-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Molecular Immunology",
+    "url": "https://rss.sciencedirect.com/publication/science/01615890",
+    "subjects": [
+      "immunology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/molecular-immunology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Combustion and Flame",
+    "url": "https://rss.sciencedirect.com/publication/science/00102180",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/combustion-and-flame",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Environment International",
+    "url": "https://rss.sciencedirect.com/publication/science/01604120",
+    "subjects": [
+      "environment"
+    ],
+    "source": "https://www.sciencedirect.com/journal/environment-international",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Human Pathology",
+    "url": "https://rss.sciencedirect.com/publication/science/00468177",
+    "subjects": [
+      "pathology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/human-pathology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Fatigue",
+    "url": "https://rss.sciencedirect.com/publication/science/01421123",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-fatigue",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Applied Soft Computing",
+    "url": "https://rss.sciencedirect.com/publication/science/15684946",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/applied-soft-computing",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Medical Hypotheses",
+    "url": "https://rss.sciencedirect.com/publication/science/03069877",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/medical-hypotheses",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "url": "https://rss.sciencedirect.com/publication/science/09521976",
+    "subjects": [
+      "computer science",
+      "artificial intelligence"
+    ],
+    "source": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Microporous and Mesoporous Materials",
+    "url": "https://rss.sciencedirect.com/publication/science/13871811",
+    "subjects": [
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/microporous-and-mesoporous-materials",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Radiation Physics and Chemistry",
+    "url": "https://rss.sciencedirect.com/publication/science/0969806X",
+    "subjects": [
+      "physics",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/radiation-physics-and-chemistry",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Oral Surgery Oral Medicine Oral Pathology and Oral Radiology",
+    "url": "https://rss.sciencedirect.com/publication/science/22124403",
+    "subjects": [
+      "dentistry",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/oral-surgery-oral-medicine-oral-pathology-and-oral-radiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Food Hydrocolloids",
+    "url": "https://rss.sciencedirect.com/publication/science/0268005X",
+    "subjects": [
+      "physical chemistry",
+      "food science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/food-hydrocolloids",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Kidney International Reports",
+    "url": "https://rss.sciencedirect.com/publication/science/24680249",
+    "subjects": [
+      "nephrology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/kidney-international-reports",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Biochimica et Biophysica Acta (BBA) - Bioenergetics",
+    "url": "https://rss.sciencedirect.com/publication/science/00052728",
+    "subjects": [
+      "biophysics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/biochimica-et-biophysica-acta-bba-bioenergetics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Annals of Allergy Asthma \u0026 Immunology",
+    "url": "https://rss.sciencedirect.com/publication/science/10811206",
+    "subjects": [
+      "respiratory medicine",
+      "immunology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/annals-of-allergy-asthma-and-immunology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Chemical Geology",
+    "url": "https://rss.sciencedirect.com/publication/science/00092541",
+    "subjects": [
+      "earth science",
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/chemical-geology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Computational Materials Science",
+    "url": "https://rss.sciencedirect.com/publication/science/09270256",
+    "subjects": [
+      "materials",
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/computational-materials-science",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Knowledge-Based Systems",
+    "url": "https://rss.sciencedirect.com/publication/science/09507051",
+    "subjects": [
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/knowledge-based-systems",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "European Journal of Vascular and Endovascular Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/10785884",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/european-journal-of-vascular-and-endovascular-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Medicina Clínica",
+    "url": "https://rss.sciencedirect.com/publication/science/00257753",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/medicina-clinica",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Immunological Methods",
+    "url": "https://rss.sciencedirect.com/publication/science/00221759",
+    "subjects": [
+      "immunology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-immunological-methods",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Experimental Eye Research",
+    "url": "https://rss.sciencedirect.com/publication/science/00144835",
+    "subjects": [
+      "ophthalmology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/experimental-eye-research",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Annals of Nuclear Energy",
+    "url": "https://rss.sciencedirect.com/publication/science/03064549",
+    "subjects": [
+      "energy"
+    ],
+    "source": "https://www.sciencedirect.com/journal/annals-of-nuclear-energy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Endodontics",
+    "url": "https://rss.sciencedirect.com/publication/science/00992399",
+    "subjects": [
+      "dentistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-endodontics",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "International Journal of Mechanical Sciences",
+    "url": "https://rss.sciencedirect.com/publication/science/00207403",
+    "subjects": [
+      "engineering"
+    ],
+    "source": "https://www.sciencedirect.com/journal/international-journal-of-mechanical-sciences",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Gait \u0026 Posture",
+    "url": "https://rss.sciencedirect.com/publication/science/09666362",
+    "subjects": [
+      "rehabilitation"
+    ],
+    "source": "https://www.sciencedirect.com/journal/gait-and-posture",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "British Journal of Oral and Maxillofacial Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/02664356",
+    "subjects": [
+      "dentistry",
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/british-journal-of-oral-and-maxillofacial-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Microelectronic Engineering",
+    "url": "https://rss.sciencedirect.com/publication/science/01679317",
+    "subjects": [
+      "electronics"
+    ],
+    "source": "https://www.sciencedirect.com/journal/microelectronic-engineering",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Computer Physics Communications",
+    "url": "https://rss.sciencedirect.com/publication/science/00104655",
+    "subjects": [
+      "physics",
+      "computer science"
+    ],
+    "source": "https://www.sciencedirect.com/journal/computer-physics-communications",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Current Developments in Nutrition",
+    "url": "https://rss.sciencedirect.com/publication/science/24752991",
+    "subjects": [
+      "nutrition"
+    ],
+    "source": "https://www.sciencedirect.com/journal/current-developments-in-nutrition",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Solar Energy Materials and Solar Cells",
+    "url": "https://rss.sciencedirect.com/publication/science/09270248",
+    "subjects": [
+      "energy",
+      "materials"
+    ],
+    "source": "https://www.sciencedirect.com/journal/solar-energy-materials-and-solar-cells",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Chromatography B",
+    "url": "https://rss.sciencedirect.com/publication/science/15700232",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-chromatography-b",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Canadian Journal of Cardiology",
+    "url": "https://rss.sciencedirect.com/publication/science/0828282X",
+    "subjects": [
+      "cardiology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/canadian-journal-of-cardiology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Asian Journal of Surgery",
+    "url": "https://rss.sciencedirect.com/publication/science/10159584",
+    "subjects": [
+      "surgery"
+    ],
+    "source": "https://www.sciencedirect.com/journal/asian-journal-of-surgery",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Adolescent Health",
+    "url": "https://rss.sciencedirect.com/publication/science/1054139X",
+    "subjects": [
+      "medicine"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-adolescent-health",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Annales de Dermatologie et de Vénéréologie",
+    "url": "https://rss.sciencedirect.com/publication/science/01519638",
+    "subjects": [
+      "dermatology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/annales-de-dermatologie-et-de-venereologie",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Molecular Spectroscopy",
+    "url": "https://rss.sciencedirect.com/publication/science/00222852",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-molecular-spectroscopy",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "General and Comparative Endocrinology",
+    "url": "https://rss.sciencedirect.com/publication/science/00166480",
+    "subjects": [
+      "endocrinology"
+    ],
+    "source": "https://www.sciencedirect.com/journal/general-and-comparative-endocrinology",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+    "url": "https://rss.sciencedirect.com/publication/science/00224073",
+    "subjects": [
+      "analytical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Fluid Phase Equilibria",
+    "url": "https://rss.sciencedirect.com/publication/science/03783812",
+    "subjects": [
+      "physical chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/fluid-phase-equilibria",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Elsevier/ScienceDirect",
+    "journal": "Dyes and Pigments",
+    "url": "https://rss.sciencedirect.com/publication/science/01437208",
+    "subjects": [
+      "chemistry"
+    ],
+    "source": "https://www.sciencedirect.com/journal/dyes-and-pigments",
+    "method": "url_pattern",
+    "status": "verified",
+    "notes": "Candidate ScienceDirect publication RSS by ISSN."
   }
 ]
