@@ -8,7 +8,14 @@
 
 ## Catalog Conventions
 
-- Open coverage and ranking signals, including OpenAlex Sources and official publisher journal lists, may be used only to decide what to include.
+- Identity fields are separate from the legacy `journal` subscription label. `feed_scope` is required and is one of `single_journal`, `multi_journal`, `subject_collection`, `platform_collection`.
+- `single_journal` is the only scope that carries a non-null `canonical_journal`; the other scopes keep `canonical_journal: null` so an aggregate never impersonates one journal.
+- `feed_type` and `feed_name` are set together or left null. A plain single-journal feed with no distinguished type uses null for both; never invent `current_issue` or `recent` from the URL shape.
+- `collection` is only for `subject_collection` entries and must carry `platform`, a stable `id`, and the official `name`.
+- `issn_l` stores only an ISSN-L that the ISSN Portal record and the Crossref journal record both confirm under the same title; leave it null when unconfirmed rather than guessing.
+- Do not strip parentheses, colons, or subtitles from labels by rule: `Physica A: Statistical Mechanics and its Applications`, `Light: Science & Applications`, and `JNCI: Journal of the National Cancer Institute` are whole titles, while `Physical Review B: Semiconductors I: bulk` is a section feed whose journal is `Physical Review B`.
+- Use `go run .\tools\migrateidentity -dry-run` to re-derive identity fields from the publisher rules in that tool, and `go run .\tools\issnlookup -apply` to fill or propagate `issn_l`. New entries should carry the identity fields from the start; the tools are for batches and repairs.
+- Open coverage and ranking signals, including OpenAlex Sources and official publisher journal lists, may be used only to decide what to include. Identifier lookups read identifier fields only: Crossref and Wikidata may propose an ISSN, but the ISSN Portal and Crossref must confirm the ISSN-L under the catalog title before it is stored.
 - Do not copy proprietary ranking tables or store impact scores.
 - Publisher grouping follows the catalog's canonical publisher/host choice.
 - Nature-hosted `www.nature.com` feeds, including Nature Reviews, Communications, and npj journals, are grouped under Nature.

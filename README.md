@@ -41,20 +41,33 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 
 ## Entry Format
 
-Each `data/feeds.json` entry has:
+Each `data/feeds.json` entry keeps the journal identity separate from what the feed publishes:
 
 ```json
 {
-  "publisher": "Nature",
-  "journal": "Nature Methods",
-  "url": "https://www.nature.com/nmeth.rss",
-  "subjects": ["biology", "methods"],
-  "source": "https://www.nature.com/nmeth/",
-  "method": "url_pattern",
+  "publisher": "ACS",
+  "journal": "ACS Nano (ASAP)",
+  "canonical_journal": "ACS Nano",
+  "issn_l": "1936-0851",
+  "feed_scope": "single_journal",
+  "feed_type": "asap",
+  "feed_name": "ASAP",
+  "collection": null,
+  "url": "https://pubs.acs.org/rss/ancac3/asap.xml",
+  "subjects": ["nanoscience", "materials"],
+  "source": "https://pubs.acs.org/journal/ancac3",
+  "method": "publisher_index",
   "status": "verified",
-  "notes": ""
+  "notes": "Official ACS Publications ASAP RSS feed from the publisher RSS index."
 }
 ```
+
+- `journal` stays the legacy subscription label older clients read, so it keeps suffixes such as `(ASAP)` and section wording.
+- `canonical_journal` is the journal's official full title, shared by every feed of that journal, with no feed type, volume, or issue text. It is non-null only for `feed_scope: "single_journal"`.
+- `issn_l` is the optional linking ISSN that ties the feeds of one journal together. Fill it only after the ISSN Portal record and the Crossref journal record agree on it under the same title; otherwise leave it `null`.
+- `feed_scope` is required: `single_journal`, `multi_journal` (one feed spanning several journals), `subject_collection` (a platform's subject classification), or `platform_collection`.
+- `feed_type` and `feed_name` are set together or left `null`. `feed_type` is a stable lowercase token such as `asap`, `current_issue`, `recently_published`, `recently_accepted`, `editors_suggestions`, `toc_section`, `subject_collection`, or `latest_preprints`; `feed_name` is what the reader shows for this feed. A plain single-journal feed has no type, so both stay `null`.
+- `collection` is only for `subject_collection` entries and carries the `platform`, a stable `id`, and the official classification `name`.
 
 Allowed `method` values are `publisher_index`, `url_pattern`, and `manual`.
 
@@ -63,6 +76,16 @@ Allowed `status` values are:
 - `verified`: feed URL has returned RSS, Atom, or RDF to the Go validator or WebView2 verifier.
 - `protected`: generic HTTP clients receive a challenge/block page and WebView2 verification has not yet captured XML.
 - `source_documented`: official source documents the feed, but live validation did not confirm XML.
+
+### Reading the catalog
+
+1. `single_journal`: use `canonical_journal` for the journal, even when an item's own citation metadata carries volume or issue text.
+2. `multi_journal`: prefer each item's own journal name; the feed label only covers what the item metadata is missing.
+3. `subject_collection`: identify the classification with `collection`, and display it as platform plus `collection.name`. It is not a journal.
+4. `platform_collection`: use the platform feed identity, and present an item's own journal name where the product wants it.
+5. Do not infer any of this from publisher URL patterns; every current entry states `feed_scope` explicitly, and only an imported entry that predates the field falls back to limited compatibility logic.
+
+Publisher pages under [`publishers/`](publishers/) show the `Feed Type` of each entry. `go run .\tools\migrateidentity` re-derives the identity fields for the whole catalog from the publisher rules in that tool, and `go run .\tools\issnlookup -apply` fills or shares `issn_l` for the journals that have more than one feed.
 
 ## Manual RSS Lookup
 
@@ -80,6 +103,7 @@ Use these publisher patterns only after checking the official journal or RSS pag
 
 - Prefer official publisher RSS pages, journal pages, or documented URL patterns.
 - If a publisher exposes a complete official RSS index, include the full index rather than a sample.
+- State `feed_scope` on every new entry, with `canonical_journal` for a single journal and `feed_type` plus `feed_name` when the feed is one of several for that journal.
 - Include `source`, `method`, `status`, and short `notes` when a feed is protected or only source-documented.
 - Run:
 
@@ -88,5 +112,7 @@ go test ./...
 go run .\tools\feedcheck.go
 go run .\tools\publishers
 ```
+
+Add `go run .\tools\issnlookup -apply` after introducing another feed for a journal whose ISSN-L is already known, or to resolve the journals still missing one.
 
 Use `--force` to re-check every entry. 

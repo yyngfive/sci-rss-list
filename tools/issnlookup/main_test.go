@@ -1,0 +1,194 @@
+package main
+
+import (
+	"strings"
+	"testing"
+
+	"sci-rss-list/internal/catalog"
+)
+
+func TestMembersFromWorksKeepsOnlyExactTitles(t *testing.T) {
+	cases := []struct {
+		name  string
+		title string
+		items []crossrefWork
+		want  []string
+	}{
+		{
+			name:  "cited journals are dropped",
+			title: "ACS Nano",
+			items: []crossrefWork{
+				{ContainerTitle: []string{"Nano Letters"}, ISSN: []string{"1530-6984", "1530-6992"}},
+				{ContainerTitle: []string{"ACS Nano"}, ISSN: []string{"1936-0851", "1936-086X"}},
+			},
+			want: []string{"1936-0851", "1936-086X"},
+		},
+		{
+			name:  "an escaped ampersand is the same title",
+			title: "Crystal Growth & Design",
+			items: []crossrefWork{
+				{ContainerTitle: []string{"Crystal Growth &amp; Design"}, ISSN: []string{"1528-7483"}},
+			},
+			want: []string{"1528-7483"},
+		},
+		{
+			name:  "the parent journal is not the journal itself",
+			title: "Physical Review A",
+			items: []crossrefWork{
+				{ContainerTitle: []string{"Physical Review"}, ISSN: []string{"0031-899X"}},
+			},
+			want: nil,
+		},
+		{
+			name:  "repeated works contribute one ISSN each",
+			title: "Cell",
+			items: []crossrefWork{
+				{ContainerTitle: []string{"Cell"}, ISSN: []string{"0092-8674", "1097-4172"}},
+				{ContainerTitle: []string{"Cell"}, ISSN: []string{"0092-8674"}},
+			},
+			want: []string{"0092-8674", "1097-4172"},
+		},
+		{
+			name:  "a substring match is not the title",
+			title: "Cell",
+			items: []crossrefWork{
+				{ContainerTitle: []string{"Cell reports"}, ISSN: []string{"2160-7680"}},
+				{ContainerTitle: []string{"Cells"}, ISSN: []string{"2073-4409"}},
+			},
+			want: nil,
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			got := membersFromWorks(tc.items, tc.title)
+			if strings.Join(got, ",") != strings.Join(tc.want, ",") {
+				t.Fatalf("membersFromWorks() = %v, want %v", got, tc.want)
+			}
+		})
+	}
+}
+
+func TestIssnLFromPortalPage(t *testing.T) {
+	cases := []struct {
+		name, body, want string
+	}{
+		{
+			name: "the record marks the linking ISSN as an attribute",
+			body: `<a data-issn="1936-086X" issnl="1936-0851" class="link">`,
+			want: "1936-0851",
+		},
+		{
+			name: "the label links to the linking record",
+			body: `<dt>ISSN-L:</dt><dd><a href="/resource/ISSN-L/1050-2947?issn=2469-9926">1050-2947</a></dd>`,
+			want: "1050-2947",
+		},
+		{
+			name: "a page without a linking record yields nothing",
+			body: `<dt>ISSN:</dt><dd>1936-086X</dd>`,
+			want: "",
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			if got := issnLFromPortalPage(tc.body); got != tc.want {
+				t.Fatalf("issnLFromPortalPage() = %q, want %q", got, tc.want)
+			}
+		})
+	}
+}
+
+func TestAgreedIssnLRejectsDisagreement(t *testing.T) {
+	if got := agreedIssnL([]string{"1936-0851", "1936-0851"}); len(got) != 1 || got[0] != "1936-0851" {
+		t.Fatalf("agreedIssnL() = %v, want one value", got)
+	}
+	if got := agreedIssnL([]string{"1050-2947", "2469-9926"}); len(got) != 2 {
+		t.Fatalf("different ISSN-L values must stay visible: %v", got)
+	}
+	if got := agreedIssnL([]string{"", "not-an-issn"}); len(got) != 0 {
+		t.Fatalf("agreedIssnL() = %v, want nothing", got)
+	}
+}
+
+func TestPublisherMatchesRejectsAnotherPublisher(t *testing.T) {
+	cases := []struct {
+		hint, found string
+		want        bool
+	}{
+		{"", "Elsevier", true},
+		{"American Chemical Society", "American Chemical Society", true},
+		{"National Academy of Sciences", "Proceedings of the National Academy of Sciences", true},
+		{"American Chemical Society", "Portland Press", false},
+		{"American Physical Society", "American Institute of Physics", false},
+	}
+	for _, c := range cases {
+		if got := publisherMatches(c.hint, c.found); got != c.want {
+			t.Errorf("publisherMatches(%q, %q) = %v, want %v", c.hint, c.found, got, c.want)
+		}
+	}
+}
+
+func TestPublisherHintOnlyNarrowsASinglePublisherGroup(t *testing.T) {
+	if got := publisherHint(map[string]bool{"ACS": true}); got != "American Chemical Society" {
+		t.Fatalf("publisherHint(ACS) = %q", got)
+	}
+	if got := publisherHint(map[string]bool{"Cell Press": true, "Elsevier/ScienceDirect": true}); got != "" {
+		t.Fatalf("publisherHint(mixed) = %q, want no hint", got)
+	}
+	if got := publisherHint(map[string]bool{"Nature": true}); got != "" {
+		t.Fatalf("publisherHint(Nature) = %q, want no hint", got)
+	}
+}
+
+func TestNormalizeTitle(t *testing.T) {
+	cases := [][2]string{
+		{"Physical Review Letters", "physical review letters"},
+		{"Journal of Near Infrared Spectroscopy", "journal of near infrared spectroscopy"},
+		{"ACS ES&T Water", "acs es and t water"},
+		{"Crystal Growth &amp; Design", "crystal growth and design"},
+		{"Light: Science &amp; Applications", "light science and applications"},
+		{"  Optica   Quantum  ", "optica quantum"},
+	}
+	for _, c := range cases {
+		if got := normalizeTitle(c[0]); got != c[1] {
+			t.Errorf("normalizeTitle(%q) = %q, want %q", c[0], got, c[1])
+		}
+	}
+}
+
+func TestPendingEntriesOnlyReturnsSharedJournalsWithoutIssnL(t *testing.T) {
+	feeds := []catalog.Feed{
+		{Publisher: "ACS", Journal: "ACS Nano (ASAP)", CanonicalJournal: catalog.Ptr("ACS Nano")},
+		{Publisher: "ACS", Journal: "ACS Nano (Current Issue)", CanonicalJournal: catalog.Ptr("ACS Nano")},
+		{Publisher: "Nature", Journal: "Nature Methods", CanonicalJournal: catalog.Ptr("Nature Methods")},
+		{Publisher: "bioRxiv/medRxiv", Journal: "medRxiv: Health Economics"},
+	}
+	entries := pendingEntries(feeds)
+	if len(entries) != 1 {
+		t.Fatalf("entries = %v, want only ACS Nano", entries)
+	}
+	if entries[0].feeds != 2 || !entries[0].publishers["ACS"] {
+		t.Fatalf("entry = %+v", entries[0])
+	}
+
+	feeds[0].IssnL = catalog.Ptr("1936-0851")
+	if entries := pendingEntries(feeds); len(entries) != 0 {
+		t.Fatalf("a journal with a known ISSN-L should not be looked up again: %v", entries)
+	}
+}
+
+func TestPropagateIssnLSharesOneIdentityAcrossFeeds(t *testing.T) {
+	feeds := []catalog.Feed{
+		{Publisher: "ACS", Journal: "ACS Nano (ASAP)", CanonicalJournal: catalog.Ptr("ACS Nano"), IssnL: catalog.Ptr("1936-0851")},
+		{Publisher: "ACS", Journal: "ACS Nano (Current Issue)", CanonicalJournal: catalog.Ptr("ACS Nano")},
+		{Publisher: "Nature", Journal: "Nature Methods", CanonicalJournal: catalog.Ptr("Nature Methods")},
+	}
+	if changed := propagateIssnL(feeds); changed != 1 {
+		t.Fatalf("changed = %d, want 1", changed)
+	}
+	if feeds[1].IssnL == nil || *feeds[1].IssnL != "1936-0851" {
+		t.Fatalf("current issue feed did not inherit the ISSN-L: %+v", feeds[1])
+	}
+	if feeds[2].IssnL != nil {
+		t.Fatalf("a single feed journal must stay null: %v", *feeds[2].IssnL)
+	}
+}
