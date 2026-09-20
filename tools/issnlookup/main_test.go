@@ -7,6 +7,80 @@ import (
 	"sci-rss-list/internal/catalog"
 )
 
+func TestProposalMatchesAllowsAWordingVariation(t *testing.T) {
+	cases := []struct {
+		want, got string
+		match     bool
+	}{
+		{"The Journal of Organic Chemistry", "Journal of Organic Chemistry", true},
+		{"Crystal Growth &amp; Design", "Crystal Growth & Design", true},
+		{"Physical Review A", "Physical Review", false},
+		{"Cell", "Cells", false},
+	}
+	for _, c := range cases {
+		if got := proposalMatches(c.want, c.got); got != c.match {
+			t.Errorf("proposalMatches(%q, %q) = %v, want %v", c.want, c.got, got, c.match)
+		}
+	}
+	if sameTitle("The Journal of Organic Chemistry", "Journal of Organic Chemistry") {
+		t.Fatal("confirmation must not accept a title variation")
+	}
+}
+
+func TestPublisherPrefixNeedsOneSharedPrefix(t *testing.T) {
+	cases := []struct {
+		publishers map[string]bool
+		want       string
+	}{
+		{map[string]bool{"ACS": true}, "10.1021"},
+		{map[string]bool{"Cell Press": true, "Elsevier/ScienceDirect": true}, "10.1016"},
+		{map[string]bool{"Nature": true}, ""},
+		{map[string]bool{"ACS": true, "Nature": true}, ""},
+	}
+	for _, c := range cases {
+		if got := publisherPrefix(c.publishers); got != c.want {
+			t.Errorf("publisherPrefix(%v) = %q, want %q", c.publishers, got, c.want)
+		}
+	}
+}
+
+func TestIssnsFromURLsReadsFeedPatternsThatCarryAnISSN(t *testing.T) {
+	cases := []struct {
+		name string
+		urls []string
+		want []string
+	}{
+		{
+			name: "ScienceDirect uses the bare eight digits",
+			urls: []string{"https://rss.sciencedirect.com/publication/science/00928674"},
+			want: []string{"0092-8674"},
+		},
+		{
+			name: "Wiley uses the hyphenated online ISSN",
+			urls: []string{"https://onlinelibrary.wiley.com/feed/1521-4095/most-recent"},
+			want: []string{"1521-4095"},
+		},
+		{
+			name: "a check digit keeps its uppercase X",
+			urls: []string{"https://onlinelibrary.wiley.com/feed/1521-409X/most-recent"},
+			want: []string{"1521-409X"},
+		},
+		{
+			name: "ACS codes are not ISSNs",
+			urls: []string{"https://pubs.acs.org/rss/ancac3/asap.xml"},
+			want: nil,
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			got := issnsFromURLs(tc.urls)
+			if strings.Join(got, ",") != strings.Join(tc.want, ",") {
+				t.Fatalf("issnsFromURLs(%v) = %v, want %v", tc.urls, got, tc.want)
+			}
+		})
+	}
+}
+
 func TestMembersFromWorksKeepsOnlyExactTitles(t *testing.T) {
 	cases := []struct {
 		name  string

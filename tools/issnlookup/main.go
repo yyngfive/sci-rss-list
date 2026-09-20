@@ -2,12 +2,13 @@
 // one feed in the catalog, so those feeds share one stable identity. Titles it
 // cannot confirm stay null; nothing is guessed.
 //
-// Discovery only proposes ISSNs that belong to the journal: a Crossref work whose
-// container title repeats the catalog title, or a Wikidata item whose label repeats
-// it. Every proposed ISSN is then confirmed by the registry, not by the proposal:
-// Crossref must register the same title and publisher under that ISSN, and the ISSN
-// Portal record for two confirmed ISSNs must name the same ISSN-L, which Crossref
-// must again register under the catalog title. Only identifier fields are read.
+// Discovery only proposes ISSNs that may belong to the journal: a Crossref work
+// filed under the catalog title, a Wikidata item labelled with it, or an ISSN the
+// publisher's own journal page prints. Every proposed ISSN is then confirmed by the
+// registry, not by the proposal: Crossref must register the same title and publisher
+// under that ISSN, and the ISSN Portal record for two confirmed ISSNs must name the
+// same ISSN-L, which Crossref must again register under the catalog title. Only
+// identifier fields are read.
 //
 // Re-running is cheap and convergent: journals whose feeds already carry an
 // ISSN-L are skipped.
@@ -15,6 +16,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"html"
@@ -41,10 +43,22 @@ var publisherHosts = map[string]string{
 	"PNAS": "National Academy of Sciences",
 }
 
+// publisherPrefixes scope a Crossref work search to one publisher's deposits, which
+// keeps a parent journal from drowning out the journal actually asked for.
+var publisherPrefixes = map[string]string{
+	"ACS":                    "10.1021",
+	"APS":                    "10.1103",
+	"PNAS":                   "10.1073",
+	"Cell Press":             "10.1016",
+	"Elsevier/ScienceDirect": "10.1016",
+}
+
 type entry struct {
 	title      string
 	publishers map[string]bool
 	feeds      int
+	urls       []string
+	sources    []string
 }
 
 type result struct {
@@ -120,7 +134,7 @@ func main() {
 
 // resolve proposes the ISSNs of one journal and confirms a single ISSN-L for them.
 func resolve(client *http.Client, e entry) (issnL, reason string, err error) {
-	members := memberISSNs(client, e.title)
+	members := memberISSNs(client, e)
 	if len(members) == 0 {
 		return "", "no ISSN found for this title", nil
 	}
@@ -199,23 +213,101 @@ func publisherMatches(hint, found string) bool {
 	return want == got || strings.Contains(got, want) || strings.Contains(want, got)
 }
 
-// memberISSNs proposes ISSNs that may belong to the journal. Crossref is asked for
-// works filed under the title first, then Wikidata for an item labelled with it.
-func memberISSNs(client *http.Client, title string) []string {
+// proposalMatches compares the catalog title with a source that only proposes an
+// ISSN, where the wording may be a variation of the official title. Confirmation
+// under a registry record uses sameTitle alone.
+func proposalMatches(want, got string) bool {
+	if sameTitle(want, got) {
+		return true
+	}
+	return sameTitle(dropArticle(want), dropArticle(got))
+}
+
+func dropArticle(title string) string {
+	title = strings.TrimSpace(title)
+	for _, article := range []string{"The ", "A ", "An "} {
+		if len(title) > len(article) && strings.EqualFold(title[:len(article)], article) {
+			return title[len(article):]
+		}
+	}
+	return title
+}
+
+func contains(values []string, want string) bool {
+	for _, v := range values {
+		if v == want {
+			return true
+		}
+	}
+	return false
+}
+
+// memberISSNs proposes ISSNs that may belong to the journal: Crossref works filed
+// under the title, a Wikidata item labelled with it, and the ISSNs the publisher's
+// own journal page prints. A proposal is never trusted -- every one of them still
+// has to survive the registry check in resolve.
+func memberISSNs(client *http.Client, e entry) []string {
 	var out []string
-	if found, err := crossrefWorks(client, title); err == nil {
+	note := func(what string, err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s: %s: %v\n", e.title, what, err)
+		}
+	}
+	out = append(out, issnsFromURLs(e.urls)...)
+	if len(out) < portalChecks {
+		found, err := crossrefWorks(client, e.title, publisherPrefix(e.publishers))
+		note("Crossref work search", err)
 		out = append(out, found...)
-	} else {
-		fmt.Fprintf(os.Stderr, "%s: Crossref work search: %v\n", title, err)
 	}
 	if len(out) < portalChecks {
-		found, err := wikidataISSNs(client, title)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s: Wikidata search: %v\n", title, err)
+		found, err := wikidataISSNs(client, e.title)
+		note("Wikidata search", err)
+		out = append(out, found...)
+	}
+	for _, source := range e.sources {
+		if len(out) >= portalChecks {
+			break
 		}
+		found, err := pageISSNs(client, source)
+		note("official page "+source, err)
 		out = append(out, found...)
 	}
 	return unique(out)
+}
+
+// issnsFromURLs reads the ISSNs a feed URL already carries, as the Wiley and
+// ScienceDirect feed patterns do. A token that is not this journal's ISSN is weeded
+// out by the registry check.
+func issnsFromURLs(urls []string) []string {
+	var out []string
+	for _, raw := range urls {
+		for _, match := range urlIssnPattern.FindAllStringSubmatch(raw, portalChecks*2) {
+			out = append(out, match[1]+"-"+match[2]+strings.ToUpper(match[3]))
+		}
+	}
+	return unique(out)
+}
+
+func publisherPrefix(publishers map[string]bool) string {
+	prefix := ""
+	for publisher := range publishers {
+		next, ok := publisherPrefixes[publisher]
+		if !ok || (prefix != "" && prefix != next) {
+			return ""
+		}
+		prefix = next
+	}
+	return prefix
+}
+
+// pageISSNs reads the ISSNs a publisher page prints, which is how a journal whose
+// registry deposits sit under a parent title still gets a usable proposal.
+func pageISSNs(client *http.Client, rawurl string) ([]string, error) {
+	body, err := getText(client, rawurl)
+	if err != nil {
+		return nil, err
+	}
+	return unique(pageIssnPattern.FindAllString(body, portalChecks*3)), nil
 }
 
 type crossrefWork struct {
@@ -223,13 +315,13 @@ type crossrefWork struct {
 	ISSN           []string `json:"ISSN"`
 }
 
-// membersFromWorks keeps only the ISSNs of works whose container title repeats the
-// catalog title, because a Crossref query also returns the journals it cites.
+// membersFromWorks keeps only the ISSNs of works filed under the catalog title,
+// because a Crossref query also returns the journals a work cites.
 func membersFromWorks(items []crossrefWork, title string) []string {
 	var out []string
 	for _, item := range items {
 		for _, container := range item.ContainerTitle {
-			if sameTitle(container, title) {
+			if proposalMatches(title, container) {
 				out = append(out, item.ISSN...)
 				break
 			}
@@ -238,11 +330,15 @@ func membersFromWorks(items []crossrefWork, title string) []string {
 	return unique(out)
 }
 
-func crossrefWorks(client *http.Client, title string) ([]string, error) {
+func crossrefWorks(client *http.Client, title, prefix string) ([]string, error) {
+	filter := "type:journal-article"
+	if prefix != "" {
+		filter += ",prefix:" + prefix
+	}
 	values := url.Values{
 		"query.container-title": {title},
-		"filter":                {"type:journal-article"},
-		"rows":                  {"20"},
+		"filter":                {filter},
+		"rows":                  {"25"},
 		"select":                {"container-title,ISSN"},
 	}
 	var out struct {
@@ -264,7 +360,7 @@ func wikidataISSNs(client *http.Client, title string) ([]string, error) {
 		"language": {"en"},
 		"format":   {"json"},
 		"type":     {"item"},
-		"limit":    {"7"},
+		"limit":    {"25"},
 	}
 	var found struct {
 		Search []struct {
@@ -282,7 +378,7 @@ func wikidataISSNs(client *http.Client, title string) ([]string, error) {
 	}
 	var items []string
 	for _, item := range found.Search {
-		if sameTitle(item.Display.Label.Value, title) {
+		if proposalMatches(title, item.Display.Label.Value) {
 			items = append(items, item.ID)
 		}
 	}
@@ -331,6 +427,9 @@ func crossrefJournal(client *http.Client, issn string) (journalRecord, error) {
 		} `json:"message"`
 	}
 	if err := getJSON(client, "https://api.crossref.org/journals/"+issn, &out); err != nil {
+		if missing(err) {
+			return journalRecord{}, nil
+		}
 		return journalRecord{}, err
 	}
 	return journalRecord{title: out.Message.Title, publisher: out.Message.Publisher}, nil
@@ -338,6 +437,8 @@ func crossrefJournal(client *http.Client, issn string) (journalRecord, error) {
 
 var (
 	issnPattern     = regexp.MustCompile(`^\d{4}-\d{3}[0-9X]$`)
+	pageIssnPattern = regexp.MustCompile(`\d{4}-\d{3}[0-9X]`)
+	urlIssnPattern  = regexp.MustCompile(`(\d{4})-?(\d{3})([0-9xX])`)
 	portalAttribute = regexp.MustCompile(`(?i)issnl="(\d{4}-\d{3}[0-9X])"`)
 	portalResource  = regexp.MustCompile(`(?i)/resource/ISSN-L/(\d{4}-\d{3}[0-9X])`)
 )
@@ -347,6 +448,9 @@ var (
 func portalIssnL(client *http.Client, issn string) (string, error) {
 	body, err := getText(client, "https://portal.issn.org/resource/ISSN/"+issn)
 	if err != nil {
+		if missing(err) {
+			return "", nil
+		}
 		return "", err
 	}
 	return issnLFromPortalPage(body), nil
@@ -400,6 +504,12 @@ func pendingEntries(feeds []catalog.Feed) []entry {
 		}
 		e.feeds++
 		e.publishers[f.Publisher] = true
+		if len(e.urls) < portalChecks*2 && f.URL != "" && !contains(e.urls, f.URL) {
+			e.urls = append(e.urls, f.URL)
+		}
+		if len(e.sources) < 2 && f.Source != "" && !contains(e.sources, f.Source) {
+			e.sources = append(e.sources, f.Source)
+		}
 		if f.IssnL != nil {
 			resolved[title] = true
 		}
@@ -469,6 +579,17 @@ func applyIssnL(feeds []catalog.Feed, confirmed []result, dataPath string) {
 	fmt.Printf("ok: set issn_l on %d entries\n", changed)
 }
 
+// notFound is an answer rather than a transport failure: the registry has no record
+// under that ISSN, so this proposal is unusable and the next one gets a turn.
+type notFound struct{ endpoint string }
+
+func (e *notFound) Error() string { return e.endpoint + " returned 404 Not Found" }
+
+func missing(err error) bool {
+	var nf *notFound
+	return errors.As(err, &nf)
+}
+
 func getJSON(client *http.Client, endpoint string, out any) error {
 	body, err := request(client, endpoint, "application/json")
 	if err != nil {
@@ -512,6 +633,9 @@ func request(client *http.Client, endpoint, accept string) ([]byte, error) {
 		if res.StatusCode == http.StatusTooManyRequests || res.StatusCode >= 500 {
 			lastErr = fmt.Errorf("%s returned %s", endpoint, res.Status)
 			continue
+		}
+		if res.StatusCode == http.StatusNotFound {
+			return nil, &notFound{endpoint: endpoint}
 		}
 		if res.StatusCode != http.StatusOK {
 			return nil, fmt.Errorf("%s returned %s", endpoint, res.Status)

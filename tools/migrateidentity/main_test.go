@@ -96,12 +96,12 @@ func TestDerive(t *testing.T) {
 			canonical: "Physica A: Statistical Mechanics and its Applications",
 		},
 		{
-			name:      "pnas topic feed maps to the parent journal",
-			in:        feed("PNAS", "PNAS: Chemical Sciences", "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=chem"),
-			scope:     "single_journal",
-			canonical: "Proceedings of the National Academy of Sciences",
-			feedType:  "toc_section",
-			feedName:  "Chemical Sciences",
+			name:       "pnas topic feed is a subject collection, not a journal",
+			in:         feed("PNAS", "PNAS: Chemical Sciences", "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=chem"),
+			scope:      "subject_collection",
+			feedType:   "subject_collection",
+			feedName:   "Chemical Sciences",
+			collection: "PNAS/chem/Chemical Sciences",
 		},
 		{
 			name:      "pnas main feed has no feed type",

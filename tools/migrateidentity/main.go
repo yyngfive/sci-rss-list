@@ -136,15 +136,38 @@ func rxivCollection(rawurl string) (platform, id string, ok bool) {
 
 const pnasJournal = "Proceedings of the National Academy of Sciences"
 
+// derivePNAS treats a topic feed as the journal's own subject collection, the same
+// way a bioRxiv or medRxiv subject feed is one, so a client never has to decide
+// whether a classification is a journal.
 func derivePNAS(f *catalog.Feed) error {
 	if !strings.Contains(f.URL, "type=searchTopic") {
 		return setSingle(f, pnasJournal, "", "")
 	}
-	section, ok := afterFirstColon(f.Journal)
+	id, ok := pnasTopicID(f.URL)
+	if !ok {
+		return fmt.Errorf("expected a taxonomy tagCode in the PNAS topic feed %s", f.URL)
+	}
+	name, ok := afterFirstColon(f.Journal)
 	if !ok || !strings.HasPrefix(f.Journal, "PNAS:") {
 		return fmt.Errorf("expected a PNAS topic feed label, got %q", f.Journal)
 	}
-	return setSingle(f, pnasJournal, "toc_section", section)
+	f.FeedScope = scopeSubject
+	f.FeedType = catalog.Ptr("subject_collection")
+	f.FeedName = catalog.Ptr(name)
+	f.Collection = &catalog.Collection{Platform: "PNAS", ID: id, Name: name}
+	return nil
+}
+
+func pnasTopicID(rawurl string) (string, bool) {
+	_, rest, found := strings.Cut(rawurl, "tagCode=")
+	if !found {
+		return "", false
+	}
+	value, _, _ := strings.Cut(rest, "&")
+	if value == "" {
+		return "", false
+	}
+	return value, true
 }
 
 func deriveChemRxiv(f *catalog.Feed) error {

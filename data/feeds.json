@@ -4559,12 +4559,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Physical Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Physical Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "phys-sci",
+      "name": "Physical Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys-sci",
     "subjects": [
       "physical sciences"
@@ -4577,12 +4581,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Physics",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Physics",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "phys",
+      "name": "Physics"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys",
     "subjects": [
       "physics"
@@ -4595,12 +4603,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Chemistry",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Chemistry",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "chem",
+      "name": "Chemistry"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=chem",
     "subjects": [
       "chemistry"
@@ -4613,12 +4625,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Applied Mathematics",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Applied Mathematics",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "app-math",
+      "name": "Applied Mathematics"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-math",
     "subjects": [
       "applied mathematics"
@@ -4631,12 +4647,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Applied Physical Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Applied Physical Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "app-phys",
+      "name": "Applied Physical Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-phys",
     "subjects": [
       "applied physical sciences"
@@ -4649,12 +4669,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Astronomy",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Astronomy",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "astro",
+      "name": "Astronomy"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=astro",
     "subjects": [
       "astronomy"
@@ -4667,12 +4691,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Biophysics and Computational Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Biophysics and Computational Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "biophys",
+      "name": "Biophysics and Computational Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biophys",
     "subjects": [
       "biophysics",
@@ -4686,12 +4714,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Computer Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Computer Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "comp-sci",
+      "name": "Computer Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=comp-sci",
     "subjects": [
       "computer science"
@@ -4704,12 +4736,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Earth, Atmospheric, and Planetary Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Earth, Atmospheric, and Planetary Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "earth-sci",
+      "name": "Earth, Atmospheric, and Planetary Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=earth-sci",
     "subjects": [
       "earth science",
@@ -4724,12 +4760,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Engineering",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Engineering",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "eng",
+      "name": "Engineering"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eng",
     "subjects": [
       "engineering"
@@ -4742,12 +4782,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Mathematics",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Mathematics",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "math",
+      "name": "Mathematics"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=math",
     "subjects": [
       "mathematics"
@@ -4760,12 +4804,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Statistics",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Statistics",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "stat",
+      "name": "Statistics"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=stat",
     "subjects": [
       "statistics"
@@ -4778,12 +4826,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Biological Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Biological Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "bio-sci",
+      "name": "Biological Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=bio-sci",
     "subjects": [
       "biological sciences"
@@ -4796,12 +4848,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Sustainability Science",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Sustainability Science",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "sustainability",
+      "name": "Sustainability Science"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sustainability",
     "subjects": [
       "sustainability"
@@ -4814,12 +4870,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Agricultural Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Agricultural Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "ag-sci",
+      "name": "Agricultural Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=ag-sci",
     "subjects": [
       "agriculture"
@@ -4832,12 +4892,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Applied Biological Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Applied Biological Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "app-bio",
+      "name": "Applied Biological Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-bio",
     "subjects": [
       "applied biology"
@@ -4850,12 +4914,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Biochemistry",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Biochemistry",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "biochem",
+      "name": "Biochemistry"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biochem",
     "subjects": [
       "biochemistry"
@@ -4868,12 +4936,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Cell Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Cell Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "cell-bio",
+      "name": "Cell Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=cell-bio",
     "subjects": [
       "cell biology"
@@ -4886,12 +4958,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Developmental Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Developmental Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "dev-bio",
+      "name": "Developmental Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=dev-bio",
     "subjects": [
       "developmental biology"
@@ -4904,12 +4980,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Ecology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Ecology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "eco",
+      "name": "Ecology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eco",
     "subjects": [
       "ecology"
@@ -4922,12 +5002,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Evolution",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Evolution",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "evolution",
+      "name": "Evolution"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=evolution",
     "subjects": [
       "evolution"
@@ -4940,12 +5024,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Genetics",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Genetics",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "genetics",
+      "name": "Genetics"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=genetics",
     "subjects": [
       "genetics"
@@ -4958,12 +5046,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Immunology and Inflammation",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Immunology and Inflammation",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "immun",
+      "name": "Immunology and Inflammation"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=immun",
     "subjects": [
       "immunology",
@@ -4977,12 +5069,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Medical Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Medical Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "med-sci",
+      "name": "Medical Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=med-sci",
     "subjects": [
       "medicine"
@@ -4995,12 +5091,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Microbiology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Microbiology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "microbio",
+      "name": "Microbiology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=microbio",
     "subjects": [
       "microbiology"
@@ -5013,12 +5113,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Neuroscience",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Neuroscience",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "neuro",
+      "name": "Neuroscience"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=neuro",
     "subjects": [
       "neuroscience"
@@ -5031,12 +5135,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Pharmacology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Pharmacology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "pharm",
+      "name": "Pharmacology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pharm",
     "subjects": [
       "pharmacology"
@@ -5049,12 +5157,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Physiology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Physiology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "physio",
+      "name": "Physiology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=physio",
     "subjects": [
       "physiology"
@@ -5067,12 +5179,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Plant Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Plant Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "plant-bio",
+      "name": "Plant Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=plant-bio",
     "subjects": [
       "plant biology"
@@ -5085,12 +5201,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Population Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Population Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "pop-bio",
+      "name": "Population Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pop-bio",
     "subjects": [
       "population biology"
@@ -5103,12 +5223,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Systems Biology",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Systems Biology",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "sys-bio",
+      "name": "Systems Biology"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sys-bio",
     "subjects": [
       "systems biology"
@@ -5121,12 +5245,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Social Science",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Social Science",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "soc-sci",
+      "name": "Social Science"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=soc-sci",
     "subjects": [
       "social science"
@@ -5139,12 +5267,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Demography",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Demography",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "demo",
+      "name": "Demography"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=demo",
     "subjects": [
       "demography"
@@ -5157,12 +5289,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Economic Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Economic Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "econ-sci",
+      "name": "Economic Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=econ-sci",
     "subjects": [
       "economics"
@@ -5175,12 +5311,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Political Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Political Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "pol-sci",
+      "name": "Political Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pol-sci",
     "subjects": [
       "political science"
@@ -5193,12 +5333,16 @@
   {
     "publisher": "PNAS",
     "journal": "PNAS: Psychological and Cognitive Sciences",
-    "canonical_journal": "Proceedings of the National Academy of Sciences",
+    "canonical_journal": null,
     "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": "toc_section",
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
     "feed_name": "Psychological and Cognitive Sciences",
-    "collection": null,
+    "collection": {
+      "platform": "PNAS",
+      "id": "psych",
+      "name": "Psychological and Cognitive Sciences"
+    },
     "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=psych",
     "subjects": [
       "psychology",
