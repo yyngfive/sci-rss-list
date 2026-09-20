@@ -13648,5 +13648,1786 @@
     "method": "url_pattern",
     "status": "verified",
     "notes": "Candidate ScienceDirect publication RSS by ISSN."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Advances in Optics and Photonics",
+    "url": "https://opg.optica.org/rss/aop_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics",
+      "reviews"
+    ],
+    "source": "https://opg.optica.org/aop/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Applied Optics",
+    "url": "https://opg.optica.org/rss/ao_feed.xml",
+    "subjects": [
+      "applied optics",
+      "photonics"
+    ],
+    "source": "https://opg.optica.org/ao/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Biomedical Optics Express",
+    "url": "https://opg.optica.org/rss/boe_feed.xml",
+    "subjects": [
+      "biomedical optics",
+      "imaging"
+    ],
+    "source": "https://opg.optica.org/boe/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of the Optical Society of America A",
+    "url": "https://opg.optica.org/rss/josaa_feed.xml",
+    "subjects": [
+      "optics",
+      "vision and color",
+      "geometrical optics"
+    ],
+    "source": "https://opg.optica.org/josaa/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of the Optical Society of America B",
+    "url": "https://opg.optica.org/rss/josab_feed.xml",
+    "subjects": [
+      "optics",
+      "lasers",
+      "nonlinear optics"
+    ],
+    "source": "https://opg.optica.org/josab/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optica",
+    "url": "https://opg.optica.org/rss/optica_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics",
+      "multidisciplinary"
+    ],
+    "source": "https://opg.optica.org/optica/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optica Quantum",
+    "url": "https://opg.optica.org/rss/opticaq_feed.xml",
+    "subjects": [
+      "quantum optics",
+      "quantum information"
+    ],
+    "source": "https://opg.optica.org/opticaq/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optical Materials Express",
+    "url": "https://opg.optica.org/rss/ome_feed.xml",
+    "subjects": [
+      "optical materials",
+      "photonics"
+    ],
+    "source": "https://opg.optica.org/ome/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optics Continuum",
+    "url": "https://opg.optica.org/rss/optcon_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics",
+      "open access"
+    ],
+    "source": "https://opg.optica.org/optcon/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optics Express",
+    "url": "https://opg.optica.org/rss/opex_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics",
+      "open access"
+    ],
+    "source": "https://opg.optica.org/oe/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Optics Letters",
+    "url": "https://opg.optica.org/rss/ol_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics",
+      "letters"
+    ],
+    "source": "https://opg.optica.org/ol/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Photonics Research",
+    "url": "https://opg.optica.org/rss/prj_feed.xml",
+    "subjects": [
+      "photonics",
+      "optics"
+    ],
+    "source": "https://opg.optica.org/prj/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Applied Spectroscopy",
+    "url": "https://opg.optica.org/rss/as_feed.xml",
+    "subjects": [
+      "spectroscopy",
+      "analytical chemistry"
+    ],
+    "source": "https://opg.optica.org/as/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Chinese Optics Letters",
+    "url": "https://opg.optica.org/rss/col_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics"
+    ],
+    "source": "https://opg.optica.org/col/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Current Optics and Photonics",
+    "url": "https://opg.optica.org/rss/copp_feed.xml",
+    "subjects": [
+      "optics",
+      "photonics"
+    ],
+    "source": "https://opg.optica.org/copp/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of Lightwave Technology",
+    "url": "https://opg.optica.org/rss/jlt_feed.xml",
+    "subjects": [
+      "lightwave technology",
+      "optical communications"
+    ],
+    "source": "https://opg.optica.org/jlt/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of Near Infrared Spectroscopy",
+    "url": "https://opg.optica.org/rss/jnirs_feed.xml",
+    "subjects": [
+      "near infrared spectroscopy",
+      "spectroscopy"
+    ],
+    "source": "https://opg.optica.org/jnirs/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of Optical Communications and Networking",
+    "url": "https://opg.optica.org/rss/jocn_feed.xml",
+    "subjects": [
+      "optical communications",
+      "networking"
+    ],
+    "source": "https://opg.optica.org/jocn/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "Optica",
+    "journal": "Journal of Optical Technology",
+    "url": "https://opg.optica.org/rss/jot_feed.xml",
+    "subjects": [
+      "optical engineering",
+      "applied optics"
+    ],
+    "source": "https://opg.optica.org/jot/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Optica Publishing Group latest-content RSS feed listed on the publisher RSS index (https://opg.optica.org/toc_alerts_subscribe.cfm)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "APS Journals (All Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/allsuggestions.xml",
+    "subjects": [
+      "physics",
+      "multidisciplinary"
+    ],
+    "source": "https://journals.aps.org/feeds",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS cross-journal editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physics (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/physics.xml",
+    "subjects": [
+      "physics news",
+      "commentary",
+      "physics"
+    ],
+    "source": "https://physics.aps.org/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS Physics magazine RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "APS Open Science (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/apsos.xml",
+    "subjects": [
+      "multidisciplinary",
+      "open access",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/apsos/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "APS Open Science (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/apsos.xml",
+    "subjects": [
+      "multidisciplinary",
+      "open access",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/apsos/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prasuggestions.xml",
+    "subjects": [
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/pra.xml",
+    "subjects": [
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/pra.xml",
+    "subjects": [
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Atomic and molecular collisions and interactions",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Atomicandmolecularcollisionsandinteractions.xml",
+    "subjects": [
+      "atomic and molecular collisions and interactions",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Atomic and molecular processes in external fields",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Atomicandmolecularprocessesinexternalfields.xml",
+    "subjects": [
+      "atomic and molecular processes in external fields",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Atomic and molecular structure and dynamics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Atomicandmolecularstructureanddynamics.xml",
+    "subjects": [
+      "atomic and molecular structure and dynamics",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Fundamental concepts",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Fundamentalconcepts.xml",
+    "subjects": [
+      "fundamental concepts",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Matter waves",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Matterwaves.xml",
+    "subjects": [
+      "matter waves",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Quantum information",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Quantuminformation.xml",
+    "subjects": [
+      "quantum information",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review A: Quantum optics, physics of lasers, nonlinear optics, classical optics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRA-Quantumopticsphysicsoflasersnonlinearopticsclassicaloptics.xml",
+    "subjects": [
+      "quantum optics, physics of lasers, nonlinear optics, classical optics",
+      "atomic and molecular physics",
+      "quantum optics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pra/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review A, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Accelerators and Beams (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prstabsuggestions.xml",
+    "subjects": [
+      "accelerators and beams",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prab/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Accelerators and Beams (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prstab.xml",
+    "subjects": [
+      "accelerators and beams",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prab/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Accelerators and Beams (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prstab.xml",
+    "subjects": [
+      "accelerators and beams",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prab/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Applied (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prappliedsuggestions.xml",
+    "subjects": [
+      "applied physics",
+      "devices",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prapplied/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Applied (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prapplied.xml",
+    "subjects": [
+      "applied physics",
+      "devices",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prapplied/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Applied (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prapplied.xml",
+    "subjects": [
+      "applied physics",
+      "devices",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prapplied/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prbsuggestions.xml",
+    "subjects": [
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prb.xml",
+    "subjects": [
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prb.xml",
+    "subjects": [
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Dynamics, dynamical systems, lattice effects, quantum solids",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Dynamicsdynamicalsystemslatticeeffectsquantumsolids.xml",
+    "subjects": [
+      "dynamics, dynamical systems, lattice effects, quantum solids",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Electronic structure and strongly correlated systems",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Electronicstructurewidebandnarrowbandandstronglycorrelatedsystems.xml",
+    "subjects": [
+      "electronic structure and strongly correlated systems",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Inhomogeneous, disordered, and partially ordered systems",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Inhomogeneousdisorderedandpartiallyorderedsystems.xml",
+    "subjects": [
+      "inhomogeneous, disordered, and partially ordered systems",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Magnetism",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Magnetism.xml",
+    "subjects": [
+      "magnetism",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Semiconductors I: bulk",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-SemiconductorsIbulk.xml",
+    "subjects": [
+      "semiconductors i: bulk",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Semiconductors II: surfaces, interfaces, microstructures, and related topics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-SemiconductorsIIsurfacesinterfacesmicrostructuresandrelatedtopics.xml",
+    "subjects": [
+      "semiconductors ii: surfaces, interfaces, microstructures, and related topics",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Structure, structural phase transitions, mechanical properties, defects",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Structurestructuralphasetransitionsmechanicalpropertiesdefects.xml",
+    "subjects": [
+      "structure, structural phase transitions, mechanical properties, defects",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Superfluidity and superconductivity",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Superfluidityandsuperconductivity.xml",
+    "subjects": [
+      "superfluidity and superconductivity",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review B: Surface physics, nanoscale physics, low-dimensional systems",
+    "url": "https://feeds.aps.org/rss/tocsec/PRB-Surfacephysicsnanoscalephysicslowdimensionalsystems.xml",
+    "subjects": [
+      "surface physics, nanoscale physics, low-dimensional systems",
+      "condensed matter",
+      "materials physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prb/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review B, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prcsuggestions.xml",
+    "subjects": [
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prc.xml",
+    "subjects": [
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prc.xml",
+    "subjects": [
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Electroweak Interaction, Symmetries",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-ElectroweakInteractionSymmetries.xml",
+    "subjects": [
+      "electroweak interaction, symmetries",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Hadronic Physics and QCD",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-HadronicPhysicsandQCD.xml",
+    "subjects": [
+      "hadronic physics and qcd",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Nuclear Astrophysics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-NuclearAstrophysics.xml",
+    "subjects": [
+      "nuclear astrophysics",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Nuclear Reactions",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-NuclearReactions.xml",
+    "subjects": [
+      "nuclear reactions",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Nuclear Structure",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-NuclearStructure.xml",
+    "subjects": [
+      "nuclear structure",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Nucleon-Nucleon Interaction, Few-Body Systems",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-NucleonNucleonInteractionFewBodySystems.xml",
+    "subjects": [
+      "nucleon-nucleon interaction, few-body systems",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review C: Relativistic Nuclear Collisions",
+    "url": "https://feeds.aps.org/rss/tocsec/PRC-RelativisticNuclearCollisions.xml",
+    "subjects": [
+      "relativistic nuclear collisions",
+      "nuclear physics",
+      "hadronic physics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prc/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review C, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prdsuggestions.xml",
+    "subjects": [
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prd.xml",
+    "subjects": [
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prd.xml",
+    "subjects": [
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Astrophysics and Cosmology",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-AstrophysicsCosmology.xml",
+    "subjects": [
+      "astrophysics and cosmology",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Beyond the standard model",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Beyondthestandardmodel.xml",
+    "subjects": [
+      "beyond the standard model",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Electroweak Interactions",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-ElectroweakInteractions.xml",
+    "subjects": [
+      "electroweak interactions",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Experiment",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Experiment.xml",
+    "subjects": [
+      "experiment",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Field theory, formal particle theory",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Fieldtheoryformalparticletheory.xml",
+    "subjects": [
+      "field theory, formal particle theory",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Field theory, general methods",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Fieldtheorygeneralmethods.xml",
+    "subjects": [
+      "field theory, general methods",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: General relativity, gravitation",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Generalrelativitygravitation.xml",
+    "subjects": [
+      "general relativity, gravitation",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: String theory",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-Stringtheory.xml",
+    "subjects": [
+      "string theory",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review D: Strong interactions and Lattice methods",
+    "url": "https://feeds.aps.org/rss/tocsec/PRD-StronginteractionsLatticemethods.xml",
+    "subjects": [
+      "strong interactions and lattice methods",
+      "particles and fields",
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prd/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review D, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/presuggestions.xml",
+    "subjects": [
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/pre.xml",
+    "subjects": [
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/pre.xml",
+    "subjects": [
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Biological physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Biologicalphysics.xml",
+    "subjects": [
+      "biological physics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Chaos and pattern formation",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Chaosandpatternformation.xml",
+    "subjects": [
+      "chaos and pattern formation",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Classical physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Classicalphysics.xml",
+    "subjects": [
+      "classical physics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Colloidal dispersions, suspensions, and aggregates",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Colloidaldispersionssuspensionsandaggregates.xml",
+    "subjects": [
+      "colloidal dispersions, suspensions, and aggregates",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Computational physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Computationalphysics.xml",
+    "subjects": [
+      "computational physics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Equilibrium and linear transport properties of fluids",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Equilibriumandlineartransportpropertiesoffluids.xml",
+    "subjects": [
+      "equilibrium and linear transport properties of fluids",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Films, interfaces, and crystal growth",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Filmsinterfacesandcrystalgrowth.xml",
+    "subjects": [
+      "films, interfaces, and crystal growth",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Fluid dynamics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Fluiddynamics.xml",
+    "subjects": [
+      "fluid dynamics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Granular materials",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Granularmaterials.xml",
+    "subjects": [
+      "granular materials",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Networks and interdisciplinary physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Interdisciplinaryphysics.xml",
+    "subjects": [
+      "networks and interdisciplinary physics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Liquid crystals",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Liquidcrystals.xml",
+    "subjects": [
+      "liquid crystals",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Plasma physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Plasmaphysics.xml",
+    "subjects": [
+      "plasma physics",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Polymers",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Polymers.xml",
+    "subjects": [
+      "polymers",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Statistical physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Statisticalphysics.xml",
+    "subjects": [
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review E: Structured and complex fluids",
+    "url": "https://feeds.aps.org/rss/tocsec/PRE-Structuredandcomplexfluids.xml",
+    "subjects": [
+      "structured and complex fluids",
+      "statistical physics",
+      "soft matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/pre/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review E, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Fluids (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prfluids.xml",
+    "subjects": [
+      "fluid dynamics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prfluids/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Fluids (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prfluids.xml",
+    "subjects": [
+      "fluid dynamics",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prfluids/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/recent/prlsuggestions.xml",
+    "subjects": [
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prl.xml",
+    "subjects": [
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prl.xml",
+    "subjects": [
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Atomic, Molecular, and Optical Physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-AtomicMolecularandOpticalPhysics.xml",
+    "subjects": [
+      "atomic, molecular, and optical physics",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Statistical Physics; Classical, Nonlinear, and Complex Systems",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-StatisticalPhysicsClassicalNonlinearandComplexSystems.xml",
+    "subjects": [
+      "statistical physics; classical, nonlinear, and complex systems",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Condensed Matter and Materials",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-CondensedMatterStructureetc.xml",
+    "subjects": [
+      "condensed matter and materials",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Particles and Fields",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-ElementaryParticlesandFields.xml",
+    "subjects": [
+      "particles and fields",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Quantum Information, Science, and Technology",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-GeneralPhysicsStatisticalandQuantumMechanicsQuantumInformationetc.xml",
+    "subjects": [
+      "quantum information, science, and technology",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Cosmology, Astrophysics, and Gravitation",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-GravitationandAstrophysics.xml",
+    "subjects": [
+      "cosmology, astrophysics, and gravitation",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Physics of Fluids, Earth \u0026 Planetary Science, and Climate",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-NonlinearDynamicsFluidDynamicsClassicalOpticsetc.xml",
+    "subjects": [
+      "physics of fluids, earth \u0026 planetary science, and climate",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Nuclear Physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-NuclearPhysics.xml",
+    "subjects": [
+      "nuclear physics",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Plasma and Solar Physics, Accelerators and Beams",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-PlasmaandBeamPhysics.xml",
+    "subjects": [
+      "plasma and solar physics, accelerators and beams",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Letters: Polymers, Chemical Physics, Soft Matter, and Biological Physics",
+    "url": "https://feeds.aps.org/rss/tocsec/PRL-SoftMatterBiologicalandInterdisciplinaryPhysics.xml",
+    "subjects": [
+      "polymers, chemical physics, soft matter, and biological physics",
+      "multidisciplinary",
+      "physics letters",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prl/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS table-of-contents section RSS feed for Physical Review Letters, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Materials (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prmaterialssuggestions.xml",
+    "subjects": [
+      "materials science",
+      "condensed matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prmaterials/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Materials (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prmaterials.xml",
+    "subjects": [
+      "materials science",
+      "condensed matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prmaterials/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Materials (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prmaterials.xml",
+    "subjects": [
+      "materials science",
+      "condensed matter",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prmaterials/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Physics Education Research (Editors' Suggestions)",
+    "url": "https://feeds.aps.org/rss/prstpersuggestions.xml",
+    "subjects": [
+      "physics education research",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prper/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS editors' suggestions RSS feed, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Physics Education Research (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prstper.xml",
+    "subjects": [
+      "physics education research",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prper/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Physics Education Research (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prstper.xml",
+    "subjects": [
+      "physics education research",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prper/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Research (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prresearch.xml",
+    "subjects": [
+      "multidisciplinary",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prresearch/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review Research (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prresearch.xml",
+    "subjects": [
+      "multidisciplinary",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prresearch/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review X (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prx.xml",
+    "subjects": [
+      "multidisciplinary",
+      "open access",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prx/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Physical Review X (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prx.xml",
+    "subjects": [
+      "multidisciplinary",
+      "open access",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prx/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Energy (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prxenergy.xml",
+    "subjects": [
+      "energy research",
+      "sustainability",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxenergy/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Energy (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prxenergy.xml",
+    "subjects": [
+      "energy research",
+      "sustainability",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxenergy/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Intelligence (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prxintelligence.xml",
+    "subjects": [
+      "machine learning",
+      "artificial intelligence",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxintelligence/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Life (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prxlife.xml",
+    "subjects": [
+      "biological physics",
+      "life sciences",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxlife/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Life (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prxlife.xml",
+    "subjects": [
+      "biological physics",
+      "life sciences",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxlife/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Quantum (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/prxquantum.xml",
+    "subjects": [
+      "quantum science",
+      "quantum information",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxquantum/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "PRX Quantum (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/prxquantum.xml",
+    "subjects": [
+      "quantum science",
+      "quantum information",
+      "physics"
+    ],
+    "source": "https://journals.aps.org/prxquantum/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Reviews of Modern Physics (Recently Published)",
+    "url": "https://feeds.aps.org/rss/recent/rmp.xml",
+    "subjects": [
+      "physics",
+      "reviews"
+    ],
+    "source": "https://journals.aps.org/rmp/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently published articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "APS",
+    "journal": "Reviews of Modern Physics (Recently Accepted)",
+    "url": "https://feeds.aps.org/rss/accepted/rmp.xml",
+    "subjects": [
+      "physics",
+      "reviews"
+    ],
+    "source": "https://journals.aps.org/rmp/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
   }
 ]

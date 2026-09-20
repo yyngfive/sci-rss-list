@@ -10,6 +10,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
 | ACS | 182/182 | [publishers/acs.md](publishers/acs.md) |
+| APS | 106/106 | [publishers/aps.md](publishers/aps.md) |
 | ASCB | 1/1 | [publishers/ascb.md](publishers/ascb.md) |
 | BMC/SpringerLink | 16/16 | [publishers/bmc-springerlink.md](publishers/bmc-springerlink.md) |
 | BMJ | 8/8 | [publishers/bmj.md](publishers/bmj.md) |
@@ -25,6 +26,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | MDPI | 12/12 | [publishers/mdpi.md](publishers/mdpi.md) |
 | NEJM Group | 1/1 | [publishers/nejm-group.md](publishers/nejm-group.md) |
 | Nature | 141/141 | [publishers/nature.md](publishers/nature.md) |
+| Optica | 19/19 | [publishers/optica.md](publishers/optica.md) |
 | Oxford Academic | 9/9 | [publishers/oxford-academic.md](publishers/oxford-academic.md) |
 | PLOS | 16/16 | [publishers/plos.md](publishers/plos.md) |
 | PNAS | 37/37 | [publishers/pnas.md](publishers/pnas.md) |
