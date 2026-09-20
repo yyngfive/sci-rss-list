@@ -7,8 +7,10 @@
 // publisher's own journal page prints. Every proposed ISSN is then confirmed by the
 // registry, not by the proposal: Crossref must register the same title and publisher
 // under that ISSN, and the ISSN Portal record for two confirmed ISSNs must name the
-// same ISSN-L, which Crossref must again register under the catalog title. Only
-// identifier fields are read.
+// same ISSN-L, which Crossref must again register under the catalog title. When the
+// confirmed ISSNs fall into more than one portal title record, only a record titled
+// as this journal is this journal's: an edition in another language or a superseded
+// title is left alone. Only identifier fields are read.
 //
 // Re-running is cheap and convergent: journals whose feeds already carry an
 // ISSN-L are skipped.
@@ -35,6 +37,8 @@ import (
 
 const portalChecks = 2
 
+const scopeSingle = "single_journal"
+
 // publisherHosts narrows Crossref journal records for journals whose titles are
 // shared by another publisher's journal.
 var publisherHosts = map[string]string{
@@ -55,6 +59,7 @@ var publisherPrefixes = map[string]string{
 
 type entry struct {
 	title      string
+	titles     []string
 	publishers map[string]bool
 	feeds      int
 	urls       []string
@@ -139,9 +144,9 @@ func resolve(client *http.Client, e entry) (issnL, reason string, err error) {
 		return "", "no ISSN found for this title", nil
 	}
 	host := publisherHint(e.publishers)
-	var values []string
+	var confirmed []portalRecord
 	for _, member := range members {
-		if len(values) >= portalChecks {
+		if len(confirmed) >= portalChecks {
 			break
 		}
 		registered, err := crossrefJournal(client, member)
@@ -154,23 +159,85 @@ func resolve(client *http.Client, e entry) (issnL, reason string, err error) {
 		if !publisherMatches(host, registered.publisher) {
 			continue
 		}
-		value, err := portalIssnL(client, member)
+		record, err := portalRecordFor(client, member)
 		if err != nil {
 			return "", "", err
 		}
-		if value == "" {
+		if record.issnL == "" {
 			continue
 		}
-		values = append(values, value)
+		confirmed = append(confirmed, record)
+	}
+	var values []string
+	for _, record := range confirmed {
+		values = append(values, record.issnL)
 	}
 	distinct := agreedIssnL(values)
-	if len(distinct) == 0 {
+	switch {
+	case len(distinct) == 0:
 		return "", "no registry confirmed this title under a proposed ISSN", nil
-	}
-	if len(distinct) > 1 {
-		return "", fmt.Sprintf("the journal's ISSNs map to different ISSN-L values (%s)", strings.Join(distinct, ", ")), nil
+	case len(distinct) > 1:
+		// The proposals reached the portal as more than one title record. Only the
+		// record that carries the catalog title names this journal's ISSN-L; an other
+		// language or superseded edition of the same journal never does.
+		var named []string
+		for _, record := range confirmed {
+			if titleGroupMatches(e, record.title) {
+				named = append(named, record.issnL)
+			}
+		}
+		if distinct = agreedIssnL(named); len(distinct) != 1 {
+			return "", ambiguousReason(values, confirmed), nil
+		}
 	}
 	return accept(client, e.title, distinct[0], host)
+}
+
+// titleGroupMatches asks whether an ISSN Portal record title is the catalog's wording
+// for this journal. The labels of the journal's own feeds count as that wording, so a
+// record titled by a variant still resolves; an other language edition or a superseded
+// title with its own subtitle never does.
+func titleGroupMatches(e entry, recordTitle string) bool {
+	titles := e.titles
+	if len(titles) == 0 {
+		titles = []string{e.title}
+	}
+	recordTitle = strings.TrimSpace(strings.TrimSuffix(
+		recordTitle, editionQualifier.FindString(recordTitle)))
+	for _, want := range titles {
+		if proposalMatches(want, recordTitle) {
+			return true
+		}
+	}
+	return false
+}
+
+// editionQualifier is the trailing medium a portal record appends to an edition, as
+// in "Environmental health perspectives (Online)". It never carries a title of its
+// own, so dropping it separates editions of one journal from differently named ones.
+var editionQualifier = regexp.MustCompile(`(?i)\s*\([^()]*\)\s*$`)
+
+// titleOf names a journal by the label its own single feed carries, so a title group
+// recorded under a variant wording still counts for the catalog title it stands for.
+func titleOf(f catalog.Feed) string {
+	if f.FeedScope == scopeSingle && f.FeedType == nil {
+		return strings.TrimSpace(f.Journal)
+	}
+	if f.CanonicalJournal != nil {
+		return strings.TrimSpace(*f.CanonicalJournal)
+	}
+	return strings.TrimSpace(f.Journal)
+}
+
+// ambiguousReason names the ISSN-L values and the record titles that could not be
+// told apart, so an unresolved journal can be checked by a person.
+func ambiguousReason(values []string, confirmed []portalRecord) string {
+	parts := make([]string, 0, len(confirmed))
+	for _, record := range confirmed {
+		parts = append(parts, fmt.Sprintf("%s is %q", record.issnL, record.title))
+	}
+	return fmt.Sprintf("the journal's ISSNs map to different ISSN-L values (%s); %s",
+		strings.Join(unique(values), ", "), strings.Join(parts, "; "))
 }
 
 // agreedIssnL returns the ISSN-L values the registry reports for a journal's own
@@ -441,19 +508,35 @@ var (
 	urlIssnPattern  = regexp.MustCompile(`(\d{4})-?(\d{3})([0-9xX])`)
 	portalAttribute = regexp.MustCompile(`(?i)issnl="(\d{4}-\d{3}[0-9X])"`)
 	portalResource  = regexp.MustCompile(`(?i)/resource/ISSN-L/(\d{4}-\d{3}[0-9X])`)
+	portalTitleTag  = regexp.MustCompile(`(?is)<title>\s*ISSN \d{4}-\d{3}[0-9X]\s*-\s*(.*?)\s*</title>`)
 )
 
-// portalIssnL reads the ISSN-L the ISSN Portal record itself carries. The page marks
-// it both as an attribute and as a link to the linking record.
-func portalIssnL(client *http.Client, issn string) (string, error) {
+// portalRecord is one ISSN Portal record: the title it catalogues and the ISSN-L that
+// groups it with its own editions. Two ISSNs of different titles share no ISSN-L, so
+// the record title is what separates a journal from another edition of it.
+type portalRecord struct {
+	title string
+	issnL string
+}
+
+// portalRecordFor reads the ISSN Portal record of one ISSN.
+func portalRecordFor(client *http.Client, issn string) (portalRecord, error) {
 	body, err := getText(client, "https://portal.issn.org/resource/ISSN/"+issn)
 	if err != nil {
 		if missing(err) {
-			return "", nil
+			return portalRecord{}, nil
 		}
-		return "", err
+		return portalRecord{}, err
 	}
-	return issnLFromPortalPage(body), nil
+	return portalRecordFromPage(body), nil
+}
+
+func portalRecordFromPage(body string) portalRecord {
+	record := portalRecord{issnL: issnLFromPortalPage(body)}
+	if match := portalTitleTag.FindStringSubmatch(body); match != nil {
+		record.title = match[1]
+	}
+	return record
 }
 
 func issnLFromPortalPage(body string) string {
@@ -504,6 +587,9 @@ func pendingEntries(feeds []catalog.Feed) []entry {
 		}
 		e.feeds++
 		e.publishers[f.Publisher] = true
+		if name := titleOf(f); name != "" && !contains(e.titles, name) {
+			e.titles = append(e.titles, name)
+		}
 		if len(e.urls) < portalChecks*2 && f.URL != "" && !contains(e.urls, f.URL) {
 			e.urls = append(e.urls, f.URL)
 		}

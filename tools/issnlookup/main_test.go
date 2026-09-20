@@ -171,6 +171,97 @@ func TestIssnLFromPortalPage(t *testing.T) {
 	}
 }
 
+func TestPortalRecordFromPageReadsTheRecordTitle(t *testing.T) {
+	body := `<html><head><title>ISSN 0163-1829 - Physical review. B, Condensed matter</title></head>` +
+		`<body><a issnl="0163-1829">0163-1829</a></body></html>`
+	got := portalRecordFromPage(body)
+	if got.issnL != "0163-1829" {
+		t.Fatalf("issnL = %q", got.issnL)
+	}
+	if got.title != "Physical review. B, Condensed matter" {
+		t.Fatalf("title = %q", got.title)
+	}
+	if portalRecordFromPage(`<html><head><title>ISSN Portal</title></head>`).title != "" {
+		t.Fatal("a page with no record title must yield nothing")
+	}
+}
+
+func TestTitleGroupMatchesKeepsTheEditionOfTheCatalogTitle(t *testing.T) {
+	cases := []struct {
+		name        string
+		e           entry
+		recordTitle string
+		want        bool
+	}{
+		{
+			name:        "a punctuation variant is the same title",
+			e:           entry{title: "Physical Review B", titles: []string{"Physical Review B"}},
+			recordTitle: "Physical review. B",
+			want:        true,
+		},
+		{
+			name:        "a superseded title with a subtitle is another record",
+			e:           entry{title: "Physical Review B", titles: []string{"Physical Review B"}},
+			recordTitle: "Physical review. B, Condensed matter",
+		},
+		{
+			name:        "another language edition is not this journal",
+			e:           entry{title: "Environmental Health Perspectives", titles: []string{"Environmental Health Perspectives"}},
+			recordTitle: "Huanjing yu jiankang zhanwang",
+		},
+		{
+			name:        "a section feed still stands for its parent title",
+			e:           entry{title: "Physical Review B", titles: []string{"Physical Review B", "Physical Review B. Condensed Matter"}},
+			recordTitle: "Physical review. B, Condensed matter",
+			want:        true,
+		},
+		{
+			name:        "an edition qualifier does not make another journal",
+			e:           entry{title: "Optica"},
+			recordTitle: "Optica (Online)",
+			want:        true,
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			if got := titleGroupMatches(tc.e, tc.recordTitle); got != tc.want {
+				t.Fatalf("titleGroupMatches() = %v, want %v", got, tc.want)
+			}
+		})
+	}
+}
+
+func TestTitleOfUsesThePlainFeedLabelOfItsOwnJournal(t *testing.T) {
+	cases := []struct {
+		name string
+		in   catalog.Feed
+		want string
+	}{
+		{
+			name: "a plain single feed is subscribed under its own label",
+			in:   catalog.Feed{Journal: "Physical Review B", CanonicalJournal: catalog.Ptr("Physical Review B"), FeedScope: scopeSingle},
+			want: "Physical Review B",
+		},
+		{
+			name: "a labeled section feed keeps the parent title",
+			in:   catalog.Feed{Journal: "Physical Review B: Semiconductors I: bulk", CanonicalJournal: catalog.Ptr("Physical Review B"), FeedScope: scopeSingle, FeedType: catalog.Ptr("toc_section")},
+			want: "Physical Review B",
+		},
+		{
+			name: "a collection feed has no journal title",
+			in:   catalog.Feed{Journal: "bioRxiv: Cell Biology", FeedScope: "subject_collection"},
+			want: "bioRxiv: Cell Biology",
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			if got := titleOf(tc.in); got != tc.want {
+				t.Fatalf("titleOf() = %q, want %q", got, tc.want)
+			}
+		})
+	}
+}
+
 func TestAgreedIssnLRejectsDisagreement(t *testing.T) {
 	if got := agreedIssnL([]string{"1936-0851", "1936-0851"}); len(got) != 1 || got[0] != "1936-0851" {
 		t.Fatalf("agreedIssnL() = %v, want one value", got)
