@@ -48,6 +48,10 @@ func TestKnownBrokenFeedURLsAreAbsent(t *testing.T) {
 		"OAKS.Journals/feed.aspx",
 		"papers.ssrn.com/sol3/JournalRss.cfm",
 		"pubs.aip.org/action/showFeed",
+		// JHEP's IOPscience feed froze in 2009 when IOP stopped hosting it,
+		// and SPIE Digital Library exposes no RSS at all (alerts are e-mail).
+		"journal/rss/1126-6708",
+		"spiedigitallibrary.org/journals",
 	}
 	text := string(data)
 	for _, value := range broken {

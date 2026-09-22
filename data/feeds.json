@@ -24288,15 +24288,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0034-4885/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0034-4885",
     "subjects": [
       "physics",
       "reviews"
     ],
     "source": "https://iopscience.iop.org/journal/0034-4885",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24307,7 +24307,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0953-8984/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0953-8984",
     "subjects": [
       "physics",
       "condensed matter",
@@ -24315,8 +24315,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/0953-8984",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24327,15 +24327,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1367-2630/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1367-2630",
     "subjects": [
       "physics",
       "open access"
     ],
     "source": "https://iopscience.iop.org/journal/1367-2630",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24346,15 +24346,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0264-9381/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0264-9381",
     "subjects": [
       "gravitation",
       "physics"
     ],
     "source": "https://iopscience.iop.org/journal/0264-9381",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24365,7 +24365,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1475-7516/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1475-7516",
     "subjects": [
       "astronomy",
       "particles and fields",
@@ -24373,27 +24373,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/1475-7516",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
-  },
-  {
-    "publisher": "IOP Publishing",
-    "journal": "Journal of High Energy Physics",
-    "canonical_journal": "Journal of High Energy Physics",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://iopscience.iop.org/journal/1126-6708/rss",
-    "subjects": [
-      "particles and fields",
-      "physics"
-    ],
-    "source": "https://iopscience.iop.org/journal/1126-6708",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24404,7 +24385,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1751-8113/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1751-8121",
     "subjects": [
       "physics",
       "mathematics",
@@ -24412,8 +24393,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/1751-8113",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24424,7 +24405,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0022-3727/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0022-3727",
     "subjects": [
       "physics",
       "applied physics",
@@ -24432,8 +24413,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/0022-3727",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24444,7 +24425,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/2053-1583/rss",
+    "url": "https://iopscience.iop.org/journal/rss/2053-1583",
     "subjects": [
       "materials",
       "nanoscience",
@@ -24452,8 +24433,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/2053-1583",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24464,7 +24445,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0957-4484/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0957-4484",
     "subjects": [
       "nanoscience",
       "materials",
@@ -24472,8 +24453,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/0957-4484",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24484,7 +24465,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1748-9326/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1748-9326",
     "subjects": [
       "environment",
       "climate",
@@ -24492,8 +24473,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/1748-9326",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24504,15 +24485,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1742-5468/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1742-5468",
     "subjects": [
       "statistical physics",
       "physics"
     ],
     "source": "https://iopscience.iop.org/journal/1742-5468",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24523,7 +24504,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/2058-9565/rss",
+    "url": "https://iopscience.iop.org/journal/rss/2058-9565",
     "subjects": [
       "quantum",
       "physics",
@@ -24531,8 +24512,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/2058-9565",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24543,7 +24524,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/1748-0221/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1748-0221",
     "subjects": [
       "physics",
       "detectors",
@@ -24551,8 +24532,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/1748-0221",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24563,7 +24544,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0031-9155/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0031-9155",
     "subjects": [
       "medical physics",
       "medicine",
@@ -24571,8 +24552,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/0031-9155",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24583,15 +24564,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0741-3335/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0741-3335",
     "subjects": [
       "plasma physics",
       "physics"
     ],
     "source": "https://iopscience.iop.org/journal/0741-3335",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24602,7 +24583,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0953-2048/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0953-2048",
     "subjects": [
       "physics",
       "materials",
@@ -24610,8 +24591,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/0953-2048",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "IOP Publishing",
@@ -24622,7 +24603,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/2040-8978/rss",
+    "url": "https://iopscience.iop.org/journal/rss/2040-8986",
     "subjects": [
       "optics",
       "physics",
@@ -24630,8 +24611,8 @@
     ],
     "source": "https://iopscience.iop.org/journal/2040-8978",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AAS",
@@ -24642,14 +24623,14 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0004-6256/rss",
+    "url": "https://iopscience.iop.org/journal/rss/1538-3881",
     "subjects": [
       "astronomy"
     ],
     "source": "https://iopscience.iop.org/journal/0004-6256",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AAS",
@@ -24660,15 +24641,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0004-637X/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0004-637X",
     "subjects": [
       "astronomy",
       "astrophysics"
     ],
     "source": "https://iopscience.iop.org/journal/0004-637X",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AAS",
@@ -24679,15 +24660,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/2041-8205/rss",
+    "url": "https://iopscience.iop.org/journal/rss/2041-8205",
     "subjects": [
       "astronomy",
       "astrophysics"
     ],
     "source": "https://iopscience.iop.org/journal/2041-8205",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AAS",
@@ -24698,15 +24679,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/0067-0049/rss",
+    "url": "https://iopscience.iop.org/journal/rss/0067-0049",
     "subjects": [
       "astronomy",
       "astrophysics"
     ],
     "source": "https://iopscience.iop.org/journal/0067-0049",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AAS",
@@ -24717,15 +24698,15 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://iopscience.iop.org/journal/2632-3338/rss",
+    "url": "https://iopscience.iop.org/journal/rss/2632-3338",
     "subjects": [
       "planetary science",
       "astronomy"
     ],
     "source": "https://iopscience.iop.org/journal/2632-3338",
     "method": "url_pattern",
-    "status": "protected",
-    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+    "status": "verified",
+    "notes": "IOPscience latest-papers RSS (official /journal/rss/{code} link on the journal page); ordinary clients receive a Radware bot challenge, WebView2 capture required."
   },
   {
     "publisher": "AIP Publishing",
@@ -24883,165 +24864,5 @@
     "method": "publisher_index",
     "status": "verified",
     "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Journal of Biomedical Optics",
-    "canonical_journal": "Journal of Biomedical Optics",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/rss",
-    "subjects": [
-      "biomedical optics",
-      "imaging",
-      "medicine"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Optical Engineering",
-    "canonical_journal": "Optical Engineering",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/optical-engineering/rss",
-    "subjects": [
-      "optics",
-      "optical engineering",
-      "engineering"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/optical-engineering",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Journal of Photonics for Energy",
-    "canonical_journal": "Journal of Photonics for Energy",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy/rss",
-    "subjects": [
-      "photonics",
-      "energy",
-      "solar energy"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Journal of Electronic Imaging",
-    "canonical_journal": "Journal of Electronic Imaging",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/rss",
-    "subjects": [
-      "imaging",
-      "electronics",
-      "computer science"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Neurophotonics",
-    "canonical_journal": "Neurophotonics",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/neurophotonics/rss",
-    "subjects": [
-      "neuroscience",
-      "photonics",
-      "imaging"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/neurophotonics",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Journal of Medical Imaging",
-    "canonical_journal": "Journal of Medical Imaging",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/rss",
-    "subjects": [
-      "medical imaging",
-      "imaging",
-      "medicine"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Advanced Photonics",
-    "canonical_journal": "Advanced Photonics",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/rss",
-    "subjects": [
-      "photonics",
-      "optics",
-      "reviews"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/advanced-photonics",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
-  },
-  {
-    "publisher": "SPIE",
-    "journal": "Journal of Nanophotonics",
-    "canonical_journal": "Journal of Nanophotonics",
-    "issn_l": null,
-    "feed_scope": "single_journal",
-    "feed_type": null,
-    "feed_name": null,
-    "collection": null,
-    "url": "https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics/rss",
-    "subjects": [
-      "nanoscience",
-      "photonics",
-      "optics"
-    ],
-    "source": "https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics",
-    "method": "url_pattern",
-    "status": "protected",
-    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
   }
 ]

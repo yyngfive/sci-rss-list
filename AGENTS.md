@@ -29,6 +29,7 @@
 - `go run .\tools\feedcheck.go` validates only entries whose `data/feeds.json` status is not `verified`.
 - Without `--force`, `verified` entries must be skipped without any network request.
 - The WebView2 human verification window is opened for feeds already marked `protected`, `source_documented` feeds whose ordinary HTTP check returns a protected/challenge response, and `verified` feeds that return protected/challenge during `--force`.
+- The protected/challenge fingerprint table in `isProtected` (tools/feedcheck.go) is the shared baseline for challenge detection. It covers Cloudflare/Akamai/PerimeterX hints plus bot-manager fingerprints `perfdrive`, `radware`, `bot manager`, `incapsula`, `imperva`, `distil`, and `server:[rdwr]` (Radware's edge header; its block body carries no recognizable text). FeedMeDaily's own challenge detection must mirror this table so both front-ends queue the same feeds for human verification.
 - With `--force`, every feed is rechecked; if an otherwise `verified` feed is protected, it should go through WebView2 human verification instead of failing immediately.
 - If some feeds fail ordinary HTTP checks during `--force`, still run WebView2 for any protected feeds already queued, then report all remaining errors at the end.
 - The manual verification UI lives in `cmd/feedmedaily-protected-verifier`; `tools/feedcheck.go` only invokes it when the rules above queue protected feeds.

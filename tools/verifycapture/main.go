@@ -158,6 +158,7 @@ func main() {
 			errs = append(errs, fmt.Sprintf("%s: verifier captured non-feed XML (%s)", f.Journal, f.URL))
 			continue
 		}
+		saveCapture(root, f, item)
 		if feeds[i].Status != "verified" {
 			feeds[i].Status = "verified"
 			if strings.TrimSpace(feeds[i].Notes) == "Generic validator receives a protected or challenge response." {
@@ -266,6 +267,20 @@ func startCallbackServer(state *captureState) (string, func(), <-chan struct{}) 
 		once.Do(func() { close(done) })
 	}
 	return "http://" + ln.Addr().String(), stop, done
+}
+
+// saveCapture keeps the captured XML on disk (gitignored profile dir) so feed
+// freshness can be inspected after the run.
+func saveCapture(root string, f catalog.Feed, item capturedFeed) {
+	dir := filepath.Join(root, ".feedcheck-webview2", "captures")
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		fmt.Printf("warn: could not save capture for %s: %v\n", f.Journal, err)
+		return
+	}
+	name := catalog.Slugify(f.Journal) + ".xml"
+	if err := os.WriteFile(filepath.Join(dir, name), []byte(item.FeedXML), 0644); err != nil {
+		fmt.Printf("warn: could not save capture for %s: %v\n", f.Journal, err)
+	}
 }
 
 func isFeedXML(body []byte, contentType string) bool {

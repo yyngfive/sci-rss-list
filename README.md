@@ -9,7 +9,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
-| AAS | 0/5 | [publishers/aas.md](publishers/aas.md) |
+| AAS | 5/5 | [publishers/aas.md](publishers/aas.md) |
 | ACS | 182/182 | [publishers/acs.md](publishers/acs.md) |
 | AGU | 10/10 | [publishers/agu.md](publishers/agu.md) |
 | AIP Publishing | 8/8 | [publishers/aip-publishing.md](publishers/aip-publishing.md) |
@@ -24,7 +24,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Elsevier/ScienceDirect | 393/393 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
 | Frontiers | 12/12 | [publishers/frontiers.md](publishers/frontiers.md) |
 | IEEE/ACM | 8/8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
-| IOP Publishing | 0/18 | [publishers/iop-publishing.md](publishers/iop-publishing.md) |
+| IOP Publishing | 17/17 | [publishers/iop-publishing.md](publishers/iop-publishing.md) |
 | JAMA Network | 13/13 | [publishers/jama-network.md](publishers/jama-network.md) |
 | Life Science Alliance | 1/1 | [publishers/life-science-alliance.md](publishers/life-science-alliance.md) |
 | MDPI | 12/12 | [publishers/mdpi.md](publishers/mdpi.md) |
@@ -38,7 +38,6 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Research Square | 1/1 | [publishers/research-square.md](publishers/research-square.md) |
 | SAGE | 8/8 | [publishers/sage.md](publishers/sage.md) |
 | SIAM | 6/6 | [publishers/siam.md](publishers/siam.md) |
-| SPIE | 0/8 | [publishers/spie.md](publishers/spie.md) |
 | Science/AAAS | 6/6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
 | Scientific American | 1/1 | [publishers/scientific-american.md](publishers/scientific-american.md) |
 | Taylor & Francis | 8/8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |

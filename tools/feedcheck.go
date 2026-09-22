@@ -382,6 +382,11 @@ func isProtected(code int, headers, body string) bool {
 		"cf-mitigated", "cloudflare", "__cf_bm", "just a moment", "enable javascript",
 		"verify you are human", "captcha", "unusual traffic", "access denied",
 		"request blocked", "akamai", "perimeterx",
+		// Radware Bot Manager (validate.perfdrive.com) and Incapsula/Imperva
+		// interstitials. FeedMeDaily's own challenge detection must mirror this
+		// table so both front-ends queue the same feeds for human verification.
+		"perfdrive", "radware", "bot manager", "incapsula", "imperva", "distil",
+		"server:[rdwr]",
 	}
 	for _, hint := range hints {
 		if strings.Contains(haystack, hint) {

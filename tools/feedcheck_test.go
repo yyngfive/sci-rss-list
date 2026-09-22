@@ -23,6 +23,15 @@ func TestProtectedHints(t *testing.T) {
 	if isProtected(404, "", "not found") {
 		t.Fatal("404 not found should not be protected")
 	}
+	// Radware Bot Manager block page (iopscience.iop.org): a bare "400 Bad
+	// Request" body whose only fingerprint is the rdwr server header.
+	if !isProtected(400, "cache-control:[no-store] server:[rdwr]", "<html><title>400 Bad Request</title><p>The page you are looking for is unavailable.</p></html>") {
+		t.Fatal("radware block page should be protected")
+	}
+	// Incapsula interstitial (spiedigitallibrary.org).
+	if !isProtected(200, "", `<html><script src="/r-meet-x" async></script><body><iframe src="/_Incapsula_Resource"></iframe><script>sessionStorage.setItem('distil_referrer', '')</script></body></html>`) {
+		t.Fatal("incapsula interstitial should be protected")
+	}
 }
 
 func TestFetchStatusUsesFeedReaderUserAgent(t *testing.T) {
