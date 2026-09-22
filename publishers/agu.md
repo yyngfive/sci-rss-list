@@ -1,0 +1,16 @@
+# AGU
+
+10 feeds generated from `data/feeds.json`.
+
+| Journal | Feed Type | Subjects | Status | Method | Feed | Source | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Earth and Space Science | — | earth science, environment | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/23335084/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/23335084) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Earth's Future | — | earth science, climate, environment | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/23284277/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/23284277) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Geochemistry, Geophysics, Geosystems | — | earth science, geochemistry | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/15252027/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/15252027) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Geophysical Research Letters | — | earth science, geophysics, physics | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/19448007/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/19448007) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Journal of Geophysical Research: Atmospheres | — | atmospheric science, earth science, climate | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/21698996/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/21698996) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Journal of Geophysical Research: Biogeosciences | — | earth science, biology, ecology | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/21698961/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/21698961) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Journal of Geophysical Research: Oceans | — | earth science, environment | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/21699291/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/21699291) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Journal of Geophysical Research: Planets | — | planetary science, astronomy, earth science | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/21699100/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/21699100) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Journal of Geophysical Research: Solid Earth | — | earth science, geophysics | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/21699356/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/21699356) | Official Wiley Online Library most-recent feed for an AGU journal. |
+| Reviews of Geophysics | — | earth science, geophysics, reviews | verified | publisher_index | [RSS](https://onlinelibrary.wiley.com/feed/19449208/most-recent) | [source](https://agupubs.onlinelibrary.wiley.com/journal/19449208) | Official Wiley Online Library most-recent feed for an AGU journal. |

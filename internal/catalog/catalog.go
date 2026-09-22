@@ -14,7 +14,8 @@ import (
 var (
 	legacyFields   = []string{"publisher", "journal", "url", "subjects", "source", "method", "status", "notes"}
 	identityFields = []string{"canonical_journal", "issn_l", "feed_scope", "feed_type", "feed_name", "collection"}
-	fields         = append(append([]string{}, legacyFields...), identityFields...)
+	accessFields   = []string{"requires_proxy"}
+	fields         = append(append(append([]string{}, legacyFields...), identityFields...), accessFields...)
 	// feed_scope is required; the other identity fields may be omitted or null.
 	required = append(append([]string{}, legacyFields...), "feed_scope")
 	methods  = map[string]bool{"publisher_index": true, "url_pattern": true, "manual": true}
@@ -49,6 +50,10 @@ type Feed struct {
 	Method           string      `json:"method"`
 	Status           string      `json:"status"`
 	Notes            string      `json:"notes"`
+	// RequiresProxy marks feeds whose host is unreachable without a proxy
+	// (DNS poisoning and SNI blocking); a consumer that fetches directly
+	// cannot load such a feed at all.
+	RequiresProxy bool `json:"requires_proxy,omitempty"`
 }
 
 func Load(path string) ([]Feed, []map[string]json.RawMessage, error) {

@@ -1,0 +1,26 @@
+# arXiv
+
+20 feeds generated from `data/feeds.json`.
+
+| Journal | Feed Type | Subjects | Status | Method | Feed | Source | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| arXiv: Astrophysics | subject_collection | astronomy, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/astro-ph) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Computer Science | subject_collection | computer science, artificial intelligence, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/cs) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Condensed Matter | subject_collection | condensed matter, physics, materials, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/cond-mat) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Economics | subject_collection | economics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/econ) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Electrical Engineering and Systems Science | subject_collection | engineering, electronics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/eess) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: General Relativity and Quantum Cosmology | subject_collection | gravitation, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/gr-qc) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: High Energy Physics - Experiment | subject_collection | particles and fields, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/hep-ex) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: High Energy Physics - Lattice | subject_collection | particles and fields, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/hep-lat) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: High Energy Physics - Phenomenology | subject_collection | particles and fields, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/hep-ph) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: High Energy Physics - Theory | subject_collection | particles and fields, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/hep-th) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Mathematical Physics | subject_collection | mathematical physics, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/math-ph) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Mathematics | subject_collection | mathematics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/math) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Nonlinear Sciences | subject_collection | physics, complex systems, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/nlin) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Nuclear Physics - Experiment | subject_collection | nuclear physics, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/nucl-ex) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Nuclear Physics - Theory | subject_collection | nuclear physics, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/nucl-th) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Physics | subject_collection | physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/physics) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Quantitative Biology | subject_collection | biology, computational biology, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/q-bio) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Quantitative Finance | subject_collection | economics, mathematics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/q-fin) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Quantum Physics | subject_collection | quantum, physics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/quant-ph) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |
+| arXiv: Statistics | subject_collection | statistics, mathematics, preprints | verified | publisher_index | [RSS](https://rss.arxiv.org/rss/stat) | [source](https://info.arxiv.org/help/rss.html) | Official arXiv archive-level RSS news feed. |

@@ -42,6 +42,12 @@ func TestKnownBrokenFeedURLsAreAbsent(t *testing.T) {
 		"7C6970A165E05FF812E16C2BCF51F02D",
 		"CDFBC8AB9F96AC14CB38613F891D8F97",
 		"1A08D3491E8754487EA02F99E68237DB",
+		// Platform migrations retired these feed endpoints (2026-09-22):
+		// LWW moved to Ovid (feed.aspx redirects to journal home, no RSS),
+		// SSRN dropped RSS entirely, and AIP's Atypon showFeed pattern 404s.
+		"OAKS.Journals/feed.aspx",
+		"papers.ssrn.com/sol3/JournalRss.cfm",
+		"pubs.aip.org/action/showFeed",
 	}
 	text := string(data)
 	for _, value := range broken {

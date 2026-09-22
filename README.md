@@ -9,10 +9,13 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 
 | Publisher | Feeds | Page |
 | --- | ---: | --- |
+| AAS | 0/5 | [publishers/aas.md](publishers/aas.md) |
 | ACS | 182/182 | [publishers/acs.md](publishers/acs.md) |
+| AGU | 10/10 | [publishers/agu.md](publishers/agu.md) |
+| AIP Publishing | 8/8 | [publishers/aip-publishing.md](publishers/aip-publishing.md) |
 | APS | 106/106 | [publishers/aps.md](publishers/aps.md) |
 | ASCB | 1/1 | [publishers/ascb.md](publishers/ascb.md) |
-| BMC/SpringerLink | 16/16 | [publishers/bmc-springerlink.md](publishers/bmc-springerlink.md) |
+| BMC/SpringerLink | 27/27 | [publishers/bmc-springerlink.md](publishers/bmc-springerlink.md) |
 | BMJ | 8/8 | [publishers/bmj.md](publishers/bmj.md) |
 | Cambridge Core | 3/3 | [publishers/cambridge-core.md](publishers/cambridge-core.md) |
 | Cell Press | 19/19 | [publishers/cell-press.md](publishers/cell-press.md) |
@@ -21,6 +24,7 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | Elsevier/ScienceDirect | 393/393 | [publishers/elsevier-sciencedirect.md](publishers/elsevier-sciencedirect.md) |
 | Frontiers | 12/12 | [publishers/frontiers.md](publishers/frontiers.md) |
 | IEEE/ACM | 8/8 | [publishers/ieee-acm.md](publishers/ieee-acm.md) |
+| IOP Publishing | 0/18 | [publishers/iop-publishing.md](publishers/iop-publishing.md) |
 | JAMA Network | 13/13 | [publishers/jama-network.md](publishers/jama-network.md) |
 | Life Science Alliance | 1/1 | [publishers/life-science-alliance.md](publishers/life-science-alliance.md) |
 | MDPI | 12/12 | [publishers/mdpi.md](publishers/mdpi.md) |
@@ -31,11 +35,16 @@ The canonical machine-readable file is [`data/feeds.json`](data/feeds.json). Pub
 | PLOS | 16/16 | [publishers/plos.md](publishers/plos.md) |
 | PNAS | 37/37 | [publishers/pnas.md](publishers/pnas.md) |
 | RSC | 55/55 | [publishers/rsc.md](publishers/rsc.md) |
+| Research Square | 1/1 | [publishers/research-square.md](publishers/research-square.md) |
+| SAGE | 8/8 | [publishers/sage.md](publishers/sage.md) |
+| SIAM | 6/6 | [publishers/siam.md](publishers/siam.md) |
+| SPIE | 0/8 | [publishers/spie.md](publishers/spie.md) |
 | Science/AAAS | 6/6 | [publishers/science-aaas.md](publishers/science-aaas.md) |
 | Scientific American | 1/1 | [publishers/scientific-american.md](publishers/scientific-american.md) |
 | Taylor & Francis | 8/8 | [publishers/taylor-francis.md](publishers/taylor-francis.md) |
 | The Lancet | 9/9 | [publishers/the-lancet.md](publishers/the-lancet.md) |
 | Wiley | 47/47 | [publishers/wiley.md](publishers/wiley.md) |
+| arXiv | 20/20 | [publishers/arxiv.md](publishers/arxiv.md) |
 | bioRxiv/medRxiv | 77/77 | [publishers/biorxiv-medrxiv.md](publishers/biorxiv-medrxiv.md) |
 | eLife | 1/1 | [publishers/elife.md](publishers/elife.md) |
 

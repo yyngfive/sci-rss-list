@@ -1576,8 +1576,8 @@
   },
   {
     "publisher": "BMJ",
-    "journal": "Journal of Neurology, Neurosurgery \u0026 Psychiatry",
-    "canonical_journal": "Journal of Neurology, Neurosurgery \u0026 Psychiatry",
+    "journal": "Journal of Neurology, Neurosurgery & Psychiatry",
+    "canonical_journal": "Journal of Neurology, Neurosurgery & Psychiatry",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -1716,7 +1716,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=csur",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=csur",
     "subjects": [
       "computer science",
       "reviews"
@@ -1735,7 +1735,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=jacm",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=jacm",
     "subjects": [
       "computer science"
     ],
@@ -1753,7 +1753,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tog",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=tog",
     "subjects": [
       "computer graphics",
       "computer science"
@@ -1772,7 +1772,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://dl.acm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tist",
+    "url": "https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=tist",
     "subjects": [
       "artificial intelligence",
       "computer science"
@@ -1902,8 +1902,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Nature Reviews Earth \u0026 Environment",
-    "canonical_journal": "Nature Reviews Earth \u0026 Environment",
+    "journal": "Nature Reviews Earth & Environment",
+    "canonical_journal": "Nature Reviews Earth & Environment",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -1942,8 +1942,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Nature Reviews Gastroenterology \u0026 Hepatology",
-    "canonical_journal": "Nature Reviews Gastroenterology \u0026 Hepatology",
+    "journal": "Nature Reviews Gastroenterology & Hepatology",
+    "canonical_journal": "Nature Reviews Gastroenterology & Hepatology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -2311,8 +2311,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Communications Earth \u0026 Environment",
-    "canonical_journal": "Communications Earth \u0026 Environment",
+    "journal": "Communications Earth & Environment",
+    "canonical_journal": "Communications Earth & Environment",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -2504,7 +2504,7 @@
     "notes": "Springer Nature portfolio feed using the nature.com RSS pattern."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Bioengineered",
     "canonical_journal": "Bioengineered",
     "issn_l": null,
@@ -2512,7 +2512,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kbie20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=kbie20",
     "subjects": [
       "bioengineering",
       "biology"
@@ -2520,10 +2520,10 @@
     "source": "https://www.tandfonline.com/journals/kbie20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Critical Reviews in Biotechnology",
     "canonical_journal": "Critical Reviews in Biotechnology",
     "issn_l": null,
@@ -2531,7 +2531,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=ibty20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=ibty20",
     "subjects": [
       "biotechnology",
       "reviews"
@@ -2539,10 +2539,10 @@
     "source": "https://www.tandfonline.com/journals/ibty20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Journal of Biomolecular Structure and Dynamics",
     "canonical_journal": "Journal of Biomolecular Structure and Dynamics",
     "issn_l": null,
@@ -2550,7 +2550,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=tbsm20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tbsm20",
     "subjects": [
       "structural biology",
       "biology"
@@ -2558,10 +2558,10 @@
     "source": "https://www.tandfonline.com/journals/tbsm20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Journal of Enzyme Inhibition and Medicinal Chemistry",
     "canonical_journal": "Journal of Enzyme Inhibition and Medicinal Chemistry",
     "issn_l": null,
@@ -2569,7 +2569,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=ienz20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=ienz20",
     "subjects": [
       "medicinal chemistry",
       "biology"
@@ -2577,10 +2577,10 @@
     "source": "https://www.tandfonline.com/journals/ienz20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "mAbs",
     "canonical_journal": "mAbs",
     "issn_l": null,
@@ -2588,7 +2588,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kmab20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=kmab20",
     "subjects": [
       "immunology",
       "biotechnology"
@@ -2596,10 +2596,10 @@
     "source": "https://www.tandfonline.com/journals/kmab20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Nanotoxicology",
     "canonical_journal": "Nanotoxicology",
     "issn_l": null,
@@ -2607,7 +2607,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=inan20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=inan20",
     "subjects": [
       "nanoscience",
       "toxicology"
@@ -2615,10 +2615,10 @@
     "source": "https://www.tandfonline.com/journals/inan20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "RNA Biology",
     "canonical_journal": "RNA Biology",
     "issn_l": null,
@@ -2626,7 +2626,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=krnb20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=krnb20",
     "subjects": [
       "rna",
       "biology"
@@ -2634,10 +2634,10 @@
     "source": "https://www.tandfonline.com/journals/krnb20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
-    "publisher": "Taylor \u0026 Francis",
+    "publisher": "Taylor & Francis",
     "journal": "Virulence",
     "canonical_journal": "Virulence",
     "issn_l": null,
@@ -2645,7 +2645,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.tandfonline.com/action/showFeed?type=etoc\u0026feed=rss\u0026jc=kvir20",
+    "url": "https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=kvir20",
     "subjects": [
       "microbiology",
       "infectious disease"
@@ -2653,7 +2653,7 @@
     "source": "https://www.tandfonline.com/journals/kvir20",
     "method": "publisher_index",
     "status": "verified",
-    "notes": "Official Taylor \u0026 Francis Atypon feed; generic clients may see a Cloudflare challenge."
+    "notes": "Official Taylor & Francis Atypon feed; generic clients may see a Cloudflare challenge."
   },
   {
     "publisher": "Cambridge Core",
@@ -2912,8 +2912,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Applied Materials \u0026 Interfaces (ASAP)",
-    "canonical_journal": "ACS Applied Materials \u0026 Interfaces",
+    "journal": "ACS Applied Materials & Interfaces (ASAP)",
+    "canonical_journal": "ACS Applied Materials & Interfaces",
     "issn_l": "1944-8244",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -2988,8 +2988,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Biomaterials Science \u0026 Engineering (ASAP)",
-    "canonical_journal": "ACS Biomaterials Science \u0026 Engineering",
+    "journal": "ACS Biomaterials Science & Engineering (ASAP)",
+    "canonical_journal": "ACS Biomaterials Science & Engineering",
     "issn_l": "2373-9878",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -3159,8 +3159,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Engineering (ASAP)",
-    "canonical_journal": "ACS ES\u0026T Engineering",
+    "journal": "ACS ES&T Engineering (ASAP)",
+    "canonical_journal": "ACS ES&T Engineering",
     "issn_l": "2690-0645",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -3178,8 +3178,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Water (ASAP)",
-    "canonical_journal": "ACS ES\u0026T Water",
+    "journal": "ACS ES&T Water (ASAP)",
+    "canonical_journal": "ACS ES&T Water",
     "issn_l": "2690-0637",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -3197,8 +3197,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Food Science \u0026 Technology (ASAP)",
-    "canonical_journal": "ACS Food Science \u0026 Technology",
+    "journal": "ACS Food Science & Technology (ASAP)",
+    "canonical_journal": "ACS Food Science & Technology",
     "issn_l": "2692-1944",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -3330,8 +3330,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Pharmacology \u0026 Translational Science (ASAP)",
-    "canonical_journal": "ACS Pharmacology \u0026 Translational Science",
+    "journal": "ACS Pharmacology & Translational Science (ASAP)",
+    "canonical_journal": "ACS Pharmacology & Translational Science",
     "issn_l": "2575-9108",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -3752,7 +3752,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=science",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
     "subjects": [
       "multidisciplinary",
       "science"
@@ -3771,7 +3771,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sciadv",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
     "subjects": [
       "multidisciplinary",
       "open access"
@@ -3790,7 +3790,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=sciimmunol",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
     "subjects": [
       "immunology",
       "biology"
@@ -3809,7 +3809,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=scirobotics",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=scirobotics",
     "subjects": [
       "robotics",
       "engineering"
@@ -3828,7 +3828,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=signaling",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=signaling",
     "subjects": [
       "cell biology",
       "biology"
@@ -3847,7 +3847,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.science.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=stm",
+    "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=stm",
     "subjects": [
       "medicine",
       "translational research"
@@ -3935,8 +3935,8 @@
   },
   {
     "publisher": "Cell Press",
-    "journal": "Cell Host \u0026 Microbe",
-    "canonical_journal": "Cell Host \u0026 Microbe",
+    "journal": "Cell Host & Microbe",
+    "canonical_journal": "Cell Host & Microbe",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -4030,8 +4030,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Sustainable Chemistry \u0026 Engineering (ASAP)",
-    "canonical_journal": "ACS Sustainable Chemistry \u0026 Engineering",
+    "journal": "ACS Sustainable Chemistry & Engineering (ASAP)",
+    "canonical_journal": "ACS Sustainable Chemistry & Engineering",
     "issn_l": "2168-0485",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -4406,8 +4406,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Environmental Science \u0026 Policy",
-    "canonical_journal": "Environmental Science \u0026 Policy",
+    "journal": "Environmental Science & Policy",
+    "canonical_journal": "Environmental Science & Policy",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -4501,8 +4501,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Trends in Ecology \u0026 Evolution",
-    "canonical_journal": "Trends in Ecology \u0026 Evolution",
+    "journal": "Trends in Ecology & Evolution",
+    "canonical_journal": "Trends in Ecology & Evolution",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -4546,7 +4546,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.pnas.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=PNAS",
+    "url": "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=PNAS",
     "subjects": [
       "multidisciplinary",
       "science"
@@ -4569,7 +4569,7 @@
       "id": "phys-sci",
       "name": "Physical Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=phys-sci",
     "subjects": [
       "physical sciences"
     ],
@@ -4591,7 +4591,7 @@
       "id": "phys",
       "name": "Physics"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=phys",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=phys",
     "subjects": [
       "physics"
     ],
@@ -4613,7 +4613,7 @@
       "id": "chem",
       "name": "Chemistry"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=chem",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=chem",
     "subjects": [
       "chemistry"
     ],
@@ -4635,7 +4635,7 @@
       "id": "app-math",
       "name": "Applied Mathematics"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-math",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=app-math",
     "subjects": [
       "applied mathematics"
     ],
@@ -4657,7 +4657,7 @@
       "id": "app-phys",
       "name": "Applied Physical Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-phys",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=app-phys",
     "subjects": [
       "applied physical sciences"
     ],
@@ -4679,7 +4679,7 @@
       "id": "astro",
       "name": "Astronomy"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=astro",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=astro",
     "subjects": [
       "astronomy"
     ],
@@ -4701,7 +4701,7 @@
       "id": "biophys",
       "name": "Biophysics and Computational Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biophys",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=biophys",
     "subjects": [
       "biophysics",
       "computational biology"
@@ -4724,7 +4724,7 @@
       "id": "comp-sci",
       "name": "Computer Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=comp-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=comp-sci",
     "subjects": [
       "computer science"
     ],
@@ -4746,7 +4746,7 @@
       "id": "earth-sci",
       "name": "Earth, Atmospheric, and Planetary Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=earth-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=earth-sci",
     "subjects": [
       "earth science",
       "atmospheric science",
@@ -4770,7 +4770,7 @@
       "id": "eng",
       "name": "Engineering"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eng",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=eng",
     "subjects": [
       "engineering"
     ],
@@ -4792,7 +4792,7 @@
       "id": "math",
       "name": "Mathematics"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=math",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=math",
     "subjects": [
       "mathematics"
     ],
@@ -4814,7 +4814,7 @@
       "id": "stat",
       "name": "Statistics"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=stat",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=stat",
     "subjects": [
       "statistics"
     ],
@@ -4836,7 +4836,7 @@
       "id": "bio-sci",
       "name": "Biological Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=bio-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=bio-sci",
     "subjects": [
       "biological sciences"
     ],
@@ -4858,7 +4858,7 @@
       "id": "sustainability",
       "name": "Sustainability Science"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sustainability",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=sustainability",
     "subjects": [
       "sustainability"
     ],
@@ -4880,7 +4880,7 @@
       "id": "ag-sci",
       "name": "Agricultural Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=ag-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=ag-sci",
     "subjects": [
       "agriculture"
     ],
@@ -4902,7 +4902,7 @@
       "id": "app-bio",
       "name": "Applied Biological Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=app-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=app-bio",
     "subjects": [
       "applied biology"
     ],
@@ -4924,7 +4924,7 @@
       "id": "biochem",
       "name": "Biochemistry"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=biochem",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=biochem",
     "subjects": [
       "biochemistry"
     ],
@@ -4946,7 +4946,7 @@
       "id": "cell-bio",
       "name": "Cell Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=cell-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=cell-bio",
     "subjects": [
       "cell biology"
     ],
@@ -4968,7 +4968,7 @@
       "id": "dev-bio",
       "name": "Developmental Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=dev-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=dev-bio",
     "subjects": [
       "developmental biology"
     ],
@@ -4990,7 +4990,7 @@
       "id": "eco",
       "name": "Ecology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=eco",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=eco",
     "subjects": [
       "ecology"
     ],
@@ -5012,7 +5012,7 @@
       "id": "evolution",
       "name": "Evolution"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=evolution",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=evolution",
     "subjects": [
       "evolution"
     ],
@@ -5034,7 +5034,7 @@
       "id": "genetics",
       "name": "Genetics"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=genetics",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=genetics",
     "subjects": [
       "genetics"
     ],
@@ -5056,7 +5056,7 @@
       "id": "immun",
       "name": "Immunology and Inflammation"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=immun",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=immun",
     "subjects": [
       "immunology",
       "inflammation"
@@ -5079,7 +5079,7 @@
       "id": "med-sci",
       "name": "Medical Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=med-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=med-sci",
     "subjects": [
       "medicine"
     ],
@@ -5101,7 +5101,7 @@
       "id": "microbio",
       "name": "Microbiology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=microbio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=microbio",
     "subjects": [
       "microbiology"
     ],
@@ -5123,7 +5123,7 @@
       "id": "neuro",
       "name": "Neuroscience"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=neuro",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=neuro",
     "subjects": [
       "neuroscience"
     ],
@@ -5145,7 +5145,7 @@
       "id": "pharm",
       "name": "Pharmacology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pharm",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=pharm",
     "subjects": [
       "pharmacology"
     ],
@@ -5167,7 +5167,7 @@
       "id": "physio",
       "name": "Physiology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=physio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=physio",
     "subjects": [
       "physiology"
     ],
@@ -5189,7 +5189,7 @@
       "id": "plant-bio",
       "name": "Plant Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=plant-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=plant-bio",
     "subjects": [
       "plant biology"
     ],
@@ -5211,7 +5211,7 @@
       "id": "pop-bio",
       "name": "Population Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pop-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=pop-bio",
     "subjects": [
       "population biology"
     ],
@@ -5233,7 +5233,7 @@
       "id": "sys-bio",
       "name": "Systems Biology"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=sys-bio",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=sys-bio",
     "subjects": [
       "systems biology"
     ],
@@ -5255,7 +5255,7 @@
       "id": "soc-sci",
       "name": "Social Science"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=soc-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=soc-sci",
     "subjects": [
       "social science"
     ],
@@ -5277,7 +5277,7 @@
       "id": "demo",
       "name": "Demography"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=demo",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=demo",
     "subjects": [
       "demography"
     ],
@@ -5299,7 +5299,7 @@
       "id": "econ-sci",
       "name": "Economic Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=econ-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=econ-sci",
     "subjects": [
       "economics"
     ],
@@ -5321,7 +5321,7 @@
       "id": "pol-sci",
       "name": "Political Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=pol-sci",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=pol-sci",
     "subjects": [
       "political science"
     ],
@@ -5343,7 +5343,7 @@
       "id": "psych",
       "name": "Psychological and Cognitive Sciences"
     },
-    "url": "https://www.pnas.org/action/showFeed?type=searchTopic\u0026feed=rss\u0026taxonomyCode=topic\u0026tagCode=psych",
+    "url": "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=psych",
     "subjects": [
       "psychology",
       "cognitive science"
@@ -5629,8 +5629,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Crystal Growth \u0026 Design (ASAP)",
-    "canonical_journal": "Crystal Growth \u0026 Design",
+    "journal": "Crystal Growth & Design (ASAP)",
+    "canonical_journal": "Crystal Growth & Design",
     "issn_l": "1528-7483",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -5648,8 +5648,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Energy \u0026 Fuels (ASAP)",
-    "canonical_journal": "Energy \u0026 Fuels",
+    "journal": "Energy & Fuels (ASAP)",
+    "canonical_journal": "Energy & Fuels",
     "issn_l": "0887-0624",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -5667,8 +5667,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environmental Science \u0026 Technology (ASAP)",
-    "canonical_journal": "Environmental Science \u0026 Technology",
+    "journal": "Environmental Science & Technology (ASAP)",
+    "canonical_journal": "Environmental Science & Technology",
     "issn_l": "0013-936X",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -5686,8 +5686,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environmental Science \u0026 Technology Letters (ASAP)",
-    "canonical_journal": "Environmental Science \u0026 Technology Letters",
+    "journal": "Environmental Science & Technology Letters (ASAP)",
+    "canonical_journal": "Environmental Science & Technology Letters",
     "issn_l": "2328-8930",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -5705,8 +5705,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Industrial \u0026 Engineering Chemistry Research (ASAP)",
-    "canonical_journal": "Industrial \u0026 Engineering Chemistry Research",
+    "journal": "Industrial & Engineering Chemistry Research (ASAP)",
+    "canonical_journal": "Industrial & Engineering Chemistry Research",
     "issn_l": "0888-5885",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -6012,8 +6012,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Organic Process Research \u0026 Development (ASAP)",
-    "canonical_journal": "Organic Process Research \u0026 Development",
+    "journal": "Organic Process Research & Development (ASAP)",
+    "canonical_journal": "Organic Process Research & Development",
     "issn_l": "1083-6160",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -6050,8 +6050,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Journal of Chemical \u0026 Engineering Data (ASAP)",
-    "canonical_journal": "Journal of Chemical \u0026 Engineering Data",
+    "journal": "Journal of Chemical & Engineering Data (ASAP)",
+    "canonical_journal": "Journal of Chemical & Engineering Data",
     "issn_l": "0021-9568",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -6317,8 +6317,8 @@
   },
   {
     "publisher": "Wiley",
-    "journal": "Batteries \u0026 Supercaps",
-    "canonical_journal": "Batteries \u0026 Supercaps",
+    "journal": "Batteries & Supercaps",
+    "canonical_journal": "Batteries & Supercaps",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -6685,7 +6685,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.nejm.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=nejm",
+    "url": "https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm",
     "subjects": [
       "medicine"
     ],
@@ -6772,8 +6772,8 @@
   },
   {
     "publisher": "The Lancet",
-    "journal": "The Lancet Diabetes \u0026 Endocrinology",
-    "canonical_journal": "The Lancet Diabetes \u0026 Endocrinology",
+    "journal": "The Lancet Diabetes & Endocrinology",
+    "canonical_journal": "The Lancet Diabetes & Endocrinology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -6874,7 +6874,7 @@
     "feed_type": "latest_preprints",
     "feed_name": "Latest",
     "collection": null,
-    "url": "https://chemrxiv.org/action/showFeed?type=latest\u0026format=rss",
+    "url": "https://chemrxiv.org/action/showFeed?type=latest&format=rss",
     "subjects": [
       "chemistry",
       "preprints"
@@ -7056,8 +7056,8 @@
   },
   {
     "publisher": "JAMA Network",
-    "journal": "JAMA Otolaryngology-Head \u0026 Neck Surgery",
-    "canonical_journal": "JAMA Otolaryngology-Head \u0026 Neck Surgery",
+    "journal": "JAMA Otolaryngology-Head & Neck Surgery",
+    "canonical_journal": "JAMA Otolaryngology-Head & Neck Surgery",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -7284,8 +7284,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Materials \u0026 Design",
-    "canonical_journal": "Materials \u0026 Design",
+    "journal": "Materials & Design",
+    "canonical_journal": "Materials & Design",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -7906,8 +7906,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Cell Death \u0026 Differentiation",
-    "canonical_journal": "Cell Death \u0026 Differentiation",
+    "journal": "Cell Death & Differentiation",
+    "canonical_journal": "Cell Death & Differentiation",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -7942,8 +7942,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Communications AI \u0026 Computing",
-    "canonical_journal": "Communications AI \u0026 Computing",
+    "journal": "Communications AI & Computing",
+    "canonical_journal": "Communications AI & Computing",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -8014,8 +8014,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Experimental \u0026 Molecular Medicine",
-    "canonical_journal": "Experimental \u0026 Molecular Medicine",
+    "journal": "Experimental & Molecular Medicine",
+    "canonical_journal": "Experimental & Molecular Medicine",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -8050,8 +8050,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Genes \u0026 Immunity",
-    "canonical_journal": "Genes \u0026 Immunity",
+    "journal": "Genes & Immunity",
+    "canonical_journal": "Genes & Immunity",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -8158,8 +8158,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Journal of Exposure Science \u0026 Environmental Epidemiology",
-    "canonical_journal": "Journal of Exposure Science \u0026 Environmental Epidemiology",
+    "journal": "Journal of Exposure Science & Environmental Epidemiology",
+    "canonical_journal": "Journal of Exposure Science & Environmental Epidemiology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -8212,8 +8212,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Light: Science \u0026 Applications",
-    "canonical_journal": "Light: Science \u0026 Applications",
+    "journal": "Light: Science & Applications",
+    "canonical_journal": "Light: Science & Applications",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -9364,8 +9364,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Nature Structural \u0026 Molecular Biology",
-    "canonical_journal": "Nature Structural \u0026 Molecular Biology",
+    "journal": "Nature Structural & Molecular Biology",
+    "canonical_journal": "Nature Structural & Molecular Biology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -9382,8 +9382,8 @@
   },
   {
     "publisher": "Nature",
-    "journal": "Nutrition \u0026 Diabetes",
-    "canonical_journal": "Nutrition \u0026 Diabetes",
+    "journal": "Nutrition & Diabetes",
+    "canonical_journal": "Nutrition & Diabetes",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -10275,7 +10275,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12859",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12859",
     "subjects": [
       "bioinformatics",
       "computational biology"
@@ -10294,7 +10294,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12915",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12915",
     "subjects": [
       "biology",
       "life sciences"
@@ -10313,7 +10313,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12916",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12916",
     "subjects": [
       "medicine",
       "health"
@@ -10332,7 +10332,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=13059",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=13059",
     "subjects": [
       "genomics",
       "biology"
@@ -10351,7 +10351,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12864",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12864",
     "subjects": [
       "genomics",
       "biology"
@@ -10370,7 +10370,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12889",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12889",
     "subjects": [
       "public health",
       "medicine"
@@ -10389,7 +10389,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12874",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12874",
     "subjects": [
       "medical research",
       "methodology"
@@ -10408,7 +10408,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=12913",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12913",
     "subjects": [
       "health services",
       "medicine"
@@ -10427,7 +10427,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10994",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10994",
     "subjects": [
       "machine learning",
       "computer science"
@@ -10446,7 +10446,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10462",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10462",
     "subjects": [
       "artificial intelligence",
       "computer science"
@@ -10465,7 +10465,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10489",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10489",
     "subjects": [
       "artificial intelligence",
       "computer science"
@@ -10484,7 +10484,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10618",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10618",
     "subjects": [
       "data mining",
       "computer science"
@@ -10503,7 +10503,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=11263",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=11263",
     "subjects": [
       "web science",
       "computer science"
@@ -10522,7 +10522,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=10853",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10853",
     "subjects": [
       "materials",
       "engineering"
@@ -10541,7 +10541,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=11356",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=11356",
     "subjects": [
       "environment",
       "pollution"
@@ -10560,7 +10560,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://link.springer.com/search.rss?facet-content-type=Article\u0026facet-journal-id=382",
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=382",
     "subjects": [
       "climate",
       "earth science"
@@ -10762,8 +10762,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Molecular \u0026 Cellular Proteomics",
-    "canonical_journal": "Molecular \u0026 Cellular Proteomics",
+    "journal": "Molecular & Cellular Proteomics",
+    "canonical_journal": "Molecular & Cellular Proteomics",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -10800,8 +10800,8 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory Press",
-    "journal": "Genes \u0026 Development",
-    "canonical_journal": "Genes \u0026 Development",
+    "journal": "Genes & Development",
+    "canonical_journal": "Genes & Development",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -10845,7 +10845,7 @@
     "feed_type": null,
     "feed_name": null,
     "collection": null,
-    "url": "https://www.molbiolcell.org/action/showFeed?type=etoc\u0026feed=rss\u0026jc=molbiolcell",
+    "url": "https://www.molbiolcell.org/action/showFeed?type=etoc&feed=rss&jc=molbiolcell",
     "subjects": [
       "cell biology",
       "molecular biology"
@@ -11009,8 +11009,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Agricultural Science \u0026 Technology (ASAP)",
-    "canonical_journal": "ACS Agricultural Science \u0026 Technology",
+    "journal": "ACS Agricultural Science & Technology (ASAP)",
+    "canonical_journal": "ACS Agricultural Science & Technology",
     "issn_l": "2692-1952",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11047,8 +11047,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Bio \u0026 Med Chem Au (ASAP)",
-    "canonical_journal": "ACS Bio \u0026 Med Chem Au",
+    "journal": "ACS Bio & Med Chem Au (ASAP)",
+    "canonical_journal": "ACS Bio & Med Chem Au",
     "issn_l": "2694-2437",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11066,8 +11066,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Chemical Health \u0026 Safety (ASAP)",
-    "canonical_journal": "ACS Chemical Health \u0026 Safety",
+    "journal": "ACS Chemical Health & Safety (ASAP)",
+    "canonical_journal": "ACS Chemical Health & Safety",
     "issn_l": "1871-5532",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11104,8 +11104,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Air (ASAP)",
-    "canonical_journal": "ACS ES\u0026T Air",
+    "journal": "ACS ES&T Air (ASAP)",
+    "canonical_journal": "ACS ES&T Air",
     "issn_l": "2837-1402",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11218,8 +11218,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Organic \u0026 Inorganic Au (ASAP)",
-    "canonical_journal": "ACS Organic \u0026 Inorganic Au",
+    "journal": "ACS Organic & Inorganic Au (ASAP)",
+    "canonical_journal": "ACS Organic & Inorganic Au",
     "issn_l": "2694-247X",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11294,8 +11294,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Chem \u0026 Bio Engineering (ASAP)",
-    "canonical_journal": "Chem \u0026 Bio Engineering",
+    "journal": "Chem & Bio Engineering (ASAP)",
+    "canonical_journal": "Chem & Bio Engineering",
     "issn_l": "2836-967X",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11313,8 +11313,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Chemical \u0026 Biomedical Imaging (ASAP)",
-    "canonical_journal": "Chemical \u0026 Biomedical Imaging",
+    "journal": "Chemical & Biomedical Imaging (ASAP)",
+    "canonical_journal": "Chemical & Biomedical Imaging",
     "issn_l": "2832-3637",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11332,8 +11332,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environment \u0026 Health (ASAP)",
-    "canonical_journal": "Environment \u0026 Health",
+    "journal": "Environment & Health (ASAP)",
+    "canonical_journal": "Environment & Health",
     "issn_l": "2833-8278",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11446,8 +11446,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Polymer Science \u0026 Technology (ASAP)",
-    "canonical_journal": "Polymer Science \u0026 Technology",
+    "journal": "Polymer Science & Technology (ASAP)",
+    "canonical_journal": "Polymer Science & Technology",
     "issn_l": "2997-3279",
     "feed_scope": "single_journal",
     "feed_type": "asap",
@@ -11559,8 +11559,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Applied Materials \u0026 Interfaces (Current Issue)",
-    "canonical_journal": "ACS Applied Materials \u0026 Interfaces",
+    "journal": "ACS Applied Materials & Interfaces (Current Issue)",
+    "canonical_journal": "ACS Applied Materials & Interfaces",
     "issn_l": "1944-8244",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -11635,8 +11635,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Biomaterials Science \u0026 Engineering (Current Issue)",
-    "canonical_journal": "ACS Biomaterials Science \u0026 Engineering",
+    "journal": "ACS Biomaterials Science & Engineering (Current Issue)",
+    "canonical_journal": "ACS Biomaterials Science & Engineering",
     "issn_l": "2373-9878",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -11806,8 +11806,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Engineering (Current Issue)",
-    "canonical_journal": "ACS ES\u0026T Engineering",
+    "journal": "ACS ES&T Engineering (Current Issue)",
+    "canonical_journal": "ACS ES&T Engineering",
     "issn_l": "2690-0645",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -11825,8 +11825,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Water (Current Issue)",
-    "canonical_journal": "ACS ES\u0026T Water",
+    "journal": "ACS ES&T Water (Current Issue)",
+    "canonical_journal": "ACS ES&T Water",
     "issn_l": "2690-0637",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -11844,8 +11844,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Food Science \u0026 Technology (Current Issue)",
-    "canonical_journal": "ACS Food Science \u0026 Technology",
+    "journal": "ACS Food Science & Technology (Current Issue)",
+    "canonical_journal": "ACS Food Science & Technology",
     "issn_l": "2692-1944",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -11977,8 +11977,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Pharmacology \u0026 Translational Science (Current Issue)",
-    "canonical_journal": "ACS Pharmacology \u0026 Translational Science",
+    "journal": "ACS Pharmacology & Translational Science (Current Issue)",
+    "canonical_journal": "ACS Pharmacology & Translational Science",
     "issn_l": "2575-9108",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12053,8 +12053,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Sustainable Chemistry \u0026 Engineering (Current Issue)",
-    "canonical_journal": "ACS Sustainable Chemistry \u0026 Engineering",
+    "journal": "ACS Sustainable Chemistry & Engineering (Current Issue)",
+    "canonical_journal": "ACS Sustainable Chemistry & Engineering",
     "issn_l": "2168-0485",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12300,8 +12300,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Crystal Growth \u0026 Design (Current Issue)",
-    "canonical_journal": "Crystal Growth \u0026 Design",
+    "journal": "Crystal Growth & Design (Current Issue)",
+    "canonical_journal": "Crystal Growth & Design",
     "issn_l": "1528-7483",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12319,8 +12319,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Energy \u0026 Fuels (Current Issue)",
-    "canonical_journal": "Energy \u0026 Fuels",
+    "journal": "Energy & Fuels (Current Issue)",
+    "canonical_journal": "Energy & Fuels",
     "issn_l": "0887-0624",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12338,8 +12338,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environmental Science \u0026 Technology (Current Issue)",
-    "canonical_journal": "Environmental Science \u0026 Technology",
+    "journal": "Environmental Science & Technology (Current Issue)",
+    "canonical_journal": "Environmental Science & Technology",
     "issn_l": "0013-936X",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12357,8 +12357,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environmental Science \u0026 Technology Letters (Current Issue)",
-    "canonical_journal": "Environmental Science \u0026 Technology Letters",
+    "journal": "Environmental Science & Technology Letters (Current Issue)",
+    "canonical_journal": "Environmental Science & Technology Letters",
     "issn_l": "2328-8930",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12376,8 +12376,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Industrial \u0026 Engineering Chemistry Research (Current Issue)",
-    "canonical_journal": "Industrial \u0026 Engineering Chemistry Research",
+    "journal": "Industrial & Engineering Chemistry Research (Current Issue)",
+    "canonical_journal": "Industrial & Engineering Chemistry Research",
     "issn_l": "0888-5885",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12660,8 +12660,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Organic Process Research \u0026 Development (Current Issue)",
-    "canonical_journal": "Organic Process Research \u0026 Development",
+    "journal": "Organic Process Research & Development (Current Issue)",
+    "canonical_journal": "Organic Process Research & Development",
     "issn_l": "1083-6160",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12698,8 +12698,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Journal of Chemical \u0026 Engineering Data (Current Issue)",
-    "canonical_journal": "Journal of Chemical \u0026 Engineering Data",
+    "journal": "Journal of Chemical & Engineering Data (Current Issue)",
+    "canonical_journal": "Journal of Chemical & Engineering Data",
     "issn_l": "0021-9568",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12736,8 +12736,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Agricultural Science \u0026 Technology (Current Issue)",
-    "canonical_journal": "ACS Agricultural Science \u0026 Technology",
+    "journal": "ACS Agricultural Science & Technology (Current Issue)",
+    "canonical_journal": "ACS Agricultural Science & Technology",
     "issn_l": "2692-1952",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12774,8 +12774,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Bio \u0026 Med Chem Au (Current Issue)",
-    "canonical_journal": "ACS Bio \u0026 Med Chem Au",
+    "journal": "ACS Bio & Med Chem Au (Current Issue)",
+    "canonical_journal": "ACS Bio & Med Chem Au",
     "issn_l": "2694-2437",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12793,8 +12793,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Chemical Health \u0026 Safety (Current Issue)",
-    "canonical_journal": "ACS Chemical Health \u0026 Safety",
+    "journal": "ACS Chemical Health & Safety (Current Issue)",
+    "canonical_journal": "ACS Chemical Health & Safety",
     "issn_l": "1871-5532",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12831,8 +12831,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS ES\u0026T Air (Current Issue)",
-    "canonical_journal": "ACS ES\u0026T Air",
+    "journal": "ACS ES&T Air (Current Issue)",
+    "canonical_journal": "ACS ES&T Air",
     "issn_l": "2837-1402",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -12945,8 +12945,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "ACS Organic \u0026 Inorganic Au (Current Issue)",
-    "canonical_journal": "ACS Organic \u0026 Inorganic Au",
+    "journal": "ACS Organic & Inorganic Au (Current Issue)",
+    "canonical_journal": "ACS Organic & Inorganic Au",
     "issn_l": "2694-247X",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -13021,8 +13021,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Chem \u0026 Bio Engineering (Current Issue)",
-    "canonical_journal": "Chem \u0026 Bio Engineering",
+    "journal": "Chem & Bio Engineering (Current Issue)",
+    "canonical_journal": "Chem & Bio Engineering",
     "issn_l": "2836-967X",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -13040,8 +13040,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Chemical \u0026 Biomedical Imaging (Current Issue)",
-    "canonical_journal": "Chemical \u0026 Biomedical Imaging",
+    "journal": "Chemical & Biomedical Imaging (Current Issue)",
+    "canonical_journal": "Chemical & Biomedical Imaging",
     "issn_l": "2832-3637",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -13059,8 +13059,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Environment \u0026 Health (Current Issue)",
-    "canonical_journal": "Environment \u0026 Health",
+    "journal": "Environment & Health (Current Issue)",
+    "canonical_journal": "Environment & Health",
     "issn_l": "2833-8278",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -13173,8 +13173,8 @@
   },
   {
     "publisher": "ACS",
-    "journal": "Polymer Science \u0026 Technology (Current Issue)",
-    "canonical_journal": "Polymer Science \u0026 Technology",
+    "journal": "Polymer Science & Technology (Current Issue)",
+    "canonical_journal": "Polymer Science & Technology",
     "issn_l": "2997-3279",
     "feed_scope": "single_journal",
     "feed_type": "current_issue",
@@ -13266,8 +13266,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Catalysis Science \u0026 Technology",
-    "canonical_journal": "Catalysis Science \u0026 Technology",
+    "journal": "Catalysis Science & Technology",
+    "canonical_journal": "Catalysis Science & Technology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13453,8 +13453,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Energy \u0026 Environmental Science",
-    "canonical_journal": "Energy \u0026 Environmental Science",
+    "journal": "Energy & Environmental Science",
+    "canonical_journal": "Energy & Environmental Science",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13546,8 +13546,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Environmental Science: Processes \u0026 Impacts",
-    "canonical_journal": "Environmental Science: Processes \u0026 Impacts",
+    "journal": "Environmental Science: Processes & Impacts",
+    "canonical_journal": "Environmental Science: Processes & Impacts",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13564,8 +13564,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Environmental Science: Water Research \u0026 Technology",
-    "canonical_journal": "Environmental Science: Water Research \u0026 Technology",
+    "journal": "Environmental Science: Water Research & Technology",
+    "canonical_journal": "Environmental Science: Water Research & Technology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13602,8 +13602,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Food \u0026 Function",
-    "canonical_journal": "Food \u0026 Function",
+    "journal": "Food & Function",
+    "canonical_journal": "Food & Function",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13640,8 +13640,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Industrial Chemistry \u0026 Materials",
-    "canonical_journal": "Industrial Chemistry \u0026 Materials",
+    "journal": "Industrial Chemistry & Materials",
+    "canonical_journal": "Industrial Chemistry & Materials",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13826,8 +13826,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Molecular Systems Design \u0026 Engineering",
-    "canonical_journal": "Molecular Systems Design \u0026 Engineering",
+    "journal": "Molecular Systems Design & Engineering",
+    "canonical_journal": "Molecular Systems Design & Engineering",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -13936,8 +13936,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Organic \u0026 Biomolecular Chemistry",
-    "canonical_journal": "Organic \u0026 Biomolecular Chemistry",
+    "journal": "Organic & Biomolecular Chemistry",
+    "canonical_journal": "Organic & Biomolecular Chemistry",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -14010,8 +14010,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Reaction Chemistry \u0026 Engineering",
-    "canonical_journal": "Reaction Chemistry \u0026 Engineering",
+    "journal": "Reaction Chemistry & Engineering",
+    "canonical_journal": "Reaction Chemistry & Engineering",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -14159,8 +14159,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Sensors \u0026 Diagnostics",
-    "canonical_journal": "Sensors \u0026 Diagnostics",
+    "journal": "Sensors & Diagnostics",
+    "canonical_journal": "Sensors & Diagnostics",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -14196,8 +14196,8 @@
   },
   {
     "publisher": "RSC",
-    "journal": "Sustainable Energy \u0026 Fuels",
-    "canonical_journal": "Sustainable Energy \u0026 Fuels",
+    "journal": "Sustainable Energy & Fuels",
+    "canonical_journal": "Sustainable Energy & Fuels",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -15928,8 +15928,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Bioorganic \u0026 Medicinal Chemistry Letters",
-    "canonical_journal": "Bioorganic \u0026 Medicinal Chemistry Letters",
+    "journal": "Bioorganic & Medicinal Chemistry Letters",
+    "canonical_journal": "Bioorganic & Medicinal Chemistry Letters",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -17070,8 +17070,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Social Science \u0026 Medicine",
-    "canonical_journal": "Social Science \u0026 Medicine",
+    "journal": "Social Science & Medicine",
+    "canonical_journal": "Social Science & Medicine",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -17143,8 +17143,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Journal of the American Academy of Child \u0026 Adolescent Psychiatry",
-    "canonical_journal": "Journal of the American Academy of Child \u0026 Adolescent Psychiatry",
+    "journal": "Journal of the American Academy of Child & Adolescent Psychiatry",
+    "canonical_journal": "Journal of the American Academy of Child & Adolescent Psychiatry",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -17671,8 +17671,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Physiology \u0026 Behavior",
-    "canonical_journal": "Physiology \u0026 Behavior",
+    "journal": "Physiology & Behavior",
+    "canonical_journal": "Physiology & Behavior",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -17708,8 +17708,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Biomedicine \u0026 Pharmacotherapy",
-    "canonical_journal": "Biomedicine \u0026 Pharmacotherapy",
+    "journal": "Biomedicine & Pharmacotherapy",
+    "canonical_journal": "Biomedicine & Pharmacotherapy",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18019,8 +18019,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Clinical Lymphoma Myeloma \u0026 Leukemia",
-    "canonical_journal": "Clinical Lymphoma Myeloma \u0026 Leukemia",
+    "journal": "Clinical Lymphoma Myeloma & Leukemia",
+    "canonical_journal": "Clinical Lymphoma Myeloma & Leukemia",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18147,8 +18147,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Bioorganic \u0026 Medicinal Chemistry",
-    "canonical_journal": "Bioorganic \u0026 Medicinal Chemistry",
+    "journal": "Bioorganic & Medicinal Chemistry",
+    "canonical_journal": "Bioorganic & Medicinal Chemistry",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18184,8 +18184,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Optics \u0026 Laser Technology",
-    "canonical_journal": "Optics \u0026 Laser Technology",
+    "journal": "Optics & Laser Technology",
+    "canonical_journal": "Optics & Laser Technology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18256,8 +18256,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "European Journal of Obstetrics \u0026 Gynecology and Reproductive Biology",
-    "canonical_journal": "European Journal of Obstetrics \u0026 Gynecology and Reproductive Biology",
+    "journal": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+    "canonical_journal": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18330,8 +18330,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Ultrasound in Medicine \u0026 Biology",
-    "canonical_journal": "Ultrasound in Medicine \u0026 Biology",
+    "journal": "Ultrasound in Medicine & Biology",
+    "canonical_journal": "Ultrasound in Medicine & Biology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -18386,8 +18386,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Chaos Solitons \u0026 Fractals",
-    "canonical_journal": "Chaos Solitons \u0026 Fractals",
+    "journal": "Chaos Solitons & Fractals",
+    "canonical_journal": "Chaos Solitons & Fractals",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -19046,8 +19046,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Computers \u0026 Mathematics with Applications",
-    "canonical_journal": "Computers \u0026 Mathematics with Applications",
+    "journal": "Computers & Mathematics with Applications",
+    "canonical_journal": "Computers & Mathematics with Applications",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -20091,8 +20091,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Annals of Allergy Asthma \u0026 Immunology",
-    "canonical_journal": "Annals of Allergy Asthma \u0026 Immunology",
+    "journal": "Annals of Allergy Asthma & Immunology",
+    "canonical_journal": "Annals of Allergy Asthma & Immunology",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -20292,8 +20292,8 @@
   },
   {
     "publisher": "Elsevier/ScienceDirect",
-    "journal": "Gait \u0026 Posture",
-    "canonical_journal": "Gait \u0026 Posture",
+    "journal": "Gait & Posture",
+    "canonical_journal": "Gait & Posture",
     "issn_l": null,
     "feed_scope": "single_journal",
     "feed_type": null,
@@ -22657,16 +22657,16 @@
   },
   {
     "publisher": "APS",
-    "journal": "Physical Review Letters: Physics of Fluids, Earth \u0026 Planetary Science, and Climate",
+    "journal": "Physical Review Letters: Physics of Fluids, Earth & Planetary Science, and Climate",
     "canonical_journal": "Physical Review Letters",
     "issn_l": "0031-9007",
     "feed_scope": "single_journal",
     "feed_type": "toc_section",
-    "feed_name": "Physics of Fluids, Earth \u0026 Planetary Science, and Climate",
+    "feed_name": "Physics of Fluids, Earth & Planetary Science, and Climate",
     "collection": null,
     "url": "https://feeds.aps.org/rss/tocsec/PRL-NonlinearDynamicsFluidDynamicsClassicalOpticsetc.xml",
     "subjects": [
-      "physics of fluids, earth \u0026 planetary science, and climate",
+      "physics of fluids, earth & planetary science, and climate",
       "multidisciplinary",
       "physics letters",
       "physics"
@@ -23111,5 +23111,1937 @@
     "method": "publisher_index",
     "status": "verified",
     "notes": "Official APS RSS feed of recently accepted articles, listed on the APS journals RSS page (https://journals.aps.org/feeds)."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Astrophysics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Astrophysics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "astro-ph",
+      "name": "Astrophysics"
+    },
+    "url": "https://rss.arxiv.org/rss/astro-ph",
+    "subjects": [
+      "astronomy",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Condensed Matter",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Condensed Matter",
+    "collection": {
+      "platform": "arXiv",
+      "id": "cond-mat",
+      "name": "Condensed Matter"
+    },
+    "url": "https://rss.arxiv.org/rss/cond-mat",
+    "subjects": [
+      "condensed matter",
+      "physics",
+      "materials",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Computer Science",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Computer Science",
+    "collection": {
+      "platform": "arXiv",
+      "id": "cs",
+      "name": "Computer Science"
+    },
+    "url": "https://rss.arxiv.org/rss/cs",
+    "subjects": [
+      "computer science",
+      "artificial intelligence",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Economics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Economics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "econ",
+      "name": "Economics"
+    },
+    "url": "https://rss.arxiv.org/rss/econ",
+    "subjects": [
+      "economics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Electrical Engineering and Systems Science",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Electrical Engineering and Systems Science",
+    "collection": {
+      "platform": "arXiv",
+      "id": "eess",
+      "name": "Electrical Engineering and Systems Science"
+    },
+    "url": "https://rss.arxiv.org/rss/eess",
+    "subjects": [
+      "engineering",
+      "electronics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: General Relativity and Quantum Cosmology",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "General Relativity and Quantum Cosmology",
+    "collection": {
+      "platform": "arXiv",
+      "id": "gr-qc",
+      "name": "General Relativity and Quantum Cosmology"
+    },
+    "url": "https://rss.arxiv.org/rss/gr-qc",
+    "subjects": [
+      "gravitation",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: High Energy Physics - Experiment",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "High Energy Physics - Experiment",
+    "collection": {
+      "platform": "arXiv",
+      "id": "hep-ex",
+      "name": "High Energy Physics - Experiment"
+    },
+    "url": "https://rss.arxiv.org/rss/hep-ex",
+    "subjects": [
+      "particles and fields",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: High Energy Physics - Lattice",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "High Energy Physics - Lattice",
+    "collection": {
+      "platform": "arXiv",
+      "id": "hep-lat",
+      "name": "High Energy Physics - Lattice"
+    },
+    "url": "https://rss.arxiv.org/rss/hep-lat",
+    "subjects": [
+      "particles and fields",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: High Energy Physics - Phenomenology",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "High Energy Physics - Phenomenology",
+    "collection": {
+      "platform": "arXiv",
+      "id": "hep-ph",
+      "name": "High Energy Physics - Phenomenology"
+    },
+    "url": "https://rss.arxiv.org/rss/hep-ph",
+    "subjects": [
+      "particles and fields",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: High Energy Physics - Theory",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "High Energy Physics - Theory",
+    "collection": {
+      "platform": "arXiv",
+      "id": "hep-th",
+      "name": "High Energy Physics - Theory"
+    },
+    "url": "https://rss.arxiv.org/rss/hep-th",
+    "subjects": [
+      "particles and fields",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Mathematics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Mathematics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "math",
+      "name": "Mathematics"
+    },
+    "url": "https://rss.arxiv.org/rss/math",
+    "subjects": [
+      "mathematics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Mathematical Physics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Mathematical Physics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "math-ph",
+      "name": "Mathematical Physics"
+    },
+    "url": "https://rss.arxiv.org/rss/math-ph",
+    "subjects": [
+      "mathematical physics",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Nonlinear Sciences",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Nonlinear Sciences",
+    "collection": {
+      "platform": "arXiv",
+      "id": "nlin",
+      "name": "Nonlinear Sciences"
+    },
+    "url": "https://rss.arxiv.org/rss/nlin",
+    "subjects": [
+      "physics",
+      "complex systems",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Nuclear Physics - Experiment",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Nuclear Physics - Experiment",
+    "collection": {
+      "platform": "arXiv",
+      "id": "nucl-ex",
+      "name": "Nuclear Physics - Experiment"
+    },
+    "url": "https://rss.arxiv.org/rss/nucl-ex",
+    "subjects": [
+      "nuclear physics",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Nuclear Physics - Theory",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Nuclear Physics - Theory",
+    "collection": {
+      "platform": "arXiv",
+      "id": "nucl-th",
+      "name": "Nuclear Physics - Theory"
+    },
+    "url": "https://rss.arxiv.org/rss/nucl-th",
+    "subjects": [
+      "nuclear physics",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Physics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Physics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "physics",
+      "name": "Physics"
+    },
+    "url": "https://rss.arxiv.org/rss/physics",
+    "subjects": [
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Quantitative Biology",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Quantitative Biology",
+    "collection": {
+      "platform": "arXiv",
+      "id": "q-bio",
+      "name": "Quantitative Biology"
+    },
+    "url": "https://rss.arxiv.org/rss/q-bio",
+    "subjects": [
+      "biology",
+      "computational biology",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Quantitative Finance",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Quantitative Finance",
+    "collection": {
+      "platform": "arXiv",
+      "id": "q-fin",
+      "name": "Quantitative Finance"
+    },
+    "url": "https://rss.arxiv.org/rss/q-fin",
+    "subjects": [
+      "economics",
+      "mathematics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Quantum Physics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Quantum Physics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "quant-ph",
+      "name": "Quantum Physics"
+    },
+    "url": "https://rss.arxiv.org/rss/quant-ph",
+    "subjects": [
+      "quantum",
+      "physics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "arXiv",
+    "journal": "arXiv: Statistics",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "subject_collection",
+    "feed_type": "subject_collection",
+    "feed_name": "Statistics",
+    "collection": {
+      "platform": "arXiv",
+      "id": "stat",
+      "name": "Statistics"
+    },
+    "url": "https://rss.arxiv.org/rss/stat",
+    "subjects": [
+      "statistics",
+      "mathematics",
+      "preprints"
+    ],
+    "source": "https://info.arxiv.org/help/rss.html",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official arXiv archive-level RSS news feed."
+  },
+  {
+    "publisher": "Research Square",
+    "journal": "Research Square: Latest",
+    "canonical_journal": null,
+    "issn_l": null,
+    "feed_scope": "platform_collection",
+    "feed_type": "latest_preprints",
+    "feed_name": "Latest",
+    "collection": null,
+    "url": "https://www.researchsquare.com/rss.xml",
+    "subjects": [
+      "preprints",
+      "medicine",
+      "biology"
+    ],
+    "source": "https://www.researchsquare.com/",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Research Square latest preprints RSS feed linked from the site footer."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Review",
+    "canonical_journal": "SIAM Review",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=siread",
+    "subjects": [
+      "mathematics",
+      "reviews"
+    ],
+    "source": "https://epubs.siam.org/toc/siread/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Journal on Matrix Analysis and Applications",
+    "canonical_journal": "SIAM Journal on Matrix Analysis and Applications",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=sjmael",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://epubs.siam.org/toc/sjmael/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Journal on Computing",
+    "canonical_journal": "SIAM Journal on Computing",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=smjcat",
+    "subjects": [
+      "computer science",
+      "mathematics"
+    ],
+    "source": "https://epubs.siam.org/toc/smjcat/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Journal on Scientific Computing",
+    "canonical_journal": "SIAM Journal on Scientific Computing",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=sjoce3",
+    "subjects": [
+      "mathematics",
+      "computer science"
+    ],
+    "source": "https://epubs.siam.org/toc/sjoce3/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Journal on Optimization",
+    "canonical_journal": "SIAM Journal on Optimization",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=sjope8",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://epubs.siam.org/toc/sjope8/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SIAM",
+    "journal": "SIAM Journal on Mathematical Analysis",
+    "canonical_journal": "SIAM Journal on Mathematical Analysis",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=sjmaah",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://epubs.siam.org/toc/sjmaah/current",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SIAM Table of Contents RSS via Atypon showFeed."
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "American Sociological Review",
+    "canonical_journal": "American Sociological Review",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=asr",
+    "subjects": [
+      "social science",
+      "sociology"
+    ],
+    "source": "https://journals.sagepub.com/toc/asr",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Sociological Methods & Research",
+    "canonical_journal": "Sociological Methods & Research",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=smr",
+    "subjects": [
+      "social science",
+      "methodology"
+    ],
+    "source": "https://journals.sagepub.com/toc/smr",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Social Psychology Quarterly",
+    "canonical_journal": "Social Psychology Quarterly",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=spq",
+    "subjects": [
+      "psychology",
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/toc/spq",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Criminology & Criminal Justice",
+    "canonical_journal": "Criminology & Criminal Justice",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=crj",
+    "subjects": [
+      "social science"
+    ],
+    "source": "https://journals.sagepub.com/toc/crj",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Human Factors",
+    "canonical_journal": "Human Factors",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=hfs",
+    "subjects": [
+      "psychology",
+      "engineering"
+    ],
+    "source": "https://journals.sagepub.com/toc/hfs",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "International Journal of Behavioral Development",
+    "canonical_journal": "International Journal of Behavioral Development",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=jbd",
+    "subjects": [
+      "psychology"
+    ],
+    "source": "https://journals.sagepub.com/toc/jbd",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Journal of Psychopharmacology",
+    "canonical_journal": "Journal of Psychopharmacology",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=jop",
+    "subjects": [
+      "pharmacology",
+      "psychiatry"
+    ],
+    "source": "https://journals.sagepub.com/toc/jop",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "SAGE",
+    "journal": "Perspectives in Public Health",
+    "canonical_journal": "Perspectives in Public Health",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://journals.sagepub.com/action/showFeed?type=etoc&feed=rss&jc=rsh",
+    "subjects": [
+      "public health"
+    ],
+    "source": "https://journals.sagepub.com/toc/rsh",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SAGE Table of Contents RSS via Atypon showFeed.",
+    "requires_proxy": true
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Calcolo",
+    "canonical_journal": "Calcolo",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10092",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://link.springer.com/journal/10092",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Journal of Mathematical Imaging and Vision",
+    "canonical_journal": "Journal of Mathematical Imaging and Vision",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10851",
+    "subjects": [
+      "mathematics",
+      "computer science"
+    ],
+    "source": "https://link.springer.com/journal/10851",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Science China Mathematics",
+    "canonical_journal": "Science China Mathematics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=11425",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://link.springer.com/journal/11425",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Acta Mathematica Sinica, English Series",
+    "canonical_journal": "Acta Mathematica Sinica, English Series",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10114",
+    "subjects": [
+      "mathematics"
+    ],
+    "source": "https://link.springer.com/journal/10114",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Biological Invasions",
+    "canonical_journal": "Biological Invasions",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10530",
+    "subjects": [
+      "ecology",
+      "biology"
+    ],
+    "source": "https://link.springer.com/journal/10530",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "The European Physical Journal B",
+    "canonical_journal": "The European Physical Journal B",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10051",
+    "subjects": [
+      "physics",
+      "condensed matter"
+    ],
+    "source": "https://link.springer.com/journal/10051",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "AStA Advances in Statistical Analysis",
+    "canonical_journal": "AStA Advances in Statistical Analysis",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10182",
+    "subjects": [
+      "statistics",
+      "mathematics"
+    ],
+    "source": "https://link.springer.com/journal/10182",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Journal of Superconductivity and Novel Magnetism",
+    "canonical_journal": "Journal of Superconductivity and Novel Magnetism",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10948",
+    "subjects": [
+      "physics",
+      "materials"
+    ],
+    "source": "https://link.springer.com/journal/10948",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Astrophysics and Space Science",
+    "canonical_journal": "Astrophysics and Space Science",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10509",
+    "subjects": [
+      "astronomy",
+      "physics"
+    ],
+    "source": "https://link.springer.com/journal/10509",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Journal of Low Temperature Physics",
+    "canonical_journal": "Journal of Low Temperature Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10909",
+    "subjects": [
+      "physics"
+    ],
+    "source": "https://link.springer.com/journal/10909",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "BMC/SpringerLink",
+    "journal": "Investigational New Drugs",
+    "canonical_journal": "Investigational New Drugs",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10637",
+    "subjects": [
+      "medicine",
+      "pharmacology"
+    ],
+    "source": "https://link.springer.com/journal/10637",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official SpringerLink journal search RSS (facet-journal-id)."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Geophysical Research Letters",
+    "canonical_journal": "Geophysical Research Letters",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/19448007/most-recent",
+    "subjects": [
+      "earth science",
+      "geophysics",
+      "physics"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/19448007",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Reviews of Geophysics",
+    "canonical_journal": "Reviews of Geophysics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/19449208/most-recent",
+    "subjects": [
+      "earth science",
+      "geophysics",
+      "reviews"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/19449208",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Journal of Geophysical Research: Solid Earth",
+    "canonical_journal": "Journal of Geophysical Research: Solid Earth",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/21699356/most-recent",
+    "subjects": [
+      "earth science",
+      "geophysics"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/21699356",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Journal of Geophysical Research: Atmospheres",
+    "canonical_journal": "Journal of Geophysical Research: Atmospheres",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/21698996/most-recent",
+    "subjects": [
+      "atmospheric science",
+      "earth science",
+      "climate"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/21698996",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Journal of Geophysical Research: Planets",
+    "canonical_journal": "Journal of Geophysical Research: Planets",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/21699100/most-recent",
+    "subjects": [
+      "planetary science",
+      "astronomy",
+      "earth science"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/21699100",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Journal of Geophysical Research: Oceans",
+    "canonical_journal": "Journal of Geophysical Research: Oceans",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/21699291/most-recent",
+    "subjects": [
+      "earth science",
+      "environment"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/21699291",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Journal of Geophysical Research: Biogeosciences",
+    "canonical_journal": "Journal of Geophysical Research: Biogeosciences",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/21698961/most-recent",
+    "subjects": [
+      "earth science",
+      "biology",
+      "ecology"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/21698961",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Geochemistry, Geophysics, Geosystems",
+    "canonical_journal": "Geochemistry, Geophysics, Geosystems",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/15252027/most-recent",
+    "subjects": [
+      "earth science",
+      "geochemistry"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/15252027",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Earth's Future",
+    "canonical_journal": "Earth's Future",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/23284277/most-recent",
+    "subjects": [
+      "earth science",
+      "climate",
+      "environment"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/23284277",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "AGU",
+    "journal": "Earth and Space Science",
+    "canonical_journal": "Earth and Space Science",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://onlinelibrary.wiley.com/feed/23335084/most-recent",
+    "subjects": [
+      "earth science",
+      "environment"
+    ],
+    "source": "https://agupubs.onlinelibrary.wiley.com/journal/23335084",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "Official Wiley Online Library most-recent feed for an AGU journal."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Reports on Progress in Physics",
+    "canonical_journal": "Reports on Progress in Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0034-4885/rss",
+    "subjects": [
+      "physics",
+      "reviews"
+    ],
+    "source": "https://iopscience.iop.org/journal/0034-4885",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Physics: Condensed Matter",
+    "canonical_journal": "Journal of Physics: Condensed Matter",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0953-8984/rss",
+    "subjects": [
+      "physics",
+      "condensed matter",
+      "materials"
+    ],
+    "source": "https://iopscience.iop.org/journal/0953-8984",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "New Journal of Physics",
+    "canonical_journal": "New Journal of Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1367-2630/rss",
+    "subjects": [
+      "physics",
+      "open access"
+    ],
+    "source": "https://iopscience.iop.org/journal/1367-2630",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Classical and Quantum Gravity",
+    "canonical_journal": "Classical and Quantum Gravity",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0264-9381/rss",
+    "subjects": [
+      "gravitation",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/0264-9381",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Cosmology and Astroparticle Physics",
+    "canonical_journal": "Journal of Cosmology and Astroparticle Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1475-7516/rss",
+    "subjects": [
+      "astronomy",
+      "particles and fields",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/1475-7516",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of High Energy Physics",
+    "canonical_journal": "Journal of High Energy Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1126-6708/rss",
+    "subjects": [
+      "particles and fields",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/1126-6708",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Physics A: Mathematical and Theoretical",
+    "canonical_journal": "Journal of Physics A: Mathematical and Theoretical",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1751-8113/rss",
+    "subjects": [
+      "physics",
+      "mathematics",
+      "mathematical physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/1751-8113",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Physics D: Applied Physics",
+    "canonical_journal": "Journal of Physics D: Applied Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0022-3727/rss",
+    "subjects": [
+      "physics",
+      "applied physics",
+      "engineering"
+    ],
+    "source": "https://iopscience.iop.org/journal/0022-3727",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "2D Materials",
+    "canonical_journal": "2D Materials",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/2053-1583/rss",
+    "subjects": [
+      "materials",
+      "nanoscience",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/2053-1583",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Nanotechnology",
+    "canonical_journal": "Nanotechnology",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0957-4484/rss",
+    "subjects": [
+      "nanoscience",
+      "materials",
+      "engineering"
+    ],
+    "source": "https://iopscience.iop.org/journal/0957-4484",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Environmental Research Letters",
+    "canonical_journal": "Environmental Research Letters",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1748-9326/rss",
+    "subjects": [
+      "environment",
+      "climate",
+      "environmental science"
+    ],
+    "source": "https://iopscience.iop.org/journal/1748-9326",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+    "canonical_journal": "Journal of Statistical Mechanics: Theory and Experiment",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1742-5468/rss",
+    "subjects": [
+      "statistical physics",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/1742-5468",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Quantum Science and Technology",
+    "canonical_journal": "Quantum Science and Technology",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/2058-9565/rss",
+    "subjects": [
+      "quantum",
+      "physics",
+      "quantum information"
+    ],
+    "source": "https://iopscience.iop.org/journal/2058-9565",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Instrumentation",
+    "canonical_journal": "Journal of Instrumentation",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/1748-0221/rss",
+    "subjects": [
+      "physics",
+      "detectors",
+      "engineering"
+    ],
+    "source": "https://iopscience.iop.org/journal/1748-0221",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Physics in Medicine and Biology",
+    "canonical_journal": "Physics in Medicine and Biology",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0031-9155/rss",
+    "subjects": [
+      "medical physics",
+      "medicine",
+      "imaging"
+    ],
+    "source": "https://iopscience.iop.org/journal/0031-9155",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Plasma Physics and Controlled Fusion",
+    "canonical_journal": "Plasma Physics and Controlled Fusion",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0741-3335/rss",
+    "subjects": [
+      "plasma physics",
+      "physics"
+    ],
+    "source": "https://iopscience.iop.org/journal/0741-3335",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Superconductor Science and Technology",
+    "canonical_journal": "Superconductor Science and Technology",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0953-2048/rss",
+    "subjects": [
+      "physics",
+      "materials",
+      "condensed matter"
+    ],
+    "source": "https://iopscience.iop.org/journal/0953-2048",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "IOP Publishing",
+    "journal": "Journal of Optics",
+    "canonical_journal": "Journal of Optics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/2040-8978/rss",
+    "subjects": [
+      "optics",
+      "physics",
+      "photonics"
+    ],
+    "source": "https://iopscience.iop.org/journal/2040-8978",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "IOP journal RSS path; ordinary clients receive a Radware bot challenge page."
+  },
+  {
+    "publisher": "AAS",
+    "journal": "The Astronomical Journal",
+    "canonical_journal": "The Astronomical Journal",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0004-6256/rss",
+    "subjects": [
+      "astronomy"
+    ],
+    "source": "https://iopscience.iop.org/journal/0004-6256",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+  },
+  {
+    "publisher": "AAS",
+    "journal": "The Astrophysical Journal",
+    "canonical_journal": "The Astrophysical Journal",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0004-637X/rss",
+    "subjects": [
+      "astronomy",
+      "astrophysics"
+    ],
+    "source": "https://iopscience.iop.org/journal/0004-637X",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+  },
+  {
+    "publisher": "AAS",
+    "journal": "The Astrophysical Journal Letters",
+    "canonical_journal": "The Astrophysical Journal Letters",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/2041-8205/rss",
+    "subjects": [
+      "astronomy",
+      "astrophysics"
+    ],
+    "source": "https://iopscience.iop.org/journal/2041-8205",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+  },
+  {
+    "publisher": "AAS",
+    "journal": "The Astrophysical Journal Supplement Series",
+    "canonical_journal": "The Astrophysical Journal Supplement Series",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/0067-0049/rss",
+    "subjects": [
+      "astronomy",
+      "astrophysics"
+    ],
+    "source": "https://iopscience.iop.org/journal/0067-0049",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+  },
+  {
+    "publisher": "AAS",
+    "journal": "The Planetary Science Journal",
+    "canonical_journal": "The Planetary Science Journal",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://iopscience.iop.org/journal/2632-3338/rss",
+    "subjects": [
+      "planetary science",
+      "astronomy"
+    ],
+    "source": "https://iopscience.iop.org/journal/2632-3338",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "AAS journal hosted on IOPscience; RSS path blocked by bot challenge for ordinary clients."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "The Journal of Chemical Physics",
+    "canonical_journal": "The Journal of Chemical Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000043/1000024.xml",
+    "subjects": [
+      "chemistry",
+      "physical chemistry",
+      "chemical physics"
+    ],
+    "source": "https://pubs.aip.org/jcp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "Applied Physics Letters",
+    "canonical_journal": "Applied Physics Letters",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000017/1000011.xml",
+    "subjects": [
+      "physics",
+      "applied physics",
+      "materials"
+    ],
+    "source": "https://pubs.aip.org/apl",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "Journal of Applied Physics",
+    "canonical_journal": "Journal of Applied Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000029/1000017.xml",
+    "subjects": [
+      "physics",
+      "applied physics",
+      "materials"
+    ],
+    "source": "https://pubs.aip.org/jap",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "American Journal of Physics",
+    "canonical_journal": "American Journal of Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000117/1000061.xml",
+    "subjects": [
+      "physics",
+      "education"
+    ],
+    "source": "https://pubs.aip.org/ajp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "Chaos",
+    "canonical_journal": "Chaos",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000025/1000015.xml",
+    "subjects": [
+      "physics",
+      "complex systems"
+    ],
+    "source": "https://pubs.aip.org/chaos",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "Journal of Mathematical Physics",
+    "canonical_journal": "Journal of Mathematical Physics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000031/1000018.xml",
+    "subjects": [
+      "mathematical physics",
+      "physics",
+      "mathematics"
+    ],
+    "source": "https://pubs.aip.org/jmp",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "APL Materials",
+    "canonical_journal": "APL Materials",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000013/1000009.xml",
+    "subjects": [
+      "materials",
+      "applied physics"
+    ],
+    "source": "https://pubs.aip.org/apm",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "AIP Publishing",
+    "journal": "APL Photonics",
+    "canonical_journal": "APL Photonics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://pubs.aip.org/rss/site_1000015/1000010.xml",
+    "subjects": [
+      "photonics",
+      "optics",
+      "physics"
+    ],
+    "source": "https://pubs.aip.org/apj",
+    "method": "publisher_index",
+    "status": "verified",
+    "notes": "AIP platform Current Issue RSS (site_/feedID pattern); ordinary clients receive a Cloudflare 403, WebView2 capture required."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Journal of Biomedical Optics",
+    "canonical_journal": "Journal of Biomedical Optics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/rss",
+    "subjects": [
+      "biomedical optics",
+      "imaging",
+      "medicine"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Optical Engineering",
+    "canonical_journal": "Optical Engineering",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/optical-engineering/rss",
+    "subjects": [
+      "optics",
+      "optical engineering",
+      "engineering"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/optical-engineering",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Journal of Photonics for Energy",
+    "canonical_journal": "Journal of Photonics for Energy",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy/rss",
+    "subjects": [
+      "photonics",
+      "energy",
+      "solar energy"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Journal of Electronic Imaging",
+    "canonical_journal": "Journal of Electronic Imaging",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/rss",
+    "subjects": [
+      "imaging",
+      "electronics",
+      "computer science"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Neurophotonics",
+    "canonical_journal": "Neurophotonics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/neurophotonics/rss",
+    "subjects": [
+      "neuroscience",
+      "photonics",
+      "imaging"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/neurophotonics",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Journal of Medical Imaging",
+    "canonical_journal": "Journal of Medical Imaging",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/rss",
+    "subjects": [
+      "medical imaging",
+      "imaging",
+      "medicine"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Advanced Photonics",
+    "canonical_journal": "Advanced Photonics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/rss",
+    "subjects": [
+      "photonics",
+      "optics",
+      "reviews"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/advanced-photonics",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
+  },
+  {
+    "publisher": "SPIE",
+    "journal": "Journal of Nanophotonics",
+    "canonical_journal": "Journal of Nanophotonics",
+    "issn_l": null,
+    "feed_scope": "single_journal",
+    "feed_type": null,
+    "feed_name": null,
+    "collection": null,
+    "url": "https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics/rss",
+    "subjects": [
+      "nanoscience",
+      "photonics",
+      "optics"
+    ],
+    "source": "https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics",
+    "method": "url_pattern",
+    "status": "protected",
+    "notes": "SPIE Digital Library journal RSS path; ordinary clients receive a bot/interstitial page."
   }
 ]

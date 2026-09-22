@@ -21,6 +21,7 @@
 - Nature-hosted `www.nature.com` feeds, including Nature Reviews, Communications, and npj journals, are grouped under Nature.
 - Elsevier-owned journal feeds from ScienceDirect use publisher `Elsevier/ScienceDirect`; Cell Press feeds from `www.cell.com` stay under `Cell Press`; Lancet journal feeds from `www.thelancet.com` stay under `The Lancet`.
 - For newly proposed feeds that are official/documented but not yet locally verified, prefer `status: "protected"` when the normal validator is likely to need WebView2; `feedcheck` will mark them `verified` after XML capture.
+- `requires_proxy: true` marks feeds whose host is unreachable without a proxy (DNS poisoning plus SNI blocking, seen with `journals.sagepub.com`); omit the field for directly reachable hosts. Consumers such as FeedMeDaily must route these feeds through a proxy, and local validation runs need `HTTP_PROXY`/`HTTPS_PROXY` set.
 - Use `go run .\tools\addfeeds --dry-run <new-feeds.json>` before appending batches when practical. The addfeeds tool accepts one feed object or an array and checks duplicate canonical URLs before writing.
 
 ## Feedcheck Behavior
@@ -34,7 +35,7 @@
 - When WebView2 captures feed XML, `feedcheck` updates that entry to `verified` and regenerates publisher pages.
 - `feedcheck` also updates the README Publisher Index after regenerating publisher pages. The README `Feeds` column is `m/n`, where `m` is verified feeds and `n` is total feeds for that publisher.
 - The persistent WebView2 profile is stored under `.feedcheck-webview2/`, which is ignored by Git.
-- If `cmd/feedmedaily-protected-verifier` changes, rebuild `feedcheck.exe` with `go build -o feedcheck.exe .\tools\feedcheck.go` so the user-facing binary matches source.
+- If `cmd/feedmedaily-protected-verifier` or any Go source it depends on (including `internal/catalog` field changes) changes, rebuild `feedcheck.exe` with `go build -o feedcheck.exe .\tools\feedcheck.go` so the user-facing binary matches source; a stale binary fails catalog validation with `unknown field ...`.
 - WebView2 can show XML while `GetContent` fails with `0x800700e8` (seen with ChemRxiv). Do not immediately skip on that error; fall back to the visible-page XML probe and let the existing wait timeout decide.
 
 ## Manual RSS Lookup
